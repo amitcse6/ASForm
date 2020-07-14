@@ -25,6 +25,7 @@
 		1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B74D6C5DB01E92CD9D9F71A99C1AB6 /* ASDropDownBox.swift */; };
 		21FBF20514DFE9A290DB1E48D547A9E9 /* ASForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FDC4228FE230200F2CBEC8323CB02 /* ASForm-dummy.m */; };
 		2571B82FA71CDD163A54C717DEE1B527 /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB540A5C622E57AEDFE39C52734479 /* ASRadioGroup+Extension.swift */; };
+		2859ACE624BDBCA1006BDAFE /* ASForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859ACE524BDBCA1006BDAFE /* ASForm.swift */; };
 		297AB089A2D2684687E4ABA7576E401D /* Pods-ASForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC7C1833B85A0AC36194FB3C80C59F0 /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE5DE8C76BE31F958030F4E33DEFA3 /* ASVResult.swift */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD89EEF1F980BAC2CDC7C22C37A730 /* UIImage+Compare.m */; };
@@ -221,6 +222,7 @@
 		2490692FD3F5AEF80CCD09E32B7A9F93 /* ASOtpTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASOtpTextField-Info.plist"; sourceTree = "<group>"; };
 		280E364301FE309311640F47011E5946 /* ASForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASForm-umbrella.h"; sourceTree = "<group>"; };
 		2821573E574098C743FDE50A5463D528 /* ASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-prefix.pch"; sourceTree = "<group>"; };
+		2859ACE524BDBCA1006BDAFE /* ASForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASForm.swift; sourceTree = "<group>"; };
 		28B97F33DF9841CAE2946EF9D8D120B0 /* ASButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.debug.xcconfig; sourceTree = "<group>"; };
 		296AEF7E4DC191E6D70B2107BFA85972 /* ASLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.debug.xcconfig; sourceTree = "<group>"; };
 		2CC16A7BD147E017F64282C1A865574D /* ASTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextField.swift; path = Source/ASTextField.swift; sourceTree = "<group>"; };
@@ -562,6 +564,7 @@
 		2859ACE424BDBBFB006BDAFE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2859ACE524BDBCA1006BDAFE /* ASForm.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1465,6 +1468,7 @@
 				0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */,
 				8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */,
 				E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */,
+				2859ACE624BDBCA1006BDAFE /* ASForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
