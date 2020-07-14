@@ -10,14 +10,9 @@ import Foundation
 import ASValidator
 import ASDropDown
 import ASTextField
-
-protocol SignUpViewDelegate {
-}
+import ASButton
 
 class SignUpView: UIView {
-    var delegate: SignUpViewDelegate?
-    
-    
     var storeBack: UIView?
     var container: UIView?
     var firstNameTextField: ASTextField?
@@ -31,17 +26,18 @@ class SignUpView: UIView {
     var cityTextField: ASTextField?
     var addressTextField: ASTextField?
     var zipCodeTextField: ASTextField?
+    var submitButton: ASButtonStyleClassic?
     
     var PADDING: CGFloat = 4
     var BLACK_TITLE_COLOR = UIColor.black
     var FONT = UIFont.systemFont(ofSize: 15)
     var INPUT_FIELD_HRIGHT: CGFloat = 60
     var PASSWORD_MIN_LENGTH = 6
-    
-    var svalidator: ASValidator?
-    
     var setDefaultText = true
     
+    var validator: ASValidator?
+    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -57,7 +53,7 @@ class SignUpView: UIView {
     
     func commonInit() {
         self.backgroundColor=UIColor.clear
-        svalidator = ASValidator()
+        validator = ASValidator()
         
         storeBack = UIView()
         addSubview(self.storeBack.unsafelyUnwrapped)
@@ -85,9 +81,9 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("First Name", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "Rokib" : "")
-        firstNameTextField?.register(svalidator, [ASVRequiredRule(), ASVMaxLengthRule(80)])
+        firstNameTextField?.register(validator, [ASVRequiredRule(), ASVMaxLengthRule(80)])
         firstNameTextField?.translatesAutoresizingMaskIntoConstraints = false
         firstNameTextField?.topAnchor.constraint(equalTo: container.unsafelyUnwrapped.topAnchor).isActive = true
         firstNameTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -101,9 +97,9 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("Last Name", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "Hasan" : "")
-        lastNameTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        lastNameTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         lastNameTextField?.translatesAutoresizingMaskIntoConstraints = false
         lastNameTextField?.topAnchor.constraint(equalTo: firstNameTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         lastNameTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -117,9 +113,9 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("User Name", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "rokib" : "")
-        usernameTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        usernameTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         usernameTextField?.translatesAutoresizingMaskIntoConstraints = false
         usernameTextField?.topAnchor.constraint(equalTo: lastNameTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         usernameTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -134,9 +130,9 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("Email Address", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "rokib@gamil.com" : "")
-        emailTextField?.register(svalidator, [ASVRequiredRule(), ASVMailRule()])
+        emailTextField?.register(validator, [ASVRequiredRule(), ASVMailRule()])
         emailTextField?.translatesAutoresizingMaskIntoConstraints = false
         emailTextField?.topAnchor.constraint(equalTo: usernameTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         emailTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -151,9 +147,9 @@ class SignUpView: UIView {
             .setFont(FONT)
             .setName("Password", true)
             .setSecureTextEntry(true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "11111111" : "")
-        passwordTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(PASSWORD_MIN_LENGTH)])
+        passwordTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(PASSWORD_MIN_LENGTH)])
         passwordTextField?.translatesAutoresizingMaskIntoConstraints = false
         passwordTextField?.topAnchor.constraint(equalTo: emailTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         passwordTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -168,9 +164,9 @@ class SignUpView: UIView {
             .setPhoneTextField(true)
             .setFont(FONT)
             .setName("Phone Number", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "+8801778888888" : "")
-        phoneTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        phoneTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         phoneTextField?.translatesAutoresizingMaskIntoConstraints = false
         phoneTextField?.topAnchor.constraint(equalTo: passwordTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         phoneTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -191,9 +187,9 @@ class SignUpView: UIView {
                     self.countryTextField?.setText(item)
                     }, self.countryTextField?.getDropDownIcon(), nil)
             })
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "" : "")
-        countryTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        countryTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         countryTextField?.translatesAutoresizingMaskIntoConstraints = false
         countryTextField?.topAnchor.constraint(equalTo: phoneTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         countryTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -217,9 +213,9 @@ class SignUpView: UIView {
                     self.stateTextField?.setText(item)
                     }, self.stateTextField?.getDropDownIcon(), nil)
             })
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "" : "")
-        stateTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        stateTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         stateTextField?.translatesAutoresizingMaskIntoConstraints = false
         stateTextField?.topAnchor.constraint(equalTo: countryTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         stateTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -239,9 +235,9 @@ class SignUpView: UIView {
                     self.cityTextField?.setText(item)
                     }, self.cityTextField?.getDropDownIcon(), nil)
             })
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "" : "")
-        cityTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        cityTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         cityTextField?.translatesAutoresizingMaskIntoConstraints = false
         cityTextField?.topAnchor.constraint(equalTo: countryTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         cityTextField?.leftAnchor.constraint(equalTo: stateTextField.unsafelyUnwrapped.rightAnchor).isActive = true
@@ -257,9 +253,9 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("Address", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "Dhaka" : "")
-        addressTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        addressTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         addressTextField?.translatesAutoresizingMaskIntoConstraints = false
         addressTextField?.topAnchor.constraint(equalTo: stateTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         addressTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
@@ -274,15 +270,38 @@ class SignUpView: UIView {
             .setTextColor(BLACK_TITLE_COLOR)
             .setFont(FONT)
             .setName("Zip Code", true)
-            .setAutoEventAll(svalidator)
+            .setAutoEventAll(validator)
             .setText(setDefaultText ? "1421" : "")
-        zipCodeTextField?.register(svalidator, [ASVRequiredRule(), ASVLengthRule(2)])
+        zipCodeTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
         zipCodeTextField?.translatesAutoresizingMaskIntoConstraints = false
         zipCodeTextField?.topAnchor.constraint(equalTo: addressTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
         zipCodeTextField?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
         zipCodeTextField?.rightAnchor.constraint(equalTo: container.unsafelyUnwrapped.rightAnchor).isActive = true
-        zipCodeTextField?.bottomAnchor.constraint(equalTo: container.unsafelyUnwrapped.bottomAnchor).isActive = true
         zipCodeTextField?.heightAnchor.constraint(equalToConstant: INPUT_FIELD_HRIGHT).isActive = true
+        
+        submitButton = ASButtonStyleClassic()
+        container?.addSubview(submitButton.unsafelyUnwrapped)
+        submitButton?
+            .setParam("SUBMIT", UIImage(named: "submit-button"), .scaleToFill, { (index, title) in self.submitEvent() })
+            .setTitleColor(BLACK_TITLE_COLOR)
+        submitButton?.translatesAutoresizingMaskIntoConstraints = false
+        submitButton?.topAnchor.constraint(equalTo: zipCodeTextField.unsafelyUnwrapped.bottomAnchor).isActive = true
+        submitButton?.leftAnchor.constraint(equalTo: container.unsafelyUnwrapped.leftAnchor).isActive = true
+        submitButton?.rightAnchor.constraint(equalTo: container.unsafelyUnwrapped.rightAnchor).isActive = true
+        submitButton?.bottomAnchor.constraint(equalTo: container.unsafelyUnwrapped.bottomAnchor).isActive = true
+        submitButton?.heightAnchor.constraint(equalToConstant: INPUT_FIELD_HRIGHT).isActive = true
+        submitButton?.centerXAnchor.constraint(equalTo: container.unsafelyUnwrapped.centerXAnchor).isActive = true
+        
+        validator?.invalidDisableViews([submitButton])
+    }
+    
+    @objc func submitEvent() {
+        let validate = validator?.validate()
+        if let validate = validate, validate.isValid() {
+            print("Validation error")
+        }else{
+            print("Validation error")
+        }
     }
 }
 
@@ -290,9 +309,9 @@ extension SignUpView: ASTextFieldDelegate {
 }
 
 extension ASTextField {
-    func register(_ svalidator: ASValidator?, _ rules: [ASVRule]?, _ name: String? = nil, _ defaultErrorMsg: String? = nil) {
+    func register(_ validator: ASValidator?, _ rules: [ASVRule]?, _ name: String? = nil, _ defaultErrorMsg: String? = nil) {
         getTextField()?.registerASVTF(
-            svalidator: svalidator,
+            svalidator: validator,
             field: getTextField(),
             name: name ?? getName(),
             errorLabel: getErrorLabel(),

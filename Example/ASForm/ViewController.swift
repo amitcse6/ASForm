@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, SignUpViewDelegate {
+class ViewController: UIViewController {
     
     private var myScrollView: UIScrollView?
     private var myStackView: UIStackView?
@@ -63,7 +63,6 @@ class ViewController: UIViewController, SignUpViewDelegate {
     func loadContainer() {
         signUpView=SignUpView()
         myStackView?.addArrangedSubview(signUpView.unsafelyUnwrapped)
-        signUpView?.delegate = self
         signUpView?.backgroundColor=UIColor.clear
         signUpView?.translatesAutoresizingMaskIntoConstraints = false
         signUpView?.widthAnchor.constraint(equalTo: self.myStackView.unsafelyUnwrapped.widthAnchor).isActive = true
