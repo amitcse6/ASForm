@@ -71,13 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2859ACE824BDC1D8006BDAFE /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
-			sourceTree = SOURCE_ROOT;
-		};
 		3EDCDA95EFFE82A9195278D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +106,6 @@
 		607FACD21AFB9204008FA782 /* Example for ASForm */ = {
 			isa = PBXGroup;
 			children = (
-				2859ACE824BDC1D8006BDAFE /* Library */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				2859ACE024BDB6A5006BDAFE /* SignUpView.swift */,
