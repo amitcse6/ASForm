@@ -20,5 +20,31 @@
   },
   "source_files": "Source/**/*.swift",
   "swift_versions": "5.0",
+  "dependencies": {
+    "ASValidator": [
+
+    ],
+    "ASLabel": [
+
+    ],
+    "ASDropDown": [
+
+    ],
+    "ASMToast": [
+
+    ],
+    "ASOtpTextField": [
+
+    ],
+    "ASRadioGroup": [
+
+    ],
+    "ASButton": [
+
+    ],
+    "ASTextField": [
+
+    ]
+  },
   "swift_version": "5.0"
 }

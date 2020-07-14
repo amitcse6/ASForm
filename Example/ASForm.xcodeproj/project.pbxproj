@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E874B2AAEBAADA477FF7FD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83598F251A6494AC181F3C11 /* Pods_ASForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8990FA192FFFA884F0D38361 /* ASForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASForm.podspec; path = ../ASForm.podspec; sourceTree = "<group>"; };
+		8990FA192FFFA884F0D38361 /* ASForm.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASForm.podspec; path = ../ASForm.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1520E96AB7BF435A80BB304 /* Pods_ASForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE24FC74C3731E83B5096F2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */

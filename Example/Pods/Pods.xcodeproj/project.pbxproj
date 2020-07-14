@@ -8,110 +8,139 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4F41CFDC2FF50156CDD4275E89DD5D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04897249480B334A5DCA4604260F474F /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F31B3E7FF4A07C18D75C4E942F84B /* ASRadioGroup+Extension.swift */; };
-		048DAAF9CA58780AD40BBBA0F2BAD8DC /* ASLabelStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5373268537C2DCCE9E616D9D71584 /* ASLabelStyleClassic.swift */; };
+		00F90555BF21D44C5F29B38A67B36FD1 /* ASOtpTextFieldClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0A0F2A186255F0BA318852146C616 /* ASOtpTextFieldClassic.swift */; };
+		01A4FBC639CC619D26F410E319226372 /* ASForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8399FC84BE6F7C55C05B89B5115A9172 /* ASForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068E716721CFC16DF977E712D32E0A78 /* ASVRequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E937390D0509BF03EF40D4F8D0EB07 /* ASVRequiredRule.swift */; };
 		069755F3EAE1B4732613B5B3BCE08667 /* ASDropDownView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25447D203A02F72E41B96E1C6A2965 /* ASDropDownView+Extension.swift */; };
+		06A44013B6354AED565982E1460C2BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8CFCD651CEB6D8546D9E9F1F85C62A /* ASButton-dummy.m */; };
-		0DE78A5859FBE9BCF29A29B39361C174 /* ASVRequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E937390D0509BF03EF40D4F8D0EB07 /* ASVRequiredRule.swift */; };
-		10E7C8F4F665A180CDE856999AB1FA5B /* ASRadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46895DE23C95C899EF1739E9E89C19E5 /* ASRadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11137322E29B4611DD945E868388E328 /* ASLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F208750C0F468A8631894A1C36BC0CEA /* ASLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C26042086E2D35510A681E862A65D20 /* ASMToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A531A13998BB7A1FE6FFC0A875CB7FD /* ASMToast.framework */; };
+		0F61428E8E80176CD77B30E9FECE6790 /* ASDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6640DE04F6568E80EF914938F253E7 /* ASDropDown.framework */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6B31A3E6D881024FF483BB0AE2D28 /* UIApplication+StrictKeyWindow.m */; };
 		12F714EDF773CAB69D863D6B22784DF9 /* Pods-ASForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA7673305800E401052492FA0F275 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		14D1F57BC3FBFD9FA30F71A89EF3797C /* ASMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EFCE63EE030F2823789EC59BCC6AE /* ASMToast.swift */; };
-		1693F1D4766283BC3D109A8D379BBFD6 /* ASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFCC1B68DC9DD897DBF23AD7780A457 /* QuartzCore.framework */; };
+		16C937159124BC783463BC788B9F8955 /* ASVRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602EF1173DB721C19A57D0A10C097C8 /* ASVRule.swift */; };
 		18B0BECC1A978D7D2E9DFE7A26C49B1C /* Pods-ASForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */; };
-		1B11D534CA543DE947626001EA0EB4DC /* ASLabelStyleDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */; };
-		1C36A2D06C5332541FA91BB2C0791139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E131617FBB786C8F3C564CC06B9F3440 /* ASDropDownBox.swift */; };
+		1C7935E228595C8074FF1D6F5559435E /* ASDropDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E054B1C0F1DEE44D1B3780A5F60D13 /* ASDropDownIcon.swift */; };
+		1CA9F41705A4A7F49D04A4080E85D598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		1D9ABCD77D1B4C1B0CC22F831C8E1826 /* ASOtpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378519B4D6C31DD237ADD520CFE2BE33 /* ASOtpTextField.swift */; };
+		22FA1A393554E81FD635CD50212ABD3D /* ASOtpTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5456A2DD151ED189C275DEF1447B7351 /* ASOtpTextField+Extensions.swift */; };
 		297AB089A2D2684687E4ABA7576E401D /* Pods-ASForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CC7C1833B85A0AC36194FB3C80C59F0 /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7E764F4EC01FC45CE8F4D849CB77 /* ASVResult.swift */; };
+		2CCDEA9FC5541FEFB924733AEA4CBC64 /* ASRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4790B3F1EFC2BA925AEDED7C02C1A22 /* ASRadioButton.swift */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8265F0AC82EBEA702BD4B7AEBBF863 /* UIImage+Compare.m */; };
-		35500AA794219E89176F3B23AA883E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		370E4ECF16042743810199C313D126E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		3AEEF141710F3C25225F282E37CA26A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		30EAC075AB3D33462D4AE2CFD6FF09BB /* ASTextFieldMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */; };
+		38E3590713A9AA1C7FD99CD44EE0C820 /* ASLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F208750C0F468A8631894A1C36BC0CEA /* ASLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391B4919AC336A76CD9B66151F66E090 /* ASOtpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C8AE5A74FDC43DA4EA01AD5F758B /* ASOtpTextField-dummy.m */; };
+		3AEEF141710F3C25225F282E37CA26A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		3E58FDBD07DE1919FD19C1B7992BFFBF /* ASValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBB259378B64EEF4C48732C8EB794E /* ASValidator.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9357763BF36E37F5176AC1246448F9 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		403A141399450EA4E74E7B7559D446E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		422B8594E4B9AD8C145F1B2394145F3E /* ASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13EB4323FCC7401B4C89301542A5582 /* ASValidator.swift */; };
-		44CCA2BFBA4991CBC83C7B9C69FDC225 /* ASLabelStyleNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82085BA61B88928A4F964D6D7536142F /* ASLabelStyleNormal.swift */; };
-		45AA90FAD1342029339E1A15AD30FCB7 /* ASVMaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A90C1C44DAF77C4BF5ADF46454271C /* ASVMaxLengthRule.swift */; };
-		499804632932FEFD7FA7C3B273CE585F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		4A2C171FA11DC8F32CA07828387A61A3 /* ASTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4192ED7355624AA84547E9B3F3B77693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		4A88C2C04891D5A1BF18D67948EDAA6E /* Pods-ASForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EDFD15CD921A2E58979822A6454E4BE /* ASRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432B339BF15B5A353B29739321C1464 /* ASRButton.swift */; };
-		4F8711C7406D67CD176C9F7C4F6847F4 /* ASOtpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C8AE5A74FDC43DA4EA01AD5F758B /* ASOtpTextField-dummy.m */; };
-		51D4F25E67D65D40F87A9B2D5E89117D /* ASOtpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67053A61F4E46561EF749F7A856A8C49 /* ASOtpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5191D250DD7D1B15C40FCA2607F23E47 /* ASVMailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C878EC377FBD98D737DDA2E0FCA411F /* ASVMailRule.swift */; };
 		52123B5E4E8A6A489ED0EBBCFD077E85 /* ASDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30348F4E4757385BBF53B102A900EF39 /* ASDropDownItem.swift */; };
-		52B7ECE0A98BBA80DF52C5FD7E652F3E /* ASMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC42624921D2DAE9D2D683EAA6FE65 /* ASMToast-dummy.m */; };
-		58017D20A3F6B576A02DC9F26B5EE2E7 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */; };
-		58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		5D592A14ACC5B48BE43BB3670B4898EA /* ASRadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1243AA854542D5652285B342F9AE77EA /* ASRadioGroup-dummy.m */; };
-		5E8E83CB2763F44079A0A5A7D43B026E /* ASTextFieldMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */; };
-		61BE5F7FA2E5BF9C49AF265611ACC9A1 /* ASOtpTextFieldView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57F970F440A91542090EC253171133 /* ASOtpTextFieldView+Extensions.swift */; };
-		640FB0DE33FBC7E6CE2245FF992D1DFD /* ASLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */; };
-		645DC047D269F50FF9C25FBBE2C7C69A /* ASTextFieldClassicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		524DA3DD380541FE76BE922098EF1694 /* ASRadioButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74624DEA1AAEDDE0CC0965B10B510993 /* ASRadioButton+Extension.swift */; };
+		536622CB7C93A91FF703051EF9D24410 /* ASLabelStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5373268537C2DCCE9E616D9D71584 /* ASLabelStyleClassic.swift */; };
+		543C45C7DAB12B0F36610D48F64B404B /* ASTextFieldClassicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */; };
+		55F1D71453EF5F59082626C3A173709C /* ASOtpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */; };
+		571DAA16C069426587AF9C14E4A60233 /* ASOtpTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C42543101005B2FE425C4B36D035F /* ASOtpTextField.framework */; };
+		58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		5BBB2E9A952ACAA67449D871965EC4F4 /* ASVMaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A90C1C44DAF77C4BF5ADF46454271C /* ASVMaxLengthRule.swift */; };
+		615554D2FB836432198C946D0E4947D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		61A7479A92EB989FAF754E3145FC5C57 /* ASLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80BC4A8DE4CF2572F3E501F532C2DBB /* ASLabel-dummy.m */; };
+		698894C697C379125DBD726370045934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E95ED2ACD6C88168CC519C46BBE7C2 /* XCTest.framework */; };
+		6B32EAD97A6C206F4F83DE18814132C7 /* ASLabelStyleNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82085BA61B88928A4F964D6D7536142F /* ASLabelStyleNormal.swift */; };
+		6C508172C84A43B1141437CECCD20AC9 /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7E764F4EC01FC45CE8F4D849CB77 /* ASVResult.swift */; };
+		6D6F6FCFF49793E7050D905AA0686389 /* ASOtpTextFieldView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57F970F440A91542090EC253171133 /* ASOtpTextFieldView+Extensions.swift */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D162EAFEE6EC9912B63A1EF74D342 /* FBSnapshotTestCase-dummy.m */; };
 		6EE99E55EF36D428E8589D24CC420B40 /* ASDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED761FD65B09FEB17AAFEA4927601E /* ASDropDown-dummy.m */; };
-		746BEA0977AC0825DCB5C101F92002A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		6F09D7B8678DB51E85A0A4D4ED08F6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		7323601CD60D2E1F80996BD701468AE1 /* ASTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		765BBA39893230033CE61ED4DA1B282A /* ASDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B60C3ACE044CD055F6F4965D9C4B71 /* ASDropDownView.swift */; };
+		78291F2C19E2A63E902621B3E66856A2 /* ASRadioGroupClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF489AD3A6AFB324C8254E54B1FC94C /* ASRadioGroupClassic.swift */; };
 		7A3E9F2D93F4EDC4DE98D0F5237C7B25 /* ASDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C7043E8C8B7BBCBC38D09F68A01E5 /* ASDropDownCell.swift */; };
-		7BC2F1D1FE5B4838CD2A50D66E0CB3B1 /* ASForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67849D70350D29346AA1B038B602A052 /* ASForm-dummy.m */; };
-		7DEF1866D9D79DE2BB491958C8B70AA2 /* ASVMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0299DB5A270AC9504F15E084F0F4B /* ASVMath.swift */; };
-		7EC15057AB31323D0DD250A04BE51F05 /* ASOtpTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5456A2DD151ED189C275DEF1447B7351 /* ASOtpTextField+Extensions.swift */; };
-		7FD7672B103B08B327465FFB69B9A262 /* ASRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4790B3F1EFC2BA925AEDED7C02C1A22 /* ASRadioButton.swift */; };
+		7C50CA9A9D8508F424B504F703B64E5D /* ASValidatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C741CD863185076BCDD1EE3C5E18E3 /* FBSnapshotTestController.m */; };
-		8A52FC035ABDBED1219D8CA41F121AB9 /* ASOtpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */; };
+		89CD3B565580B88C2086D3640B0EAAF6 /* ASRadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1243AA854542D5652285B342F9AE77EA /* ASRadioGroup-dummy.m */; };
 		8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB3E40810620726CEF12703414E977 /* ASButton.swift */; };
+		8B9DC80C353A46E08FEFEDF71C734E9D /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 698FAF8DDFDC7E6FF7E26BA3619484A6 /* FBSnapshotTestCase.m */; };
+		8D6A965583A72D89B5B894E060A12568 /* ASMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EFCE63EE030F2823789EC59BCC6AE /* ASMToast.swift */; };
+		8E2D243E7964D13ADCC503A3F66A08AB /* ASVMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0299DB5A270AC9504F15E084F0F4B /* ASVMath.swift */; };
+		8EDA7FC28E32B9A83F8BAC9CDBBDEB28 /* ASOtpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67053A61F4E46561EF749F7A856A8C49 /* ASOtpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0F9D3394477316291E2FDF7B2B8D76 /* ASRadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46895DE23C95C899EF1739E9E89C19E5 /* ASRadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 181F1C5107D7DD265996A5F1B4972897 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90E3C0212419034709E5D411C35E649F /* ASVLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18536C95A7D0EF54422A93FCAF0FE138 /* ASVLengthRule.swift */; };
-		92D18DE130C997D21D6B67CD6F9D8E82 /* ASTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD4F4A380F36352B45A84C05BD0BFA /* ASTextField-dummy.m */; };
-		930A03976A3615F302939F4CE49ECDCC /* ASMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		958C30FDACC59793247DCDD5CA19DBAD /* ASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E68442399536EEB9160E784294BF27B /* ASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95D434781EBD8DAEC85B5219F1A7DDB9 /* ASRadioButtonClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8247B66F8DD0D078502DC4063A6BC2 /* ASRadioButtonClassic.swift */; };
+		957C4299A0C2482A53859586B3F7392B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		99010B00861A520F4A861E6D814D129F /* ASDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9622B17303F532A7EB43609246498 /* ASDropDown.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E30228D07DCAD557D6E928022787B5 /* SwiftSupport.swift */; };
-		A1CD7BFD19F80DBCAF9475B2F181636B /* ASVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067BD39FA786E549D3B232451881B /* ASVError.swift */; };
-		A3532FAE1E4F545A027974DD5EFD0489 /* ASOtpTextFieldClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0A0F2A186255F0BA318852146C616 /* ASOtpTextFieldClassic.swift */; };
-		A3F22C987E577000E952D7FB9C172A57 /* ASValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE17F8B9287708EFE65793877F5A209 /* ASValidation.swift */; };
+		A121F9FCA0D524185B128A8B17C6EC9B /* ASRadioButtonClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8247B66F8DD0D078502DC4063A6BC2 /* ASRadioButtonClassic.swift */; };
+		A2409322F2F4268ED493631116DB2C64 /* ASForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67849D70350D29346AA1B038B602A052 /* ASForm-dummy.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 728438BA0976C938562A640F5C74D588 /* UIImage+Snapshot.m */; };
-		A55078B4F02700A545D25423C321BD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		A5A96D32034F02603FF4F79EBF6EEB99 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */; };
 		A65B20582E1C3A0B2E23EA19F370EB60 /* ASButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F0B0153B63DC33D35624080474423D /* ASButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B2C320A3493AE738BE99FBDADDCBCC21 /* ASOtpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378519B4D6C31DD237ADD520CFE2BE33 /* ASOtpTextField.swift */; };
-		B5B1792BE5B812B8926DBC298E6EE95F /* ASVMailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C878EC377FBD98D737DDA2E0FCA411F /* ASVMailRule.swift */; };
+		AA87F6EC26BE0DADBC98166942B85334 /* ASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13EB4323FCC7401B4C89301542A5582 /* ASValidator.swift */; };
+		AE0AE08C849B8EA9C247681A676E25B0 /* ASRadioGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1970C759A0C0787D2380CE94D47A6DB /* ASRadioGroup.framework */; };
+		B132476031092F3FF73E486B6CD34581 /* ASMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC9B647324C514E82746A81F6967A6 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BCB2E68B8BEE10733AFE3C4F321DFE31 /* ASMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */; };
+		B8879EB73D310AF7FF96F20C7BC9C54E /* ASRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432B339BF15B5A353B29739321C1464 /* ASRButton.swift */; };
+		B992D7DD69F764ACABF1A50A24B156F8 /* ASVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067BD39FA786E549D3B232451881B /* ASVError.swift */; };
+		BD133CB38F15DF836E6042C58E3F74AA /* ASOtpTextFieldViewClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */; };
 		BD3D3228D86587DC8BAA62C15139536C /* ASDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593A10E02ACFCC8C274405B270D3D3CF /* ASDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C205C8B5FFECC6DFB6198DF99C88BA50 /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */; };
+		BDD24E8B3B0FF082E6863E2D6E71270B /* ASButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B773E6752D1DA70B5A6C070EDA90F312 /* ASButton.framework */; };
+		C0E7FCB95F084612ACD09A0635D5436C /* ASValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE17F8B9287708EFE65793877F5A209 /* ASValidation.swift */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C17568E974EBCD61ADE02B13D1E53257 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59DEC74BDE415B7E1ED8F287DE7EBDD /* ASLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80BC4A8DE4CF2572F3E501F532C2DBB /* ASLabel-dummy.m */; };
-		C5ADBABA19FA634AC4C74B50E6DDE4B1 /* ASDropDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E054B1C0F1DEE44D1B3780A5F60D13 /* ASDropDownIcon.swift */; };
-		C6AEEA2BB86A46AD0EABAB80C03DDB18 /* ASForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8399FC84BE6F7C55C05B89B5115A9172 /* ASForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA23D2507B93661AB1FABA441593641E /* ASVRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602EF1173DB721C19A57D0A10C097C8 /* ASVRule.swift */; };
-		CBA68F5CB62388EF5405B62698749C66 /* ASValidatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */; };
-		CFA4457AC00DD5930C05CA701D87A732 /* ASOtpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C532830F41ADC6F88A628C0CF03EC54 /* ASOtpField.swift */; };
+		C6CF9C0177A24CBF64B6B26F7C3E5BF1 /* ASMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC42624921D2DAE9D2D683EAA6FE65 /* ASMToast-dummy.m */; };
+		CA8AD2230F7D9C6824781723D1D0CFBB /* ASMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6DF2D098DE931C7F54E35F4CC96D58 /* ASTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40944BB6224BDEC143FA388F44646B65 /* ASTextField+Extensions.swift */; };
+		CFE7A7F0BD9063B67C8D77BAB9981068 /* ASLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E102723CDDD17086850528FA9A3A62E7 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D6C76A7745E0550BD5B0FA781A276FC8 /* ASRadioButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74624DEA1AAEDDE0CC0965B10B510993 /* ASRadioButton+Extension.swift */; };
-		DE078229683F165AC439D285BC256203 /* ASVMinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		D47C54455409B20E942A27FABCC36FD1 /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F31B3E7FF4A07C18D75C4E942F84B /* ASRadioGroup+Extension.swift */; };
+		D5E35BD8F55FDB985CAB011A21C2A49F /* ASVMinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */; };
+		D9498BFB9F5BA5A780EEAA5B86DCDA7F /* ASVLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18536C95A7D0EF54422A93FCAF0FE138 /* ASVLengthRule.swift */; };
+		DA2006CF6C38F58BFA92F1D553998450 /* ASForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944AA2FAE2947279F53E5C2674372C9 /* ASForm.swift */; };
+		DA449660ACA7E87C537092B3017CA3B0 /* ASRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB9293C727E1C59F3AC1C51DA3794 /* ASRadioGroup.swift */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC4975EEF257B5538A28DF9FE1F6823 /* UIKit.framework */; };
 		E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AD62CC8E26EC75D7F123E5C2672BA /* ASButtonStyleClassic.swift */; };
-		E632052B614BE2E3C88E45866FCAB32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		E564C4D9D608A67C56CB77769C512989 /* ASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E68442399536EEB9160E784294BF27B /* ASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E632052B614BE2E3C88E45866FCAB32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		E6E125335020D1C09C553B9A85B95021 /* ASLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09299A59FF4A4E032BA5A96D9866FA0A /* ASLabel.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 59980D592EEBAA1517343B8D6D8D5420 /* FBSnapshotTestCasePlatform.m */; };
 		EA66328389871FC838E0CAC040AB5D8D /* ASDropDownViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EE37BCED93E958E89C5BE23CD2A2D /* ASDropDownViewDefault.swift */; };
-		EEEA05B018E8D729A34E7301717774E2 /* ASTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40944BB6224BDEC143FA388F44646B65 /* ASTextField+Extensions.swift */; };
+		ECD01B59A4A65C4346CB022A41CD6592 /* ASTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD4F4A380F36352B45A84C05BD0BFA /* ASTextField-dummy.m */; };
+		EE5E23D98C694C7D29116DD5B4E12BFF /* ASLabelStyleDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */; };
+		F1008DE54E930511F496E82514E70148 /* ASOtpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C532830F41ADC6F88A628C0CF03EC54 /* ASOtpField.swift */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB934CE4CC702A89C7F5250C6C7F1C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F1C7710575E9186CF22AB885D54B2D66 /* ASRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB9293C727E1C59F3AC1C51DA3794 /* ASRadioGroup.swift */; };
-		F66C729AA6B1B5F0ADDC5658C4EB57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		F67BC2FC8D77C052652C66FEB9059DA7 /* ASOtpTextFieldViewClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */; };
+		F66C729AA6B1B5F0ADDC5658C4EB57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBB796A430CC029EB6F62560098065E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0C42C0CC308B5F5327E4D382F89FB2 /* ASRadioGroupClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF489AD3A6AFB324C8254E54B1FC94C /* ASRadioGroupClassic.swift */; };
-		FDA8C843D60693A182E26FC1BAE9EE90 /* ASForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944AA2FAE2947279F53E5C2674372C9 /* ASForm.swift */; };
+		F7D60C423BA691C74A583A3E1753FBBE /* ASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */; };
+		FA98667D6622C511C2087C2D0D3749F0 /* ASTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B43E28D0D8A33C3DC963F527B9A0F0 /* ASTextField.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		09C9ED2C259BE047740350401C620A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF756F85F83DBCAB00F3BE1EC3E05EA6;
+			remoteInfo = ASValidator;
+		};
+		0C719C58754748CCD2EB77B0C27BCEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7CBC6DC217CA468CFDC46CF2ECF5608;
+			remoteInfo = ASMToast;
+		};
+		11DE78FA383269E40D958FA5081FFBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FB4A81AA73605CFCF9A8FFC20F65BD;
+			remoteInfo = ASLabel;
+		};
 		2B763E2AF0BE0B11BACE1D7C94A50368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -126,12 +155,26 @@
 			remoteGlobalIDString = 533F51812BC178DDE43D8C362143131C;
 			remoteInfo = "Pods-ASForm_Example";
 		};
+		46FEB232A3B9D9512BF99A0EA26AE6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C3FE72CB97203C32D44BD6F42E497;
+			remoteInfo = ASTextField;
+		};
 		480A78BB28E46BAE958FECA0E872D7F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E7CBC6DC217CA468CFDC46CF2ECF5608;
 			remoteInfo = ASMToast;
+		};
+		4B090C8D119BA50BD6F105F2E6202C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F35E31E52D854CC8B71FB5C0776EFF0;
+			remoteInfo = ASOtpTextField;
 		};
 		4B37504C55EBBD33C26A8F3F0314D269 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -146,6 +189,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A3727D9A844E96F27F667DDF43D3DF09;
 			remoteInfo = ASRadioGroup;
+		};
+		70A3B641BAEC0219662B75A29A20DC87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235FB5394A87EB9D3994D619CF7D3213;
+			remoteInfo = ASButton;
 		};
 		7AA552B25A833F73F2831EB0C11185A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -175,6 +225,13 @@
 			remoteGlobalIDString = ADC5BF3C10FF79F5EB23B8C315DE9889;
 			remoteInfo = ASForm;
 		};
+		C4CCCCFB5CB1427BCAEE0E8BCDE67257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3727D9A844E96F27F667DDF43D3DF09;
+			remoteInfo = ASRadioGroup;
+		};
 		CB808DE541E845DDE8CDF3327915A9A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -189,16 +246,26 @@
 			remoteGlobalIDString = 2F35E31E52D854CC8B71FB5C0776EFF0;
 			remoteInfo = ASOtpTextField;
 		};
+		E4D00C07A49A20686D049E02A66972D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08DA35DF5FFE83080450A06B7F8AA92C;
+			remoteInfo = ASDropDown;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		029B529F7B8841A9DD99805DB37E5EC9 /* ASOtpTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASOtpTextField.modulemap; sourceTree = "<group>"; };
 		02EB934CE4CC702A89C7F5250C6C7F1C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.release.xcconfig; sourceTree = "<group>"; };
 		0544C5BE060B2B10AAE702A4D0CCD90F /* Pods_ASForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASForm_Example.framework; path = "Pods-ASForm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A6B31A3E6D881024FF483BB0AE2D28 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		089F8DC630B7A28CF46312596ECABA4C /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		09299A59FF4A4E032BA5A96D9866FA0A /* ASLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E1F588C1250C62F35BDD77B201C668 /* Pods-ASForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A531A13998BB7A1FE6FFC0A875CB7FD /* ASMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-umbrella.h"; sourceTree = "<group>"; };
 		0BB9889092E96E449A7C592C9E9A16CE /* ASValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASValidator-Info.plist"; sourceTree = "<group>"; };
 		0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidatorEntity.swift; path = Source/ASValidatorEntity.swift; sourceTree = "<group>"; };
@@ -221,6 +288,7 @@
 		208088C54D88C0C13C57E65ECDC48F92 /* Pods_ASForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASForm_Tests.framework; path = "Pods-ASForm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.debug.xcconfig; sourceTree = "<group>"; };
 		25E8DC7D6041448D233125F5D6916B5D /* ASLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-prefix.pch"; sourceTree = "<group>"; };
+		28B43E28D0D8A33C3DC963F527B9A0F0 /* ASTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.debug.xcconfig; sourceTree = "<group>"; };
 		2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldView.swift; path = Source/ASOtpTextFieldView.swift; sourceTree = "<group>"; };
 		30348F4E4757385BBF53B102A900EF39 /* ASDropDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownItem.swift; path = Source/ASDropDownItem.swift; sourceTree = "<group>"; };
@@ -263,7 +331,6 @@
 		5CEAD66CD9CBDAAE1EA9ED6784FF2D50 /* ASDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASDropDown.modulemap; sourceTree = "<group>"; };
 		5D5EE37BCED93E958E89C5BE23CD2A2D /* ASDropDownViewDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownViewDefault.swift; path = Source/ASDropDownViewDefault.swift; sourceTree = "<group>"; };
 		5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToastView.swift; path = Source/ASMToastView.swift; sourceTree = "<group>"; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5E9F360E88244818D76A90C8D2067793 /* ASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-prefix.pch"; sourceTree = "<group>"; };
 		5FAB4EF88E9EB837B971F0ABAD0FCD69 /* ASButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.debug.xcconfig; sourceTree = "<group>"; };
 		60916C31DA0F03E17229E0D1AB4DF68B /* ASDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASDropDown.framework; path = ASDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,7 +345,7 @@
 		698FAF8DDFDC7E6FF7E26BA3619484A6 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldViewClassic.swift; path = Source/ASOtpTextFieldViewClassic.swift; sourceTree = "<group>"; };
 		6DED8F8B0A9A95E98A3470C385782F08 /* Pods-ASForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASForm_Example-frameworks.sh"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6FC4975EEF257B5538A28DF9FE1F6823 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		728438BA0976C938562A640F5C74D588 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.debug.xcconfig; sourceTree = "<group>"; };
 		745EEBD7F5BB54D4EAA9DA4EF4F490F5 /* ASForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.release.xcconfig; sourceTree = "<group>"; };
@@ -287,7 +354,7 @@
 		77C4FD381FF0261D55F44EC0A1C535AF /* ASButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-prefix.pch"; sourceTree = "<group>"; };
 		77E9C2216780CB96EC0B221ED5B893F0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		7BBA9CA2BB7F9202038FE1DB08BB57F1 /* ASMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASMToast.modulemap; sourceTree = "<group>"; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CDBB259378B64EEF4C48732C8EB794E /* ASValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASLabel+Extension.swift"; path = "Source/ASLabel+Extension.swift"; sourceTree = "<group>"; };
 		7ECB99039A1DA492B8B1BE9BA21F6A5F /* ASLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASLabel.framework; path = ASLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldClassicStyle.swift; path = Source/ASTextFieldClassicStyle.swift; sourceTree = "<group>"; };
@@ -302,7 +369,6 @@
 		85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.release.xcconfig; sourceTree = "<group>"; };
 		8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextField.swift; path = Source/ASTextField.swift; sourceTree = "<group>"; };
 		8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleDark.swift; path = Source/ASLabelStyleDark.swift; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8D7C0B85CAB594CCD290A9F0DEEAE2F6 /* ASRadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-prefix.pch"; sourceTree = "<group>"; };
 		94FA3F0C0E4D3F7F7DF3086F8CCEAC19 /* Pods-ASForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASForm_Tests.modulemap"; sourceTree = "<group>"; };
 		96B341DE24D09CA3F17495F7B07BFA23 /* ASDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.debug.xcconfig; sourceTree = "<group>"; };
@@ -312,6 +378,7 @@
 		9E78FF7511A562667C5F92FC8AA4FF1A /* ASForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASForm.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE7F49EA01C5FC6DD7BD8BDC8A0635D /* ASForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASForm.framework; path = ASForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EA44AB6191F1AACE232DA40284F437 /* ASOtpTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASOtpTextField-Info.plist"; sourceTree = "<group>"; };
+		A6E95ED2ACD6C88168CC519C46BBE7C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AA23B176834C63271935A1CCD52E92F4 /* ASTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASTextField.framework; path = ASTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldMath.swift; path = Source/ASTextFieldMath.swift; sourceTree = "<group>"; };
 		ABAB60AA5139AFC277CBB890C9E04C34 /* ASForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.debug.xcconfig; sourceTree = "<group>"; };
@@ -320,10 +387,13 @@
 		AFED761FD65B09FEB17AAFEA4927601E /* ASDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASDropDown-dummy.m"; sourceTree = "<group>"; };
 		B405D759AD19262797FCAFC5A9FE51A8 /* ASLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.release.xcconfig; sourceTree = "<group>"; };
 		B4383A36F8238BD6605FA4DF8BBF6172 /* ASTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASTextField.modulemap; sourceTree = "<group>"; };
+		B773E6752D1DA70B5A6C070EDA90F312 /* ASButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASValidator-dummy.m"; sourceTree = "<group>"; };
 		BA39F95F30D559A03A71CFD5B35C5A4D /* ASMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASMToast.framework; path = ASMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.release.xcconfig; sourceTree = "<group>"; };
+		BC2C42543101005B2FE425C4B36D035F /* ASOtpTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASOtpTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9357763BF36E37F5176AC1246448F9 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		BFFCC1B68DC9DD897DBF23AD7780A457 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C17568E974EBCD61ADE02B13D1E53257 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		C4E5058154C9F6BACE4E19E630F83F73 /* ASForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASForm.modulemap; sourceTree = "<group>"; };
 		CCEBC1A6344B0FD34E8CEB823026DEE5 /* Pods-ASForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -346,6 +416,7 @@
 		E0E30228D07DCAD557D6E928022787B5 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		E102723CDDD17086850528FA9A3A62E7 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E131617FBB786C8F3C564CC06B9F3440 /* ASDropDownBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownBox.swift; path = Source/ASDropDownBox.swift; sourceTree = "<group>"; };
+		E1970C759A0C0787D2380CE94D47A6DB /* ASRadioGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRadioGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMinLengthRule.swift; path = Source/ASVMinLengthRule.swift; sourceTree = "<group>"; };
 		E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabel.swift; path = Source/ASLabel.swift; sourceTree = "<group>"; };
 		E833F92FD5866253A42830CA0E07BE43 /* ASDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.release.xcconfig; sourceTree = "<group>"; };
@@ -362,10 +433,27 @@
 		F9FC738B433602A9EA55B0C4EA9F6C4B /* ASButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASButton.modulemap; sourceTree = "<group>"; };
 		FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASForm_Example-umbrella.h"; sourceTree = "<group>"; };
 		FE4F41CFDC2FF50156CDD4275E89DD5D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FF6640DE04F6568E80EF914938F253E7 /* ASDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2769D0B6741BAFE62775AB5AA7E1CE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615554D2FB836432198C946D0E4947D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297FC8E542FF8C07AD22D6945D7C3249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A44013B6354AED565982E1460C2BA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AC18FCB6B9E9343CF7A36791D8D5C10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,11 +462,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		463FD8AC0A86EFDE63EABB9A64B37893 /* Frameworks */ = {
+		3E7DBC23D723C82109348269EF31394B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35500AA794219E89176F3B23AA883E5C /* Foundation.framework in Frameworks */,
+				698894C697C379125DBD726370045934 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,51 +478,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FED1685E2F0EE7DC040254B9E389578 /* Frameworks */ = {
+		8090F32FA094621B36F24888AFB64339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C36A2D06C5332541FA91BB2C0791139 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A190A6740470ED37476C7A706A04B63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				370E4ECF16042743810199C313D126E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C18E782996D75981FF7B02456B98CE2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				403A141399450EA4E74E7B7559D446E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3A2527119DAB48DF6FD90AE77AC36FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				746BEA0977AC0825DCB5C101F92002A2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE47F51238FB595A854BEBAA9832040B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				499804632932FEFD7FA7C3B273CE585F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8927F866781B957AAB750424EE35658 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A55078B4F02700A545D25423C321BD13 /* Foundation.framework in Frameworks */,
+				BDD24E8B3B0FF082E6863E2D6E71270B /* ASButton.framework in Frameworks */,
+				0F61428E8E80176CD77B30E9FECE6790 /* ASDropDown.framework in Frameworks */,
+				E6E125335020D1C09C553B9A85B95021 /* ASLabel.framework in Frameworks */,
+				0C26042086E2D35510A681E862A65D20 /* ASMToast.framework in Frameworks */,
+				571DAA16C069426587AF9C14E4A60233 /* ASOtpTextField.framework in Frameworks */,
+				AE0AE08C849B8EA9C247681A676E25B0 /* ASRadioGroup.framework in Frameworks */,
+				FA98667D6622C511C2087C2D0D3749F0 /* ASTextField.framework in Frameworks */,
+				3E58FDBD07DE1919FD19C1B7992BFFBF /* ASValidator.framework in Frameworks */,
+				1CA9F41705A4A7F49D04A4080E85D598 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +518,30 @@
 				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
 				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
 				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F038A493A6B8E305FE112366CE98BDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4192ED7355624AA84547E9B3F3B77693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35A962FD0CC6D0FCB38D44B7827F46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957C4299A0C2482A53859586B3F7392B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4048786EBD2556DB62C947DD95DDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F09D7B8678DB51E85A0A4D4ED08F6BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +680,33 @@
 			path = ASButton;
 			sourceTree = "<group>";
 		};
+		3F8D3A1BADCC9959D004A6BAD13296F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */,
+				BFFCC1B68DC9DD897DBF23AD7780A457 /* QuartzCore.framework */,
+				6FC4975EEF257B5538A28DF9FE1F6823 /* UIKit.framework */,
+				A6E95ED2ACD6C88168CC519C46BBE7C2 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		553E618687B18AB2D6A1C0D86D24C36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B773E6752D1DA70B5A6C070EDA90F312 /* ASButton.framework */,
+				FF6640DE04F6568E80EF914938F253E7 /* ASDropDown.framework */,
+				09299A59FF4A4E032BA5A96D9866FA0A /* ASLabel.framework */,
+				0A531A13998BB7A1FE6FFC0A875CB7FD /* ASMToast.framework */,
+				BC2C42543101005B2FE425C4B36D035F /* ASOtpTextField.framework */,
+				E1970C759A0C0787D2380CE94D47A6DB /* ASRadioGroup.framework */,
+				28B43E28D0D8A33C3DC963F527B9A0F0 /* ASTextField.framework */,
+				7CDBB259378B64EEF4C48732C8EB794E /* ASValidator.framework */,
+				3F8D3A1BADCC9959D004A6BAD13296F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		567A313756E0CB37A452F0CB3D9B1E4E /* ASForm */ = {
 			isa = PBXGroup;
 			children = (
@@ -649,17 +756,6 @@
 				4B086BC46200BAC89E8716E68F1D2889 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		98DEE762AEA8E07C12AF26EAE51E19B0 /* Support Files */ = {
@@ -767,14 +863,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C5C4F4C9AD4C3208E7E5EA1B4DB8A78F /* ASMToast */ = {
 			isa = PBXGroup;
 			children = (
@@ -822,7 +910,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				295DDCDDF4801DA47A28101F7BDEA81B /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				553E618687B18AB2D6A1C0D86D24C36A /* Frameworks */,
 				B63D4F42BE5C930FEECBB8B86125E419 /* Pods */,
 				DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */,
 				DFAB499961483EA6A9303C4CBFB199FB /* Targets Support Files */,
@@ -918,19 +1006,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D64232A4B7D215FB0E76FA976929A3B /* Headers */ = {
+		195BA2351766F30B9DC3430D9F42612E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11137322E29B4611DD945E868388E328 /* ASLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1AA6C91A8C0782B80215A68AC58D8012 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E7C8F4F665A180CDE856999AB1FA5B /* ASRadioGroup-umbrella.h in Headers */,
+				7323601CD60D2E1F80996BD701468AE1 /* ASTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -942,11 +1022,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23B1FDF5B81EAF698C8AA584399BDC5F /* Headers */ = {
+		2D0A5F335558C3AFB93121EB07FC4B4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51D4F25E67D65D40F87A9B2D5E89117D /* ASOtpTextField-umbrella.h in Headers */,
+				8EDA7FC28E32B9A83F8BAC9CDBBDEB28 /* ASOtpTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,11 +1045,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4804194E88C502E42A65AEDC63290090 /* Headers */ = {
+		42DFB914A20AED4461B98B9B4B01E2CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930A03976A3615F302939F4CE49ECDCC /* ASMToast-umbrella.h in Headers */,
+				CA8AD2230F7D9C6824781723D1D0CFBB /* ASMToast-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,11 +1061,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F66F098197C3DB163A80D20D0CFF788 /* Headers */ = {
+		7FB3A4872A0EF8915173C6BD370F976C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AEEA2BB86A46AD0EABAB80C03DDB18 /* ASForm-umbrella.h in Headers */,
+				01A4FBC639CC619D26F410E319226372 /* ASForm-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,11 +1077,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA57A8350AFA3305C4E777468DF93068 /* Headers */ = {
+		C556273FDCB179695B165D8744E7B93F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2C171FA11DC8F32CA07828387A61A3 /* ASTextField-umbrella.h in Headers */,
+				8F0F9D3394477316291E2FDF7B2B8D76 /* ASRadioGroup-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,11 +1093,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5FF929230D62C1FB7F3E47CEF503DF1 /* Headers */ = {
+		D91C193EE9A92DD8F977AC9C21FEEBD1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958C30FDACC59793247DCDD5CA19DBAD /* ASValidator-umbrella.h in Headers */,
+				E564C4D9D608A67C56CB77769C512989 /* ASValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F49F72B45F3C4F2E81554FCD860820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E3590713A9AA1C7FD99CD44EE0C820 /* ASLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1044,12 +1132,12 @@
 		};
 		186C3FE72CB97203C32D44BD6F42E497 /* ASTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52585BBB0341A81D095DEF25E96343EA /* Build configuration list for PBXNativeTarget "ASTextField" */;
+			buildConfigurationList = 793D7DDC75006436A7430B69524DA594 /* Build configuration list for PBXNativeTarget "ASTextField" */;
 			buildPhases = (
-				AA57A8350AFA3305C4E777468DF93068 /* Headers */,
-				46EE28A4BEA405E378EDEBBB3B3A6AC3 /* Sources */,
-				463FD8AC0A86EFDE63EABB9A64B37893 /* Frameworks */,
-				AE8F54963084A8198391368387E5145A /* Resources */,
+				195BA2351766F30B9DC3430D9F42612E /* Headers */,
+				FE36E3167B8F1A3D0B57C6069AC13EAA /* Sources */,
+				297FC8E542FF8C07AD22D6945D7C3249 /* Frameworks */,
+				D4AA2C4B0E03E37EA86C6047F230FE0C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1080,12 +1168,12 @@
 		};
 		2F35E31E52D854CC8B71FB5C0776EFF0 /* ASOtpTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 156CD3AA0BD9CDF2B2C9830E6D33E1B0 /* Build configuration list for PBXNativeTarget "ASOtpTextField" */;
+			buildConfigurationList = 55D31CB325694095AF0D4617D1BD14DA /* Build configuration list for PBXNativeTarget "ASOtpTextField" */;
 			buildPhases = (
-				23B1FDF5B81EAF698C8AA584399BDC5F /* Headers */,
-				A8B3C0A14137D706C2EA118E3B6B26BA /* Sources */,
-				8A190A6740470ED37476C7A706A04B63 /* Frameworks */,
-				475393541735B3A75643226A4A6A2896 /* Resources */,
+				2D0A5F335558C3AFB93121EB07FC4B4C /* Headers */,
+				EA4BF4585DB3FC15920EDA5C6863A876 /* Sources */,
+				F038A493A6B8E305FE112366CE98BDEB /* Frameworks */,
+				F1A1303497FBC0B3AA0FA3D357DD2104 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1143,12 +1231,12 @@
 		};
 		A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5E51E8447520390D141513B3FFC42D7 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */;
+			buildConfigurationList = 3954271E120692E3E1D0ABA8E9BF80C8 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */;
 			buildPhases = (
-				1AA6C91A8C0782B80215A68AC58D8012 /* Headers */,
-				0CD84F817C119EDB65ECDA56EE81A375 /* Sources */,
-				AE47F51238FB595A854BEBAA9832040B /* Frameworks */,
-				A5B59B8C45FCDE3A501F6145EF1F9EAA /* Resources */,
+				C556273FDCB179695B165D8744E7B93F /* Headers */,
+				D0CC35493012B5188C92F52198B70194 /* Sources */,
+				FB4048786EBD2556DB62C947DD95DDA6 /* Frameworks */,
+				AE6D2CC5A3C12EB9EA58CF4CCBCA5932 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1181,16 +1269,24 @@
 		};
 		ADC5BF3C10FF79F5EB23B8C315DE9889 /* ASForm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F03DCBF1F103B897E3BB244D11E2F4C5 /* Build configuration list for PBXNativeTarget "ASForm" */;
+			buildConfigurationList = 78306A1B894FBBF73034ED767EC2F662 /* Build configuration list for PBXNativeTarget "ASForm" */;
 			buildPhases = (
-				8F66F098197C3DB163A80D20D0CFF788 /* Headers */,
-				49E141E540054C088A109CD4556EB5E2 /* Sources */,
-				7FED1685E2F0EE7DC040254B9E389578 /* Frameworks */,
-				3EC4398D3D463E1D3D67E99AB83E8889 /* Resources */,
+				7FB3A4872A0EF8915173C6BD370F976C /* Headers */,
+				D81208E7FD6BA68EF3FFE3338FEDA356 /* Sources */,
+				8090F32FA094621B36F24888AFB64339 /* Frameworks */,
+				7047E2E8B4BA944EA5E5656CD1A9699F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				87CDCE680CD163303503689DE336A9DB /* PBXTargetDependency */,
+				B810A93ACB789A0653CE5E1D4B7E60A3 /* PBXTargetDependency */,
+				FD591BEBF51F76BD24956BC74580A532 /* PBXTargetDependency */,
+				C19103108B4C468A83C41CC5CF96F031 /* PBXTargetDependency */,
+				5243E320F0942B1731D5F802BCF9BBD5 /* PBXTargetDependency */,
+				9EA15131ACBF2931B902EABBE0A88650 /* PBXTargetDependency */,
+				39F548DAC19CD7034A565F5A6C8A4DB8 /* PBXTargetDependency */,
+				100EBD697032B3FFBF1815E3EC30B976 /* PBXTargetDependency */,
 			);
 			name = ASForm;
 			productName = ASForm;
@@ -1199,12 +1295,12 @@
 		};
 		B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6DBA8E2477FAC5E45B8E178A9BA1889 /* Build configuration list for PBXNativeTarget "ASLabel" */;
+			buildConfigurationList = A8AE157E4D552F57F8F2ECDA9B364F46 /* Build configuration list for PBXNativeTarget "ASLabel" */;
 			buildPhases = (
-				0D64232A4B7D215FB0E76FA976929A3B /* Headers */,
-				D747EB54779871FDA6A609A5BA6F705A /* Sources */,
-				B8927F866781B957AAB750424EE35658 /* Frameworks */,
-				9A0326FCB74B6925667DBE9E95C588E2 /* Resources */,
+				E3F49F72B45F3C4F2E81554FCD860820 /* Headers */,
+				CB367A1A725D0FC4B02EB66F633F93B9 /* Sources */,
+				2769D0B6741BAFE62775AB5AA7E1CE2F /* Frameworks */,
+				FF3D62BFCE819D3881D9A98B0C68C5FF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1217,12 +1313,12 @@
 		};
 		DF756F85F83DBCAB00F3BE1EC3E05EA6 /* ASValidator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFE0A1F2407CBD49E0F89DA4789FF704 /* Build configuration list for PBXNativeTarget "ASValidator" */;
+			buildConfigurationList = 14389EC5029A9E055E4108893BF8E646 /* Build configuration list for PBXNativeTarget "ASValidator" */;
 			buildPhases = (
-				D5FF929230D62C1FB7F3E47CEF503DF1 /* Headers */,
-				2D204A444EB2DD9C86CA2D6A554779B5 /* Sources */,
-				A3A2527119DAB48DF6FD90AE77AC36FD /* Frameworks */,
-				9A64E0E2E1CBEBF61CD45D3460B289EF /* Resources */,
+				D91C193EE9A92DD8F977AC9C21FEEBD1 /* Headers */,
+				04D806A846290382AD86FFD48E0B2030 /* Sources */,
+				3E7DBC23D723C82109348269EF31394B /* Frameworks */,
+				E2439FB344B21AFC683CC187EBDD9433 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1235,12 +1331,12 @@
 		};
 		E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46F7391D324A26A71CE1BF1908BBFA19 /* Build configuration list for PBXNativeTarget "ASMToast" */;
+			buildConfigurationList = D9E5C3B02CE06DFB0B9CDE8237A87A04 /* Build configuration list for PBXNativeTarget "ASMToast" */;
 			buildPhases = (
-				4804194E88C502E42A65AEDC63290090 /* Headers */,
-				249E2593323370D4D462B778C11B85A2 /* Sources */,
-				9C18E782996D75981FF7B02456B98CE2 /* Frameworks */,
-				800A9E515DA8D06DDA09E308BAD8B97C /* Resources */,
+				42DFB914A20AED4461B98B9B4B01E2CC /* Headers */,
+				4D2DED126A15E7063FF2E56D1B05C8CA /* Sources */,
+				F35A962FD0CC6D0FCB38D44B7827F46A /* Frameworks */,
+				F61E6AA782102AF818F02A0CA24D0F0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1297,20 +1393,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EC4398D3D463E1D3D67E99AB83E8889 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		475393541735B3A75643226A4A6A2896 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B832F0498190B83E8CF9B941B4B5B00 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1339,35 +1421,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		800A9E515DA8D06DDA09E308BAD8B97C /* Resources */ = {
+		7047E2E8B4BA944EA5E5656CD1A9699F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A0326FCB74B6925667DBE9E95C588E2 /* Resources */ = {
+		AE6D2CC5A3C12EB9EA58CF4CCBCA5932 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A64E0E2E1CBEBF61CD45D3460B289EF /* Resources */ = {
+		D4AA2C4B0E03E37EA86C6047F230FE0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5B59B8C45FCDE3A501F6145EF1F9EAA /* Resources */ = {
+		E2439FB344B21AFC683CC187EBDD9433 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE8F54963084A8198391368387E5145A /* Resources */ = {
+		F1A1303497FBC0B3AA0FA3D357DD2104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61E6AA782102AF818F02A0CA24D0F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3D62BFCE819D3881D9A98B0C68C5FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1377,6 +1473,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04D806A846290382AD86FFD48E0B2030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E7FCB95F084612ACD09A0635D5436C /* ASValidation.swift in Sources */,
+				F7D60C423BA691C74A583A3E1753FBBE /* ASValidator-dummy.m in Sources */,
+				AA87F6EC26BE0DADBC98166942B85334 /* ASValidator.swift in Sources */,
+				7C50CA9A9D8508F424B504F703B64E5D /* ASValidatorEntity.swift in Sources */,
+				B992D7DD69F764ACABF1A50A24B156F8 /* ASVError.swift in Sources */,
+				D9498BFB9F5BA5A780EEAA5B86DCDA7F /* ASVLengthRule.swift in Sources */,
+				5191D250DD7D1B15C40FCA2607F23E47 /* ASVMailRule.swift in Sources */,
+				8E2D243E7964D13ADCC503A3F66A08AB /* ASVMath.swift in Sources */,
+				5BBB2E9A952ACAA67449D871965EC4F4 /* ASVMaxLengthRule.swift in Sources */,
+				D5E35BD8F55FDB985CAB011A21C2A49F /* ASVMinLengthRule.swift in Sources */,
+				068E716721CFC16DF977E712D32E0A78 /* ASVRequiredRule.swift in Sources */,
+				6C508172C84A43B1141437CECCD20AC9 /* ASVResult.swift in Sources */,
+				16C937159124BC783463BC788B9F8955 /* ASVRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04DC1045CD5DFF551750EBDD5353A961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1385,70 +1501,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CD84F817C119EDB65ECDA56EE81A375 /* Sources */ = {
+		4D2DED126A15E7063FF2E56D1B05C8CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C76A7745E0550BD5B0FA781A276FC8 /* ASRadioButton+Extension.swift in Sources */,
-				7FD7672B103B08B327465FFB69B9A262 /* ASRadioButton.swift in Sources */,
-				95D434781EBD8DAEC85B5219F1A7DDB9 /* ASRadioButtonClassic.swift in Sources */,
-				04897249480B334A5DCA4604260F474F /* ASRadioGroup+Extension.swift in Sources */,
-				5D592A14ACC5B48BE43BB3670B4898EA /* ASRadioGroup-dummy.m in Sources */,
-				F1C7710575E9186CF22AB885D54B2D66 /* ASRadioGroup.swift in Sources */,
-				FC0C42C0CC308B5F5327E4D382F89FB2 /* ASRadioGroupClassic.swift in Sources */,
-				4EDFD15CD921A2E58979822A6454E4BE /* ASRButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		249E2593323370D4D462B778C11B85A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52B7ECE0A98BBA80DF52C5FD7E652F3E /* ASMToast-dummy.m in Sources */,
-				14D1F57BC3FBFD9FA30F71A89EF3797C /* ASMToast.swift in Sources */,
-				BCB2E68B8BEE10733AFE3C4F321DFE31 /* ASMToastView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D204A444EB2DD9C86CA2D6A554779B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3F22C987E577000E952D7FB9C172A57 /* ASValidation.swift in Sources */,
-				1693F1D4766283BC3D109A8D379BBFD6 /* ASValidator-dummy.m in Sources */,
-				422B8594E4B9AD8C145F1B2394145F3E /* ASValidator.swift in Sources */,
-				CBA68F5CB62388EF5405B62698749C66 /* ASValidatorEntity.swift in Sources */,
-				A1CD7BFD19F80DBCAF9475B2F181636B /* ASVError.swift in Sources */,
-				90E3C0212419034709E5D411C35E649F /* ASVLengthRule.swift in Sources */,
-				B5B1792BE5B812B8926DBC298E6EE95F /* ASVMailRule.swift in Sources */,
-				7DEF1866D9D79DE2BB491958C8B70AA2 /* ASVMath.swift in Sources */,
-				45AA90FAD1342029339E1A15AD30FCB7 /* ASVMaxLengthRule.swift in Sources */,
-				DE078229683F165AC439D285BC256203 /* ASVMinLengthRule.swift in Sources */,
-				0DE78A5859FBE9BCF29A29B39361C174 /* ASVRequiredRule.swift in Sources */,
-				2CC7C1833B85A0AC36194FB3C80C59F0 /* ASVResult.swift in Sources */,
-				CA23D2507B93661AB1FABA441593641E /* ASVRule.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EE28A4BEA405E378EDEBBB3B3A6AC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5ADBABA19FA634AC4C74B50E6DDE4B1 /* ASDropDownIcon.swift in Sources */,
-				EEEA05B018E8D729A34E7301717774E2 /* ASTextField+Extensions.swift in Sources */,
-				92D18DE130C997D21D6B67CD6F9D8E82 /* ASTextField-dummy.m in Sources */,
-				58017D20A3F6B576A02DC9F26B5EE2E7 /* ASTextField.swift in Sources */,
-				645DC047D269F50FF9C25FBBE2C7C69A /* ASTextFieldClassicStyle.swift in Sources */,
-				5E8E83CB2763F44079A0A5A7D43B026E /* ASTextFieldMath.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49E141E540054C088A109CD4556EB5E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BC2F1D1FE5B4838CD2A50D66E0CB3B1 /* ASForm-dummy.m in Sources */,
-				FDA8C843D60693A182E26FC1BAE9EE90 /* ASForm.swift in Sources */,
+				C6CF9C0177A24CBF64B6B26F7C3E5BF1 /* ASMToast-dummy.m in Sources */,
+				8D6A965583A72D89B5B894E060A12568 /* ASMToast.swift in Sources */,
+				B132476031092F3FF73E486B6CD34581 /* ASMToastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1493,31 +1552,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8B3C0A14137D706C2EA118E3B6B26BA /* Sources */ = {
+		CB367A1A725D0FC4B02EB66F633F93B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA4457AC00DD5930C05CA701D87A732 /* ASOtpField.swift in Sources */,
-				7EC15057AB31323D0DD250A04BE51F05 /* ASOtpTextField+Extensions.swift in Sources */,
-				4F8711C7406D67CD176C9F7C4F6847F4 /* ASOtpTextField-dummy.m in Sources */,
-				B2C320A3493AE738BE99FBDADDCBCC21 /* ASOtpTextField.swift in Sources */,
-				A3532FAE1E4F545A027974DD5EFD0489 /* ASOtpTextFieldClassic.swift in Sources */,
-				61BE5F7FA2E5BF9C49AF265611ACC9A1 /* ASOtpTextFieldView+Extensions.swift in Sources */,
-				8A52FC035ABDBED1219D8CA41F121AB9 /* ASOtpTextFieldView.swift in Sources */,
-				F67BC2FC8D77C052652C66FEB9059DA7 /* ASOtpTextFieldViewClassic.swift in Sources */,
+				CFE7A7F0BD9063B67C8D77BAB9981068 /* ASLabel+Extension.swift in Sources */,
+				61A7479A92EB989FAF754E3145FC5C57 /* ASLabel-dummy.m in Sources */,
+				8B9DC80C353A46E08FEFEDF71C734E9D /* ASLabel.swift in Sources */,
+				536622CB7C93A91FF703051EF9D24410 /* ASLabelStyleClassic.swift in Sources */,
+				EE5E23D98C694C7D29116DD5B4E12BFF /* ASLabelStyleDark.swift in Sources */,
+				6B32EAD97A6C206F4F83DE18814132C7 /* ASLabelStyleNormal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D747EB54779871FDA6A609A5BA6F705A /* Sources */ = {
+		D0CC35493012B5188C92F52198B70194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				640FB0DE33FBC7E6CE2245FF992D1DFD /* ASLabel+Extension.swift in Sources */,
-				C59DEC74BDE415B7E1ED8F287DE7EBDD /* ASLabel-dummy.m in Sources */,
-				C205C8B5FFECC6DFB6198DF99C88BA50 /* ASLabel.swift in Sources */,
-				048DAAF9CA58780AD40BBBA0F2BAD8DC /* ASLabelStyleClassic.swift in Sources */,
-				1B11D534CA543DE947626001EA0EB4DC /* ASLabelStyleDark.swift in Sources */,
-				44CCA2BFBA4991CBC83C7B9C69FDC225 /* ASLabelStyleNormal.swift in Sources */,
+				524DA3DD380541FE76BE922098EF1694 /* ASRadioButton+Extension.swift in Sources */,
+				2CCDEA9FC5541FEFB924733AEA4CBC64 /* ASRadioButton.swift in Sources */,
+				A121F9FCA0D524185B128A8B17C6EC9B /* ASRadioButtonClassic.swift in Sources */,
+				D47C54455409B20E942A27FABCC36FD1 /* ASRadioGroup+Extension.swift in Sources */,
+				89CD3B565580B88C2086D3640B0EAAF6 /* ASRadioGroup-dummy.m in Sources */,
+				DA449660ACA7E87C537092B3017CA3B0 /* ASRadioGroup.swift in Sources */,
+				78291F2C19E2A63E902621B3E66856A2 /* ASRadioGroupClassic.swift in Sources */,
+				B8879EB73D310AF7FF96F20C7BC9C54E /* ASRButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81208E7FD6BA68EF3FFE3338FEDA356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2409322F2F4268ED493631116DB2C64 /* ASForm-dummy.m in Sources */,
+				DA2006CF6C38F58BFA92F1D553998450 /* ASForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,9 +1597,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA4BF4585DB3FC15920EDA5C6863A876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1008DE54E930511F496E82514E70148 /* ASOtpField.swift in Sources */,
+				22FA1A393554E81FD635CD50212ABD3D /* ASOtpTextField+Extensions.swift in Sources */,
+				391B4919AC336A76CD9B66151F66E090 /* ASOtpTextField-dummy.m in Sources */,
+				1D9ABCD77D1B4C1B0CC22F831C8E1826 /* ASOtpTextField.swift in Sources */,
+				00F90555BF21D44C5F29B38A67B36FD1 /* ASOtpTextFieldClassic.swift in Sources */,
+				6D6F6FCFF49793E7050D905AA0686389 /* ASOtpTextFieldView+Extensions.swift in Sources */,
+				55F1D71453EF5F59082626C3A173709C /* ASOtpTextFieldView.swift in Sources */,
+				BD133CB38F15DF836E6042C58E3F74AA /* ASOtpTextFieldViewClassic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE36E3167B8F1A3D0B57C6069AC13EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7935E228595C8074FF1D6F5559435E /* ASDropDownIcon.swift in Sources */,
+				CB6DF2D098DE931C7F54E35F4CC96D58 /* ASTextField+Extensions.swift in Sources */,
+				ECD01B59A4A65C4346CB022A41CD6592 /* ASTextField-dummy.m in Sources */,
+				A5A96D32034F02603FF4F79EBF6EEB99 /* ASTextField.swift in Sources */,
+				543C45C7DAB12B0F36610D48F64B404B /* ASTextFieldClassicStyle.swift in Sources */,
+				30EAC075AB3D33462D4AE2CFD6FF09BB /* ASTextFieldMath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		100EBD697032B3FFBF1815E3EC30B976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASValidator;
+			target = DF756F85F83DBCAB00F3BE1EC3E05EA6 /* ASValidator */;
+			targetProxy = 09C9ED2C259BE047740350401C620A97 /* PBXContainerItemProxy */;
+		};
 		1B57693FE6872EA66AD1B239DAAF2197 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASOtpTextField;
@@ -1550,11 +1652,23 @@
 			target = A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */;
 			targetProxy = 4E88B9C4C8BA99B4EEE8EBEFB6C4A630 /* PBXContainerItemProxy */;
 		};
+		39F548DAC19CD7034A565F5A6C8A4DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASTextField;
+			target = 186C3FE72CB97203C32D44BD6F42E497 /* ASTextField */;
+			targetProxy = 46FEB232A3B9D9512BF99A0EA26AE6DD /* PBXContainerItemProxy */;
+		};
 		4013D279A6351C6E0165F79715FE4703 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASLabel;
 			target = B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */;
 			targetProxy = AE508F41B9D5895737D088DAD12E00A5 /* PBXContainerItemProxy */;
+		};
+		5243E320F0942B1731D5F802BCF9BBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASOtpTextField;
+			target = 2F35E31E52D854CC8B71FB5C0776EFF0 /* ASOtpTextField */;
+			targetProxy = 4B090C8D119BA50BD6F105F2E6202C85 /* PBXContainerItemProxy */;
 		};
 		551D44047EF480B39769CAB7B9009281 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1562,17 +1676,41 @@
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = 4B37504C55EBBD33C26A8F3F0314D269 /* PBXContainerItemProxy */;
 		};
+		87CDCE680CD163303503689DE336A9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASButton;
+			target = 235FB5394A87EB9D3994D619CF7D3213 /* ASButton */;
+			targetProxy = 70A3B641BAEC0219662B75A29A20DC87 /* PBXContainerItemProxy */;
+		};
+		9EA15131ACBF2931B902EABBE0A88650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASRadioGroup;
+			target = A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */;
+			targetProxy = C4CCCCFB5CB1427BCAEE0E8BCDE67257 /* PBXContainerItemProxy */;
+		};
 		B1BFD2076308D5C6ACF5A1ED848D7765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASForm;
 			target = ADC5BF3C10FF79F5EB23B8C315DE9889 /* ASForm */;
 			targetProxy = C312C05574AEC50CCF40747ABFB2E5E1 /* PBXContainerItemProxy */;
 		};
+		B810A93ACB789A0653CE5E1D4B7E60A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASDropDown;
+			target = 08DA35DF5FFE83080450A06B7F8AA92C /* ASDropDown */;
+			targetProxy = E4D00C07A49A20686D049E02A66972D8 /* PBXContainerItemProxy */;
+		};
 		BAB9BA2F60CB8AADB781F4E70D688CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASButton;
 			target = 235FB5394A87EB9D3994D619CF7D3213 /* ASButton */;
 			targetProxy = 2B763E2AF0BE0B11BACE1D7C94A50368 /* PBXContainerItemProxy */;
+		};
+		C19103108B4C468A83C41CC5CF96F031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASMToast;
+			target = E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */;
+			targetProxy = 0C719C58754748CCD2EB77B0C27BCEEB /* PBXContainerItemProxy */;
 		};
 		D216E4EEC644B4040543F53DB5F96E54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1592,6 +1730,12 @@
 			target = E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */;
 			targetProxy = 480A78BB28E46BAE958FECA0E872D7F3 /* PBXContainerItemProxy */;
 		};
+		FD591BEBF51F76BD24956BC74580A532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASLabel;
+			target = B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */;
+			targetProxy = 11DE78FA383269E40D958FA5081FFBDA /* PBXContainerItemProxy */;
+		};
 		FF112544BB4241B60E553FC63F028862 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ASValidator;
@@ -1601,37 +1745,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0372889110393D2E73E6987F35A5057C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BBAAA3F3538E28D858DE0B16FB0ED17 /* ASMToast.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
-				PRODUCT_MODULE_NAME = ASMToast;
-				PRODUCT_NAME = ASMToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0D8CB55CC6E703E56ECD94742D1A8E37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6844E83E1B1528833FB9A54B5DA45AD7 /* Pods-ASForm_Tests.release.xcconfig */;
@@ -1659,38 +1772,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		153BCBCD57DA9D185BC59D1A3717CF60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASValidator/ASValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASValidator/ASValidator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASValidator/ASValidator.modulemap";
-				PRODUCT_MODULE_NAME = ASValidator;
-				PRODUCT_NAME = ASValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1729,69 +1810,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1DC2C27C8AFA1C86B3CDC564DEC83F29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 745EEBD7F5BB54D4EAA9DA4EF4F490F5 /* ASForm.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
-				PRODUCT_MODULE_NAME = ASForm;
-				PRODUCT_NAME = ASForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3667550138D0B7477632E124FED96CCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3F100E00C1988D0259A1C559CC849F /* ASLabel.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASLabel/ASLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASLabel/ASLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASLabel/ASLabel.modulemap";
-				PRODUCT_MODULE_NAME = ASLabel;
-				PRODUCT_NAME = ASLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3AC047AD54C72969D00AF6F1243561F3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1858,7 +1876,102 @@
 			};
 			name = Debug;
 		};
-		4577F8E409D407463B1D814C1F733D34 /* Release */ = {
+		4429E9C9AA028F4E1AFA7F3C48FD890F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE935232178FDFEB3C3613CD900774C /* ASMToast.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
+				PRODUCT_MODULE_NAME = ASMToast;
+				PRODUCT_NAME = ASMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		738FFBB77937BD86B3261647BA3800C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745EEBD7F5BB54D4EAA9DA4EF4F490F5 /* ASForm.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
+				PRODUCT_MODULE_NAME = ASForm;
+				PRODUCT_NAME = ASForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		740792AFA02ABCD11A34EDB3BC1150F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASTextField;
+				PRODUCT_NAME = ASTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		776E266BD4DD18DDBBAA2C4DFF2F2AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B405D759AD19262797FCAFC5A9FE51A8 /* ASLabel.release.xcconfig */;
 			buildSettings = {
@@ -1879,38 +1992,6 @@
 				MODULEMAP_FILE = "Target Support Files/ASLabel/ASLabel.modulemap";
 				PRODUCT_MODULE_NAME = ASLabel;
 				PRODUCT_NAME = ASLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7FBA57996DDBE7D53314EAF1F72BAD0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
-				PRODUCT_MODULE_NAME = ASTextField;
-				PRODUCT_NAME = ASTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1986,9 +2067,9 @@
 			};
 			name = Debug;
 		};
-		8D4BBFB5E5EF3F921A0A5653DA823EED /* Debug */ = {
+		87E5E82AA3DF18DE4F8307FAD3CC7BCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */;
+			baseConfigurationReference = 512384060520E57E7F6B8290ECE9D9AB /* ASOtpTextField.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2012,10 +2093,43 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		93DE1D4AEB7AEDD27C16DE3DDC57836F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASTextField;
+				PRODUCT_NAME = ASTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		94CE18A30A3CA2FC6C74AE1008718EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2048,9 +2162,9 @@
 			};
 			name = Debug;
 		};
-		960509C5C39F9EF9F162DB2C347D7758 /* Release */ = {
+		9B624BFA44CF44953708D3C5685B1C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BE935232178FDFEB3C3613CD900774C /* ASMToast.release.xcconfig */;
+			baseConfigurationReference = ABAB60AA5139AFC277CBB890C9E04C34 /* ASForm.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2061,24 +2175,54 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
-				PRODUCT_MODULE_NAME = ASMToast;
-				PRODUCT_NAME = ASMToast;
+				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
+				PRODUCT_MODULE_NAME = ASForm;
+				PRODUCT_NAME = ASForm;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		9EB8C0A89547B524F3FEC9253C2561F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASOtpTextField/ASOtpTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASOtpTextField;
+				PRODUCT_NAME = ASOtpTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A9DE49EE17AE61E74D527E55FF4D438C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2169,38 +2313,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B687769F6E898A4DF00A0C34CA857E06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
-				PRODUCT_MODULE_NAME = ASRadioGroup;
-				PRODUCT_NAME = ASRadioGroup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -2300,40 +2412,9 @@
 			};
 			name = Release;
 		};
-		E6BC8D91630CD8CAD51066B9CE58766D /* Debug */ = {
+		C27950144A9280C81BF4813F18376DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABAB60AA5139AFC277CBB890C9E04C34 /* ASForm.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
-				PRODUCT_MODULE_NAME = ASForm;
-				PRODUCT_NAME = ASForm;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E6D1E3EFE1266F4E6A706642B87533AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CAB4E1EEDCC06AA95A0215C5603A884 /* ASValidator.debug.xcconfig */;
+			baseConfigurationReference = 04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2352,6 +2433,132 @@
 				MODULEMAP_FILE = "Target Support Files/ASValidator/ASValidator.modulemap";
 				PRODUCT_MODULE_NAME = ASValidator;
 				PRODUCT_NAME = ASValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C694421166B8605AA732D58D75B2A9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = ASRadioGroup;
+				PRODUCT_NAME = ASRadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CED141848A9EA66FDC7B1B3AAF12B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = ASRadioGroup;
+				PRODUCT_NAME = ASRadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7637A0296EAA807B586A9CE3EE02BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBAAA3F3538E28D858DE0B16FB0ED17 /* ASMToast.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
+				PRODUCT_MODULE_NAME = ASMToast;
+				PRODUCT_NAME = ASMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA81AD2EF677243755B9480CB58CF710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3F100E00C1988D0259A1C559CC849F /* ASLabel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASLabel/ASLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLabel/ASLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLabel/ASLabel.modulemap";
+				PRODUCT_MODULE_NAME = ASLabel;
+				PRODUCT_NAME = ASLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2395,9 +2602,9 @@
 			};
 			name = Debug;
 		};
-		F0891796900B15309B723BF611D8ED50 /* Release */ = {
+		F7BBD0F54A6BD32F00B91842A3AD5AD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 512384060520E57E7F6B8290ECE9D9AB /* ASOtpTextField.release.xcconfig */;
+			baseConfigurationReference = 0CAB4E1EEDCC06AA95A0215C5603A884 /* ASValidator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2408,77 +2615,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASOtpTextField/ASOtpTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ASValidator/ASValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASValidator/ASValidator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField.modulemap";
-				PRODUCT_MODULE_NAME = ASOtpTextField;
-				PRODUCT_NAME = ASOtpTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F7977DE091CD4CEE74CE1A471B2FCB5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
-				PRODUCT_MODULE_NAME = ASTextField;
-				PRODUCT_NAME = ASTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE04BFC3466221CAE0A59EE6504AD8D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
-				PRODUCT_MODULE_NAME = ASRadioGroup;
-				PRODUCT_NAME = ASRadioGroup;
+				MODULEMAP_FILE = "Target Support Files/ASValidator/ASValidator.modulemap";
+				PRODUCT_MODULE_NAME = ASValidator;
+				PRODUCT_NAME = ASValidator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2492,11 +2636,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		156CD3AA0BD9CDF2B2C9830E6D33E1B0 /* Build configuration list for PBXNativeTarget "ASOtpTextField" */ = {
+		14389EC5029A9E055E4108893BF8E646 /* Build configuration list for PBXNativeTarget "ASValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D4BBFB5E5EF3F921A0A5653DA823EED /* Debug */,
-				F0891796900B15309B723BF611D8ED50 /* Release */,
+				F7BBD0F54A6BD32F00B91842A3AD5AD7 /* Debug */,
+				C27950144A9280C81BF4813F18376DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3954271E120692E3E1D0ABA8E9BF80C8 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C694421166B8605AA732D58D75B2A9AC /* Debug */,
+				CED141848A9EA66FDC7B1B3AAF12B41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2510,15 +2663,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46F7391D324A26A71CE1BF1908BBFA19 /* Build configuration list for PBXNativeTarget "ASMToast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0372889110393D2E73E6987F35A5057C /* Debug */,
-				960509C5C39F9EF9F162DB2C347D7758 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2528,11 +2672,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52585BBB0341A81D095DEF25E96343EA /* Build configuration list for PBXNativeTarget "ASTextField" */ = {
+		55D31CB325694095AF0D4617D1BD14DA /* Build configuration list for PBXNativeTarget "ASOtpTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7977DE091CD4CEE74CE1A471B2FCB5D /* Debug */,
-				7FBA57996DDBE7D53314EAF1F72BAD0A /* Release */,
+				9EB8C0A89547B524F3FEC9253C2561F5 /* Debug */,
+				87E5E82AA3DF18DE4F8307FAD3CC7BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78306A1B894FBBF73034ED767EC2F662 /* Build configuration list for PBXNativeTarget "ASForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B624BFA44CF44953708D3C5685B1C4A /* Debug */,
+				738FFBB77937BD86B3261647BA3800C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793D7DDC75006436A7430B69524DA594 /* Build configuration list for PBXNativeTarget "ASTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740792AFA02ABCD11A34EDB3BC1150F7 /* Debug */,
+				93DE1D4AEB7AEDD27C16DE3DDC57836F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2564,11 +2726,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5E51E8447520390D141513B3FFC42D7 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */ = {
+		A8AE157E4D552F57F8F2ECDA9B364F46 /* Build configuration list for PBXNativeTarget "ASLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE04BFC3466221CAE0A59EE6504AD8D1 /* Debug */,
-				B687769F6E898A4DF00A0C34CA857E06 /* Release */,
+				EA81AD2EF677243755B9480CB58CF710 /* Debug */,
+				776E266BD4DD18DDBBAA2C4DFF2F2AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E5C3B02CE06DFB0B9CDE8237A87A04 /* Build configuration list for PBXNativeTarget "ASMToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7637A0296EAA807B586A9CE3EE02BE2 /* Debug */,
+				4429E9C9AA028F4E1AFA7F3C48FD890F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2578,33 +2749,6 @@
 			buildConfigurations = (
 				8588C2C0258388CB8B1FB6123AF7BB96 /* Debug */,
 				3AC047AD54C72969D00AF6F1243561F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6DBA8E2477FAC5E45B8E178A9BA1889 /* Build configuration list for PBXNativeTarget "ASLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3667550138D0B7477632E124FED96CCC /* Debug */,
-				4577F8E409D407463B1D814C1F733D34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F03DCBF1F103B897E3BB244D11E2F4C5 /* Build configuration list for PBXNativeTarget "ASForm" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6BC8D91630CD8CAD51066B9CE58766D /* Debug */,
-				1DC2C27C8AFA1C86B3CDC564DEC83F29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFE0A1F2407CBD49E0F89DA4789FF704 /* Build configuration list for PBXNativeTarget "ASValidator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6D1E3EFE1266F4E6A706642B87533AA /* Debug */,
-				153BCBCD57DA9D185BC59D1A3717CF60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
