@@ -1,0 +1,6 @@
+framework module ASForm {
+  umbrella header "ASForm-umbrella.h"
+
+  export *
+  module * { export * }
+}

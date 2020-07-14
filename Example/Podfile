@@ -3,6 +3,15 @@ use_frameworks!
 target 'ASForm_Example' do
   pod 'ASForm', :path => '../'
 
+  pod 'ASValidator'
+  pod 'ASLabel'
+  pod 'ASDropDown'
+  pod 'ASMToast'
+  pod 'ASOtpTextField'
+  pod 'ASRadioGroup'
+  pod 'ASButton'
+  pod 'ASTextField'
+  
   target 'ASForm_Tests' do
     inherit! :search_paths
 

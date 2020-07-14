@@ -1,0 +1,6 @@
+framework module Pods_ASForm_Tests {
+  umbrella header "Pods-ASForm_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

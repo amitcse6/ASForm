@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/ASButton" "${PODS_CONFIGURATION_BUILD_DIR}/ASDropDown" "${PODS_CONFIGURATION_BUILD_DIR}/ASForm" "${PODS_CONFIGURATION_BUILD_DIR}/ASLabel" "${PODS_CONFIGURATION_BUILD_DIR}/ASMToast" "${PODS_CONFIGURATION_BUILD_DIR}/ASOtpTextField" "${PODS_CONFIGURATION_BUILD_DIR}/ASRadioGroup" "${PODS_CONFIGURATION_BUILD_DIR}/ASTextField" "${PODS_CONFIGURATION_BUILD_DIR}/ASValidator" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ASButton/ASButton.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASDropDown/ASDropDown.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASForm/ASForm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASLabel/ASLabel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASMToast/ASMToast.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASOtpTextField/ASOtpTextField.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASRadioGroup/ASRadioGroup.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASTextField/ASTextField.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ASValidator/ASValidator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "ASButton" -framework "ASDropDown" -framework "ASForm" -framework "ASLabel" -framework "ASMToast" -framework "ASOtpTextField" -framework "ASRadioGroup" -framework "ASTextField" -framework "ASValidator" -framework "FBSnapshotTestCase" -framework "Foundation" -framework "QuartzCore" -framework "UIKit" -framework "XCTest"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

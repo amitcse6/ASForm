@@ -1,0 +1,2605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D02E4ABC18001626CE9D45A7DA8945 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		048DAAF9CA58780AD40BBBA0F2BAD8DC /* ASLabelStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443671C81AD6514D30979A0D2C41522 /* ASLabelStyleClassic.swift */; };
+		069755F3EAE1B4732613B5B3BCE08667 /* ASDropDownView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE68D02B19A75142DB3018AA676A27 /* ASDropDownView+Extension.swift */; };
+		085BEC3B4970F393AD5AE3BED2568D90 /* ASRadioGroupClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD0463744963AF2501040D5F15A056 /* ASRadioGroupClassic.swift */; };
+		0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C9308C1E524FF03A18DD6F14CA0853 /* ASButton-dummy.m */; };
+		0DE78A5859FBE9BCF29A29B39361C174 /* ASVRequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A65C13875736894E34D935602E29EA /* ASVRequiredRule.swift */; };
+		11137322E29B4611DD945E868388E328 /* ASLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2384062A7061FB7A16C4EFE897E6AA25 /* ASLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 905C49D0884B0A113DBC36D4AD1F178E /* UIApplication+StrictKeyWindow.m */; };
+		12F714EDF773CAB69D863D6B22784DF9 /* Pods-ASForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2ABC4805A94B2E3AF5054217C2AB2E /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		14D1F57BC3FBFD9FA30F71A89EF3797C /* ASMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08A0529DF1FBE007D1B9BCB2F49520 /* ASMToast.swift */; };
+		1693F1D4766283BC3D109A8D379BBFD6 /* ASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFABBE1307CC77165C55DD2AA8D734 /* ASValidator-dummy.m */; };
+		18B0BECC1A978D7D2E9DFE7A26C49B1C /* Pods-ASForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */; };
+		1B11D534CA543DE947626001EA0EB4DC /* ASLabelStyleDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5124A8BABC90F5150E4076BE4F5C0 /* ASLabelStyleDark.swift */; };
+		1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B74D6C5DB01E92CD9D9F71A99C1AB6 /* ASDropDownBox.swift */; };
+		21FBF20514DFE9A290DB1E48D547A9E9 /* ASForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FDC4228FE230200F2CBEC8323CB02 /* ASForm-dummy.m */; };
+		2571B82FA71CDD163A54C717DEE1B527 /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB540A5C622E57AEDFE39C52734479 /* ASRadioGroup+Extension.swift */; };
+		297AB089A2D2684687E4ABA7576E401D /* Pods-ASForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC7C1833B85A0AC36194FB3C80C59F0 /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE5DE8C76BE31F958030F4E33DEFA3 /* ASVResult.swift */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD89EEF1F980BAC2CDC7C22C37A730 /* UIImage+Compare.m */; };
+		35500AA794219E89176F3B23AA883E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		370E4ECF16042743810199C313D126E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		3AEEF141710F3C25225F282E37CA26A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		3FBB72B4C90522C68F68BDA225E10D0B /* ASForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 280E364301FE309311640F47011E5946 /* ASForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = EC39B77D06FD418941FAAB3DFB0ECAFC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		403A141399450EA4E74E7B7559D446E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		422B8594E4B9AD8C145F1B2394145F3E /* ASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F756BF432E0D91D4889560FABD11EF /* ASValidator.swift */; };
+		44CCA2BFBA4991CBC83C7B9C69FDC225 /* ASLabelStyleNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA39771C6F75E2F85C49F7D1FF6903A /* ASLabelStyleNormal.swift */; };
+		45AA90FAD1342029339E1A15AD30FCB7 /* ASVMaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFB8F67E2BCC7C15EB6BDA433676E7 /* ASVMaxLengthRule.swift */; };
+		4A2C171FA11DC8F32CA07828387A61A3 /* ASTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C64551224434F3946ACF4D3686BC3483 /* ASTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A88C2C04891D5A1BF18D67948EDAA6E /* Pods-ASForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8711C7406D67CD176C9F7C4F6847F4 /* ASOtpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02357A8F69C98DDC6D9182C2CB679185 /* ASOtpTextField-dummy.m */; };
+		51D4F25E67D65D40F87A9B2D5E89117D /* ASOtpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD31D5B30EDC926CAFD592366F2647DE /* ASOtpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52123B5E4E8A6A489ED0EBBCFD077E85 /* ASDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8EA09D74A9B499028804282FBB5B9 /* ASDropDownItem.swift */; };
+		52B7ECE0A98BBA80DF52C5FD7E652F3E /* ASMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA897935906A6FA7E9CFB81A4613C9AC /* ASMToast-dummy.m */; };
+		5665232574E0BBC0271A334BF83A88D6 /* ASRadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B06369B3810EFC8C1AE9D222463773 /* ASRadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58017D20A3F6B576A02DC9F26B5EE2E7 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC16A7BD147E017F64282C1A865574D /* ASTextField.swift */; };
+		58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		5978D0C29D07520FD7530C14F60538A4 /* ASRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB68DDCBAE3B43E3BDFE1CD4A04852F /* ASRadioButton.swift */; };
+		5E8E83CB2763F44079A0A5A7D43B026E /* ASTextFieldMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5A93303B1C9912DE121E5CCCA210A /* ASTextFieldMath.swift */; };
+		61BE5F7FA2E5BF9C49AF265611ACC9A1 /* ASOtpTextFieldView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE03851FB34F77C469E5DE5056CD8AB /* ASOtpTextFieldView+Extensions.swift */; };
+		640FB0DE33FBC7E6CE2245FF992D1DFD /* ASLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A9D7795587F08EE5CEB1FD419D59B /* ASLabel+Extension.swift */; };
+		645DC047D269F50FF9C25FBBE2C7C69A /* ASTextFieldClassicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD1E49D033F36AC754CC35386C6769 /* ASTextFieldClassicStyle.swift */; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E295E21B4696F512C3DE841AD0D41BB5 /* FBSnapshotTestCase-dummy.m */; };
+		6E7E2963E46D61D88EC260FF76269639 /* ASRadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D07CCE09D3D1B6A9923922F45B4C87F /* ASRadioGroup-dummy.m */; };
+		6EE99E55EF36D428E8589D24CC420B40 /* ASDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCFB45CEECDF6C02BEC15B972CCC095 /* ASDropDown-dummy.m */; };
+		746BEA0977AC0825DCB5C101F92002A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		765BBA39893230033CE61ED4DA1B282A /* ASDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E7312AFD657216291228014880918 /* ASDropDownView.swift */; };
+		7A3E9F2D93F4EDC4DE98D0F5237C7B25 /* ASDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE51352EC7C9F051E003D8A5582641 /* ASDropDownCell.swift */; };
+		7DEF1866D9D79DE2BB491958C8B70AA2 /* ASVMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FEAA8219D42B532947E99630E8EB1 /* ASVMath.swift */; };
+		7EC15057AB31323D0DD250A04BE51F05 /* ASOtpTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1A869F549AEF4E403B46F9D9B4422 /* ASOtpTextField+Extensions.swift */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B462E9A070522BC4A6AC2C1178C2339 /* FBSnapshotTestController.m */; };
+		8A52FC035ABDBED1219D8CA41F121AB9 /* ASOtpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F9315617BD7895D3F9B3D0997C35F /* ASOtpTextFieldView.swift */; };
+		8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D9A931BD4C96DC1C3F6D3BAF8BA72 /* ASButton.swift */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2450D05E9A1C501814806A6D964828 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9325BD587120AFCACF2592C94C70F882 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3C0212419034709E5D411C35E649F /* ASVLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87F62F40DD6F5C16F504EF3CD9CAEE /* ASVLengthRule.swift */; };
+		922A764474890BDD0DD37B26B298AFAB /* ASRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC772187A6064A77C55F6ECC3D4D877A /* ASRadioGroup.swift */; };
+		92D18DE130C997D21D6B67CD6F9D8E82 /* ASTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CECE35EAE2A9436FE382A418244F8BF7 /* ASTextField-dummy.m */; };
+		930A03976A3615F302939F4CE49ECDCC /* ASMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0583E4D5390DF5DDB7DC5EAE33D954B4 /* ASMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949A48C24312BA305B7977BAF661235D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		958C30FDACC59793247DCDD5CA19DBAD /* ASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA41EE81B73D953E162271A774F1F93 /* ASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99010B00861A520F4A861E6D814D129F /* ASDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20AD2DBEDBFFA30E6E625595ECE5AFA /* ASDropDown.swift */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C90E50A7278AB52883F79D35AF6DC4 /* SwiftSupport.swift */; };
+		A1CD7BFD19F80DBCAF9475B2F181636B /* ASVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D11A16346632A0D9637D9D71BDBDD /* ASVError.swift */; };
+		A3532FAE1E4F545A027974DD5EFD0489 /* ASOtpTextFieldClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8725B9E2108B95055BB173D4E4CF6 /* ASOtpTextFieldClassic.swift */; };
+		A3F22C987E577000E952D7FB9C172A57 /* ASValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092755FEC86FF855695EBBD8EBD4577 /* ASValidation.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EED77F219C6C70E1AAFFAEA16F1570 /* UIImage+Snapshot.m */; };
+		A55078B4F02700A545D25423C321BD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		A65B20582E1C3A0B2E23EA19F370EB60 /* ASButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE33C5B5B1D1A44C3615DA819E42E1E /* ASButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B2C320A3493AE738BE99FBDADDCBCC21 /* ASOtpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446A1F049E2ACD3A0620E2F516BAE321 /* ASOtpTextField.swift */; };
+		B5B1792BE5B812B8926DBC298E6EE95F /* ASVMailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999B857983239B4E68AE5528989CADE /* ASVMailRule.swift */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3CDAD68F01E4571D97E6C6DCE18D78 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BCB2E68B8BEE10733AFE3C4F321DFE31 /* ASMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C03B98B58EECC81DF06419D13406D /* ASMToastView.swift */; };
+		BD3D3228D86587DC8BAA62C15139536C /* ASDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAE1B05F05D396D5D1FC23B4FA4CC90 /* ASDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C205C8B5FFECC6DFB6198DF99C88BA50 /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74B59CDEBFCC663A86130D5A93DE67 /* ASLabel.swift */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 824831E9E93D80E86F6FDE8EB7250C2A /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59DEC74BDE415B7E1ED8F287DE7EBDD /* ASLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC467FE250F6DBC21B51960CF9C534 /* ASLabel-dummy.m */; };
+		C5ADBABA19FA634AC4C74B50E6DDE4B1 /* ASDropDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053FBC44AF6A5F894EAFBB2343D9703D /* ASDropDownIcon.swift */; };
+		CA23D2507B93661AB1FABA441593641E /* ASVRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566129EAEB4BE707DA7BE07FDF336C06 /* ASVRule.swift */; };
+		CBA68F5CB62388EF5405B62698749C66 /* ASValidatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9879B8CDA201FA38A9C330447F1F11EF /* ASValidatorEntity.swift */; };
+		CFA4457AC00DD5930C05CA701D87A732 /* ASOtpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD15E6F026F83052725CB01E5585003 /* ASOtpField.swift */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F59B63D41001F2393B88BE006C3C9D28 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE078229683F165AC439D285BC256203 /* ASVMinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC449CF1EF572603E0B164B457EA5B /* ASVMinLengthRule.swift */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519A4B12F0832AF1F89AA839119DE5D8 /* ASButtonStyleClassic.swift */; };
+		E632052B614BE2E3C88E45866FCAB32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		E6E006FE6B0EFF1801739DEABD65EF7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B31F6B728CBFE9DD49E64ADAF81F0 /* FBSnapshotTestCasePlatform.m */; };
+		EA66328389871FC838E0CAC040AB5D8D /* ASDropDownViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD6490A7E3DC21A5A0CC5ACB7435D0C /* ASDropDownViewDefault.swift */; };
+		EEEA05B018E8D729A34E7301717774E2 /* ASTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35B3AE7A4149AEB0B3B8E348BE5890 /* ASTextField+Extensions.swift */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F9BE39E3D5AF311A01266B8D3BCE24 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F66C729AA6B1B5F0ADDC5658C4EB57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		F67BC2FC8D77C052652C66FEB9059DA7 /* ASOtpTextFieldViewClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B7CEDAD3A3CB8CCEF5373B816A3E6 /* ASOtpTextFieldViewClassic.swift */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3ED0EBB891579B8ACFEB5EC7FAED28 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB3B2870E65EDE1D1975367AE7FF1D30 /* ASRadioButtonClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013B490FE15B83121A9620F368D1C8B /* ASRadioButtonClassic.swift */; };
+		FCB291EE2394FEC463AE6FA375AB9EA7 /* ASRadioButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC50509E6BF80077C48F6B93888F101 /* ASRadioButton+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B763E2AF0BE0B11BACE1D7C94A50368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235FB5394A87EB9D3994D619CF7D3213;
+			remoteInfo = ASButton;
+		};
+		37C0AACBBF5AD0E6C772D3D45CA13658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533F51812BC178DDE43D8C362143131C;
+			remoteInfo = "Pods-ASForm_Example";
+		};
+		480A78BB28E46BAE958FECA0E872D7F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7CBC6DC217CA468CFDC46CF2ECF5608;
+			remoteInfo = ASMToast;
+		};
+		4B37504C55EBBD33C26A8F3F0314D269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		4E88B9C4C8BA99B4EEE8EBEFB6C4A630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3727D9A844E96F27F667DDF43D3DF09;
+			remoteInfo = ASRadioGroup;
+		};
+		7AA552B25A833F73F2831EB0C11185A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08DA35DF5FFE83080450A06B7F8AA92C;
+			remoteInfo = ASDropDown;
+		};
+		92F82A190F81BF6E9E06588AAC2A1B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C3FE72CB97203C32D44BD6F42E497;
+			remoteInfo = ASTextField;
+		};
+		AE508F41B9D5895737D088DAD12E00A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FB4A81AA73605CFCF9A8FFC20F65BD;
+			remoteInfo = ASLabel;
+		};
+		C312C05574AEC50CCF40747ABFB2E5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC5BF3C10FF79F5EB23B8C315DE9889;
+			remoteInfo = ASForm;
+		};
+		CB808DE541E845DDE8CDF3327915A9A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF756F85F83DBCAB00F3BE1EC3E05EA6;
+			remoteInfo = ASValidator;
+		};
+		CE71AEA02DA293086BC58CD3571952C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F35E31E52D854CC8B71FB5C0776EFF0;
+			remoteInfo = ASOtpTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001B31F6B728CBFE9DD49E64ADAF81F0 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		00C90E50A7278AB52883F79D35AF6DC4 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		01CE5DE8C76BE31F958030F4E33DEFA3 /* ASVResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVResult.swift; path = Source/ASVResult.swift; sourceTree = "<group>"; };
+		02357A8F69C98DDC6D9182C2CB679185 /* ASOtpTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASOtpTextField-dummy.m"; sourceTree = "<group>"; };
+		0241848F24F88CF049B9CB9747BF6687 /* ASDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.release.xcconfig; sourceTree = "<group>"; };
+		028D9A931BD4C96DC1C3F6D3BAF8BA72 /* ASButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButton.swift; path = Source/ASButton.swift; sourceTree = "<group>"; };
+		02BFABBE1307CC77165C55DD2AA8D734 /* ASValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASValidator-dummy.m"; sourceTree = "<group>"; };
+		030CA5EB9ADBA1E39C98EFCAB43F98CA /* ASButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.release.xcconfig; sourceTree = "<group>"; };
+		053FBC44AF6A5F894EAFBB2343D9703D /* ASDropDownIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownIcon.swift; path = Source/ASDropDownIcon.swift; sourceTree = "<group>"; };
+		0544C5BE060B2B10AAE702A4D0CCD90F /* Pods_ASForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASForm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FDC4228FE230200F2CBEC8323CB02 /* ASForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASForm-dummy.m"; sourceTree = "<group>"; };
+		0583E4D5390DF5DDB7DC5EAE33D954B4 /* ASMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-umbrella.h"; sourceTree = "<group>"; };
+		05F569508CCD945DF0B1C260CAE1D701 /* ASValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.release.xcconfig; sourceTree = "<group>"; };
+		09E1F588C1250C62F35BDD77B201C668 /* Pods-ASForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A2FEAA8219D42B532947E99630E8EB1 /* ASVMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMath.swift; path = Source/ASVMath.swift; sourceTree = "<group>"; };
+		0AA39771C6F75E2F85C49F7D1FF6903A /* ASLabelStyleNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleNormal.swift; path = Source/ASLabelStyleNormal.swift; sourceTree = "<group>"; };
+		0C847DBB33EEA2CF19438F28BCFADC9C /* Pods-ASForm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASForm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13533D14039CEAC7879881EC78854209 /* ASTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASTextField.modulemap; sourceTree = "<group>"; };
+		1575AC47884638495C657AD53AF6D3A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18367EB2C1EFD8BD2BEC5F04E14FAF50 /* ASMToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASMToast-Info.plist"; sourceTree = "<group>"; };
+		1C1B7CEDAD3A3CB8CCEF5373B816A3E6 /* ASOtpTextFieldViewClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldViewClassic.swift; path = Source/ASOtpTextFieldViewClassic.swift; sourceTree = "<group>"; };
+		1C20982DBC98AD3342DD489F852B1C62 /* ASMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.release.xcconfig; sourceTree = "<group>"; };
+		1E77932201FCBDF9ADDF00827E28A486 /* Pods-ASForm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASForm_Example.modulemap"; sourceTree = "<group>"; };
+		1F60EA06C107D84710371D93BA61CC58 /* ASOtpTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.release.xcconfig; sourceTree = "<group>"; };
+		20528F85D59EF8BAD35FEEA2DA09AC8A /* ASButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208088C54D88C0C13C57E65ECDC48F92 /* Pods_ASForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASForm_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2384062A7061FB7A16C4EFE897E6AA25 /* ASLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-umbrella.h"; sourceTree = "<group>"; };
+		23B06369B3810EFC8C1AE9D222463773 /* ASRadioGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-umbrella.h"; sourceTree = "<group>"; };
+		2490692FD3F5AEF80CCD09E32B7A9F93 /* ASOtpTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASOtpTextField-Info.plist"; sourceTree = "<group>"; };
+		280E364301FE309311640F47011E5946 /* ASForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASForm-umbrella.h"; sourceTree = "<group>"; };
+		2821573E574098C743FDE50A5463D528 /* ASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-prefix.pch"; sourceTree = "<group>"; };
+		28B97F33DF9841CAE2946EF9D8D120B0 /* ASButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.debug.xcconfig; sourceTree = "<group>"; };
+		296AEF7E4DC191E6D70B2107BFA85972 /* ASLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.debug.xcconfig; sourceTree = "<group>"; };
+		2CC16A7BD147E017F64282C1A865574D /* ASTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextField.swift; path = Source/ASTextField.swift; sourceTree = "<group>"; };
+		2EC5BB11D3376622F2934F2D2180E6ED /* ASOtpTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASOtpTextField.modulemap; sourceTree = "<group>"; };
+		2F08A0529DF1FBE007D1B9BCB2F49520 /* ASMToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToast.swift; path = Source/ASMToast.swift; sourceTree = "<group>"; };
+		2FE8EA09D74A9B499028804282FBB5B9 /* ASDropDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownItem.swift; path = Source/ASDropDownItem.swift; sourceTree = "<group>"; };
+		30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASForm_Tests-dummy.m"; sourceTree = "<group>"; };
+		30E35D79CC6FCF603F6180C821B424C9 /* ASForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.release.xcconfig; sourceTree = "<group>"; };
+		34D79F5A3EC76E079057FD6BA9D8B06C /* Pods-ASForm_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Tests-Info.plist"; sourceTree = "<group>"; };
+		36AD0463744963AF2501040D5F15A056 /* ASRadioGroupClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroupClassic.swift; path = Source/ASRadioGroupClassic.swift; sourceTree = "<group>"; };
+		3A87F62F40DD6F5C16F504EF3CD9CAEE /* ASVLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVLengthRule.swift; path = Source/ASVLengthRule.swift; sourceTree = "<group>"; };
+		3E86C6D4BA41C0C2BB2FE48D147CEADE /* ASForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.debug.xcconfig; sourceTree = "<group>"; };
+		3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASForm_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3F2450D05E9A1C501814806A6D964828 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3FDC86A1CF6C34FC5920905CD10B75B7 /* ASLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASLabel-Info.plist"; sourceTree = "<group>"; };
+		4092755FEC86FF855695EBBD8EBD4577 /* ASValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidation.swift; path = Source/ASValidation.swift; sourceTree = "<group>"; };
+		40C9308C1E524FF03A18DD6F14CA0853 /* ASButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASButton-dummy.m"; sourceTree = "<group>"; };
+		43F756BF432E0D91D4889560FABD11EF /* ASValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidator.swift; path = Source/ASValidator.swift; sourceTree = "<group>"; };
+		446A1F049E2ACD3A0620E2F516BAE321 /* ASOtpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextField.swift; path = Source/ASOtpTextField.swift; sourceTree = "<group>"; };
+		44A4B05C232304954AC73D03C703B680 /* Pods-ASForm_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASForm_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4566A046EA9AC9362CDEDC4EEDE234D6 /* ASOtpTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.debug.xcconfig; sourceTree = "<group>"; };
+		4736D91109C2B2B6CBF6E82C59F3E348 /* Pods-ASForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47B1A869F549AEF4E403B46F9D9B4422 /* ASOtpTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextField+Extensions.swift"; path = "Source/ASOtpTextField+Extensions.swift"; sourceTree = "<group>"; };
+		49409676A8B3AFBB4F8C9889DA671D74 /* ASRadioGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRadioGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AD1E49D033F36AC754CC35386C6769 /* ASTextFieldClassicStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldClassicStyle.swift; path = Source/ASTextFieldClassicStyle.swift; sourceTree = "<group>"; };
+		4C29301CF9E25E86C333E55A5305F10B /* Pods-ASForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA25E9FB2F64DAE479EF7F5F20052EB /* ASDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-prefix.pch"; sourceTree = "<group>"; };
+		507695D53A917635C922884C359D94FC /* ASValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5110B806ABA86593353C4FCE36333CEC /* ASDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASDropDown.modulemap; sourceTree = "<group>"; };
+		519A4B12F0832AF1F89AA839119DE5D8 /* ASButtonStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButtonStyleClassic.swift; path = Source/ASButtonStyleClassic.swift; sourceTree = "<group>"; };
+		546C88169E3F53F45DA01E1D785BE747 /* ASTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.release.xcconfig; sourceTree = "<group>"; };
+		5614C0454865BF00089794CA6DF9AAAD /* ASForm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASForm-Info.plist"; sourceTree = "<group>"; };
+		566129EAEB4BE707DA7BE07FDF336C06 /* ASVRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRule.swift; path = Source/ASVRule.swift; sourceTree = "<group>"; };
+		57C76AE22D0DCAC2F2A0C76EA4571BAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5B336568AA7CCFDD538AD767DE7A6D9A /* ASForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASForm-prefix.pch"; sourceTree = "<group>"; };
+		5B484C9A37BF6BCA9C23A34ECEB76A75 /* ASButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-prefix.pch"; sourceTree = "<group>"; };
+		5C4E7312AFD657216291228014880918 /* ASDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownView.swift; path = Source/ASDropDownView.swift; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E74B12FBAB6341196CC58A3404F8E7F /* ASRadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-prefix.pch"; sourceTree = "<group>"; };
+		6013B490FE15B83121A9620F368D1C8B /* ASRadioButtonClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButtonClassic.swift; path = Source/ASRadioButtonClassic.swift; sourceTree = "<group>"; };
+		60916C31DA0F03E17229E0D1AB4DF68B /* ASDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B8397B0A414222D5BEE99C9EC03E42 /* Pods-ASForm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		65D8725B9E2108B95055BB173D4E4CF6 /* ASOtpTextFieldClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldClassic.swift; path = Source/ASOtpTextFieldClassic.swift; sourceTree = "<group>"; };
+		67D02E4ABC18001626CE9D45A7DA8945 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		6844E83E1B1528833FB9A54B5DA45AD7 /* Pods-ASForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6AA5A93303B1C9912DE121E5CCCA210A /* ASTextFieldMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldMath.swift; path = Source/ASTextFieldMath.swift; sourceTree = "<group>"; };
+		6CCFB45CEECDF6C02BEC15B972CCC095 /* ASDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASDropDown-dummy.m"; sourceTree = "<group>"; };
+		6D07CCE09D3D1B6A9923922F45B4C87F /* ASRadioGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASRadioGroup-dummy.m"; sourceTree = "<group>"; };
+		6DAB540A5C622E57AEDFE39C52734479 /* ASRadioGroup+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioGroup+Extension.swift"; path = "Source/ASRadioGroup+Extension.swift"; sourceTree = "<group>"; };
+		6DD5124A8BABC90F5150E4076BE4F5C0 /* ASLabelStyleDark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleDark.swift; path = Source/ASLabelStyleDark.swift; sourceTree = "<group>"; };
+		6DED8F8B0A9A95E98A3470C385782F08 /* Pods-ASForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASForm_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6E2ABC4805A94B2E3AF5054217C2AB2E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		6F6875ADAA31058680749A8B6999218F /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		6FE33C5B5B1D1A44C3615DA819E42E1E /* ASButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-umbrella.h"; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71A65C13875736894E34D935602E29EA /* ASVRequiredRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRequiredRule.swift; path = Source/ASVRequiredRule.swift; sourceTree = "<group>"; };
+		7B462E9A070522BC4A6AC2C1178C2339 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D59BCAC63BA036984FE278E1B62F5E7 /* ASMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.debug.xcconfig; sourceTree = "<group>"; };
+		7DA0F29F683674F9315EA15739317010 /* ASValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.debug.xcconfig; sourceTree = "<group>"; };
+		7E0A191B0C0759A7C969D35E6297B5F2 /* ASButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASButton-Info.plist"; sourceTree = "<group>"; };
+		7ECB99039A1DA492B8B1BE9BA21F6A5F /* ASLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAC467FE250F6DBC21B51960CF9C534 /* ASLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLabel-dummy.m"; sourceTree = "<group>"; };
+		7FC50509E6BF80077C48F6B93888F101 /* ASRadioButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioButton+Extension.swift"; path = "Source/ASRadioButton+Extension.swift"; sourceTree = "<group>"; };
+		81EED77F219C6C70E1AAFFAEA16F1570 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		824831E9E93D80E86F6FDE8EB7250C2A /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8591677938854D9A46A6A4E04E41D9D2 /* ASDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		8738B517613A98B35998A85992DC813B /* ASTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-prefix.pch"; sourceTree = "<group>"; };
+		8A74B59CDEBFCC663A86130D5A93DE67 /* ASLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabel.swift; path = Source/ASLabel.swift; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		905C49D0884B0A113DBC36D4AD1F178E /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9165628B65FE7C386FD7B6A3C19EB0C7 /* ASTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASTextField-Info.plist"; sourceTree = "<group>"; };
+		9325BD587120AFCACF2592C94C70F882 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		94273E48CEBD463B29794E540032B528 /* ASForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ASForm.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FA3F0C0E4D3F7F7DF3086F8CCEAC19 /* Pods-ASForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASForm_Tests.modulemap"; sourceTree = "<group>"; };
+		9662BC2244740109C1A80234F339F90A /* ASLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-prefix.pch"; sourceTree = "<group>"; };
+		9879B8CDA201FA38A9C330447F1F11EF /* ASValidatorEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidatorEntity.swift; path = Source/ASValidatorEntity.swift; sourceTree = "<group>"; };
+		9AD345C9821873BF67BDF00F041FED79 /* ASRadioGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASRadioGroup.modulemap; sourceTree = "<group>"; };
+		9B0C299ACC467A023ACC30475A57445B /* ASLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.release.xcconfig; sourceTree = "<group>"; };
+		9C6C03B98B58EECC81DF06419D13406D /* ASMToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToastView.swift; path = Source/ASMToastView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE03851FB34F77C469E5DE5056CD8AB /* ASOtpTextFieldView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextFieldView+Extensions.swift"; path = "Source/ASOtpTextFieldView+Extensions.swift"; sourceTree = "<group>"; };
+		9EE7F49EA01C5FC6DD7BD8BDC8A0635D /* ASForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B5A4353859AD777D42968C76D1C705 /* ASOtpTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-prefix.pch"; sourceTree = "<group>"; };
+		AA23B176834C63271935A1CCD52E92F4 /* ASTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE68D02B19A75142DB3018AA676A27 /* ASDropDownView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASDropDownView+Extension.swift"; path = "Source/ASDropDownView+Extension.swift"; sourceTree = "<group>"; };
+		AD18E4F3674B2ED7E60D6CE8727407F6 /* ASForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASForm.modulemap; sourceTree = "<group>"; };
+		B52A9D7795587F08EE5CEB1FD419D59B /* ASLabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASLabel+Extension.swift"; path = "Source/ASLabel+Extension.swift"; sourceTree = "<group>"; };
+		B5AC449CF1EF572603E0B164B457EA5B /* ASVMinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMinLengthRule.swift; path = Source/ASVMinLengthRule.swift; sourceTree = "<group>"; };
+		B82BBC467103D4948B96AD020CF7BC9A /* ASRadioGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.debug.xcconfig; sourceTree = "<group>"; };
+		BA39F95F30D559A03A71CFD5B35C5A4D /* ASMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB68DDCBAE3B43E3BDFE1CD4A04852F /* ASRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButton.swift; path = Source/ASRadioButton.swift; sourceTree = "<group>"; };
+		BDEFC5E7D9134D05D1F7B755BAD36522 /* ASMToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-prefix.pch"; sourceTree = "<group>"; };
+		C0AFB8F67E2BCC7C15EB6BDA433676E7 /* ASVMaxLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMaxLengthRule.swift; path = Source/ASVMaxLengthRule.swift; sourceTree = "<group>"; };
+		C2AD89EEF1F980BAC2CDC7C22C37A730 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		C3D444D5EA456A8E49465325455AC339 /* ASButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASButton.modulemap; sourceTree = "<group>"; };
+		C4828A728920BA9E88C426DD04DB7127 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		C64551224434F3946ACF4D3686BC3483 /* ASTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-umbrella.h"; sourceTree = "<group>"; };
+		C999B857983239B4E68AE5528989CADE /* ASVMailRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMailRule.swift; path = Source/ASVMailRule.swift; sourceTree = "<group>"; };
+		CA897935906A6FA7E9CFB81A4613C9AC /* ASMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASMToast-dummy.m"; sourceTree = "<group>"; };
+		CC35B3AE7A4149AEB0B3B8E348BE5890 /* ASTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASTextField+Extensions.swift"; path = "Source/ASTextField+Extensions.swift"; sourceTree = "<group>"; };
+		CCEBC1A6344B0FD34E8CEB823026DEE5 /* Pods-ASForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD31D5B30EDC926CAFD592366F2647DE /* ASOtpTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-umbrella.h"; sourceTree = "<group>"; };
+		CD6A89650D1486113524F5C6DDE8AEC4 /* ASLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASLabel.modulemap; sourceTree = "<group>"; };
+		CDAE1B05F05D396D5D1FC23B4FA4CC90 /* ASDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-umbrella.h"; sourceTree = "<group>"; };
+		CDD6490A7E3DC21A5A0CC5ACB7435D0C /* ASDropDownViewDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownViewDefault.swift; path = Source/ASDropDownViewDefault.swift; sourceTree = "<group>"; };
+		CECE35EAE2A9436FE382A418244F8BF7 /* ASTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASTextField-dummy.m"; sourceTree = "<group>"; };
+		D20AD2DBEDBFFA30E6E625595ECE5AFA /* ASDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDown.swift; path = Source/ASDropDown.swift; sourceTree = "<group>"; };
+		D43B8B2059B385B0C53E0A7C0CA9C310 /* Pods-ASForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D9DE51352EC7C9F051E003D8A5582641 /* ASDropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownCell.swift; path = Source/ASDropDownCell.swift; sourceTree = "<group>"; };
+		DA73CA8CFE4BC7837D7618855BA7ED1D /* ASMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASMToast.modulemap; sourceTree = "<group>"; };
+		DC5A1CD663587418F148EBA0505ED71A /* ASDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASDropDown-Info.plist"; sourceTree = "<group>"; };
+		DD67712C5A4E1E9094BD17D12A65CB18 /* ASOtpTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASOtpTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD954E6074BB688D7734D91A4A3C0025 /* Pods-ASForm_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Example-Info.plist"; sourceTree = "<group>"; };
+		E0B74D6C5DB01E92CD9D9F71A99C1AB6 /* ASDropDownBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownBox.swift; path = Source/ASDropDownBox.swift; sourceTree = "<group>"; };
+		E0D2A595CFE440C464D0F711218A213B /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		E276FA20B0AA9852052B3AFFF99DF1F6 /* ASTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.debug.xcconfig; sourceTree = "<group>"; };
+		E295E21B4696F512C3DE841AD0D41BB5 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		E32F9315617BD7895D3F9B3D0997C35F /* ASOtpTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldView.swift; path = Source/ASOtpTextFieldView.swift; sourceTree = "<group>"; };
+		E3F9BE39E3D5AF311A01266B8D3BCE24 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		E443671C81AD6514D30979A0D2C41522 /* ASLabelStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleClassic.swift; path = Source/ASLabelStyleClassic.swift; sourceTree = "<group>"; };
+		E70D11A16346632A0D9637D9D71BDBDD /* ASVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVError.swift; path = Source/ASVError.swift; sourceTree = "<group>"; };
+		E86864F8F7AAA2ABEA3F307F287453DB /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		EC39B77D06FD418941FAAB3DFB0ECAFC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		EC3CDAD68F01E4571D97E6C6DCE18D78 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EC772187A6064A77C55F6ECC3D4D877A /* ASRadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroup.swift; path = Source/ASRadioGroup.swift; sourceTree = "<group>"; };
+		EFA41EE81B73D953E162271A774F1F93 /* ASValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-umbrella.h"; sourceTree = "<group>"; };
+		F01167C9231942DCCF43F85E1CAF4A26 /* ASRadioGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASRadioGroup-Info.plist"; sourceTree = "<group>"; };
+		F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASForm_Example-dummy.m"; sourceTree = "<group>"; };
+		F413771FF59A49C8377E74A131A9545A /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		F59B63D41001F2393B88BE006C3C9D28 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		F9345CF274F1FCE81AF6C91387BE6FD0 /* ASValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASValidator-Info.plist"; sourceTree = "<group>"; };
+		F9B92F7D3541C219546B33F7FD8121D9 /* ASValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASValidator.modulemap; sourceTree = "<group>"; };
+		FB90FD7C03B18116A4F54F164F2DED92 /* ASRadioGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.release.xcconfig; sourceTree = "<group>"; };
+		FC3ED0EBB891579B8ACFEB5EC7FAED28 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASForm_Example-umbrella.h"; sourceTree = "<group>"; };
+		FFD15E6F026F83052725CB01E5585003 /* ASOtpField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpField.swift; path = Source/ASOtpField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC18FCB6B9E9343CF7A36791D8D5C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C729AA6B1B5F0ADDC5658C4EB57FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463FD8AC0A86EFDE63EABB9A64B37893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35500AA794219E89176F3B23AA883E5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0FEB5C7E03BEF0765F34236626C075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949A48C24312BA305B7977BAF661235D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DA0BE050D910E6E515369ED2562FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A190A6740470ED37476C7A706A04B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370E4ECF16042743810199C313D126E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C18E782996D75981FF7B02456B98CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A141399450EA4E74E7B7559D446E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A2527119DAB48DF6FD90AE77AC36FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746BEA0977AC0825DCB5C101F92002A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8927F866781B957AAB750424EE35658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55078B4F02700A545D25423C321BD13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3939283577DC1F7229BE38A11397327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEEF141710F3C25225F282E37CA26A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4651FAB659508585AF7F5E7480DEDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E632052B614BE2E3C88E45866FCAB32C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A2575DBC90F56D06B4F69768D59DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E006FE6B0EFF1801739DEABD65EF7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B7487032E78742A08F63788E4695A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD18E4F3674B2ED7E60D6CE8727407F6 /* ASForm.modulemap */,
+				056FDC4228FE230200F2CBEC8323CB02 /* ASForm-dummy.m */,
+				5614C0454865BF00089794CA6DF9AAAD /* ASForm-Info.plist */,
+				5B336568AA7CCFDD538AD767DE7A6D9A /* ASForm-prefix.pch */,
+				280E364301FE309311640F47011E5946 /* ASForm-umbrella.h */,
+				3E86C6D4BA41C0C2BB2FE48D147CEADE /* ASForm.debug.xcconfig */,
+				30E35D79CC6FCF603F6180C821B424C9 /* ASForm.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASForm";
+			sourceTree = "<group>";
+		};
+		06A2C4E1D0521B10B6D494FBAD0BF394 /* ASValidator */ = {
+			isa = PBXGroup;
+			children = (
+				4092755FEC86FF855695EBBD8EBD4577 /* ASValidation.swift */,
+				43F756BF432E0D91D4889560FABD11EF /* ASValidator.swift */,
+				9879B8CDA201FA38A9C330447F1F11EF /* ASValidatorEntity.swift */,
+				E70D11A16346632A0D9637D9D71BDBDD /* ASVError.swift */,
+				3A87F62F40DD6F5C16F504EF3CD9CAEE /* ASVLengthRule.swift */,
+				C999B857983239B4E68AE5528989CADE /* ASVMailRule.swift */,
+				0A2FEAA8219D42B532947E99630E8EB1 /* ASVMath.swift */,
+				C0AFB8F67E2BCC7C15EB6BDA433676E7 /* ASVMaxLengthRule.swift */,
+				B5AC449CF1EF572603E0B164B457EA5B /* ASVMinLengthRule.swift */,
+				71A65C13875736894E34D935602E29EA /* ASVRequiredRule.swift */,
+				01CE5DE8C76BE31F958030F4E33DEFA3 /* ASVResult.swift */,
+				566129EAEB4BE707DA7BE07FDF336C06 /* ASVRule.swift */,
+				D865E29EF39C664B8E64D6D06D911A78 /* Support Files */,
+			);
+			path = ASValidator;
+			sourceTree = "<group>";
+		};
+		090A932A33F826D23373F4DAF364D289 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD345C9821873BF67BDF00F041FED79 /* ASRadioGroup.modulemap */,
+				6D07CCE09D3D1B6A9923922F45B4C87F /* ASRadioGroup-dummy.m */,
+				F01167C9231942DCCF43F85E1CAF4A26 /* ASRadioGroup-Info.plist */,
+				5E74B12FBAB6341196CC58A3404F8E7F /* ASRadioGroup-prefix.pch */,
+				23B06369B3810EFC8C1AE9D222463773 /* ASRadioGroup-umbrella.h */,
+				B82BBC467103D4948B96AD020CF7BC9A /* ASRadioGroup.debug.xcconfig */,
+				FB90FD7C03B18116A4F54F164F2DED92 /* ASRadioGroup.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASRadioGroup";
+			sourceTree = "<group>";
+		};
+		0D6E8A458E091A953EF998AFA3CE10CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5110B806ABA86593353C4FCE36333CEC /* ASDropDown.modulemap */,
+				6CCFB45CEECDF6C02BEC15B972CCC095 /* ASDropDown-dummy.m */,
+				DC5A1CD663587418F148EBA0505ED71A /* ASDropDown-Info.plist */,
+				4DA25E9FB2F64DAE479EF7F5F20052EB /* ASDropDown-prefix.pch */,
+				CDAE1B05F05D396D5D1FC23B4FA4CC90 /* ASDropDown-umbrella.h */,
+				8591677938854D9A46A6A4E04E41D9D2 /* ASDropDown.debug.xcconfig */,
+				0241848F24F88CF049B9CB9747BF6687 /* ASDropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASDropDown";
+			sourceTree = "<group>";
+		};
+		25BFB632A6E98608559FB5744C25D69F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B3B183FF97174DA3B78787A7B10B1B /* ASButton */,
+				E75F1F837DC1C5FFBDDB7B1B87F225AF /* ASDropDown */,
+				97BAE3BD9CD6C9FF70F5C5ED72FD8508 /* ASLabel */,
+				74F2741B6652E4C715FDF2DC3C28A93A /* ASMToast */,
+				33FE45F51955E63D282796FC8EA7A4DF /* ASOtpTextField */,
+				26AA250234197E0AF0E0665F479E15A2 /* ASRadioGroup */,
+				EA9D0D07B3166BE243DD177C334CAEDA /* ASTextField */,
+				06A2C4E1D0521B10B6D494FBAD0BF394 /* ASValidator */,
+				33E39368AC909FA48BACC848F1E73DEF /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26AA250234197E0AF0E0665F479E15A2 /* ASRadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BAB68DDCBAE3B43E3BDFE1CD4A04852F /* ASRadioButton.swift */,
+				7FC50509E6BF80077C48F6B93888F101 /* ASRadioButton+Extension.swift */,
+				6013B490FE15B83121A9620F368D1C8B /* ASRadioButtonClassic.swift */,
+				EC772187A6064A77C55F6ECC3D4D877A /* ASRadioGroup.swift */,
+				6DAB540A5C622E57AEDFE39C52734479 /* ASRadioGroup+Extension.swift */,
+				36AD0463744963AF2501040D5F15A056 /* ASRadioGroupClassic.swift */,
+				090A932A33F826D23373F4DAF364D289 /* Support Files */,
+			);
+			path = ASRadioGroup;
+			sourceTree = "<group>";
+		};
+		2859ACE424BDBBFB006BDAFE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		33E39368AC909FA48BACC848F1E73DEF /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD3C075D7494F50C52122FF2A39ACC /* Core */,
+				5A2761E2EDFCD9D4929CE899C6379585 /* Support Files */,
+				3D2668ABF2BFBDEE7E581225A2362D0E /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		33FE45F51955E63D282796FC8EA7A4DF /* ASOtpTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FFD15E6F026F83052725CB01E5585003 /* ASOtpField.swift */,
+				446A1F049E2ACD3A0620E2F516BAE321 /* ASOtpTextField.swift */,
+				47B1A869F549AEF4E403B46F9D9B4422 /* ASOtpTextField+Extensions.swift */,
+				65D8725B9E2108B95055BB173D4E4CF6 /* ASOtpTextFieldClassic.swift */,
+				E32F9315617BD7895D3F9B3D0997C35F /* ASOtpTextFieldView.swift */,
+				9DE03851FB34F77C469E5DE5056CD8AB /* ASOtpTextFieldView+Extensions.swift */,
+				1C1B7CEDAD3A3CB8CCEF5373B816A3E6 /* ASOtpTextFieldViewClassic.swift */,
+				D586239BA16768794AF333C3228B34C9 /* Support Files */,
+			);
+			path = ASOtpTextField;
+			sourceTree = "<group>";
+		};
+		382526EBEF6C77ABF4E570E5443FBCE7 /* Pods-ASForm_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94FA3F0C0E4D3F7F7DF3086F8CCEAC19 /* Pods-ASForm_Tests.modulemap */,
+				09E1F588C1250C62F35BDD77B201C668 /* Pods-ASForm_Tests-acknowledgements.markdown */,
+				4736D91109C2B2B6CBF6E82C59F3E348 /* Pods-ASForm_Tests-acknowledgements.plist */,
+				30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */,
+				44A4B05C232304954AC73D03C703B680 /* Pods-ASForm_Tests-frameworks.sh */,
+				34D79F5A3EC76E079057FD6BA9D8B06C /* Pods-ASForm_Tests-Info.plist */,
+				3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */,
+				CCEBC1A6344B0FD34E8CEB823026DEE5 /* Pods-ASForm_Tests.debug.xcconfig */,
+				6844E83E1B1528833FB9A54B5DA45AD7 /* Pods-ASForm_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASForm_Tests";
+			path = "Target Support Files/Pods-ASForm_Tests";
+			sourceTree = "<group>";
+		};
+		3D2668ABF2BFBDEE7E581225A2362D0E /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				00C90E50A7278AB52883F79D35AF6DC4 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		5344C9E9E8E062C76ACDCFC7163F1C62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94273E48CEBD463B29794E540032B528 /* ASForm.podspec */,
+				57C76AE22D0DCAC2F2A0C76EA4571BAA /* LICENSE */,
+				1575AC47884638495C657AD53AF6D3A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5A2761E2EDFCD9D4929CE899C6379585 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86864F8F7AAA2ABEA3F307F287453DB /* FBSnapshotTestCase.modulemap */,
+				E295E21B4696F512C3DE841AD0D41BB5 /* FBSnapshotTestCase-dummy.m */,
+				F413771FF59A49C8377E74A131A9545A /* FBSnapshotTestCase-Info.plist */,
+				6F6875ADAA31058680749A8B6999218F /* FBSnapshotTestCase-prefix.pch */,
+				FC3ED0EBB891579B8ACFEB5EC7FAED28 /* FBSnapshotTestCase-umbrella.h */,
+				E0D2A595CFE440C464D0F711218A213B /* FBSnapshotTestCase.debug.xcconfig */,
+				C4828A728920BA9E88C426DD04DB7127 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		74F2741B6652E4C715FDF2DC3C28A93A /* ASMToast */ = {
+			isa = PBXGroup;
+			children = (
+				2F08A0529DF1FBE007D1B9BCB2F49520 /* ASMToast.swift */,
+				9C6C03B98B58EECC81DF06419D13406D /* ASMToastView.swift */,
+				8292E8A387473BA939DF90EF905AEC5B /* Support Files */,
+			);
+			path = ASMToast;
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8292E8A387473BA939DF90EF905AEC5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA73CA8CFE4BC7837D7618855BA7ED1D /* ASMToast.modulemap */,
+				CA897935906A6FA7E9CFB81A4613C9AC /* ASMToast-dummy.m */,
+				18367EB2C1EFD8BD2BEC5F04E14FAF50 /* ASMToast-Info.plist */,
+				BDEFC5E7D9134D05D1F7B755BAD36522 /* ASMToast-prefix.pch */,
+				0583E4D5390DF5DDB7DC5EAE33D954B4 /* ASMToast-umbrella.h */,
+				7D59BCAC63BA036984FE278E1B62F5E7 /* ASMToast.debug.xcconfig */,
+				1C20982DBC98AD3342DD489F852B1C62 /* ASMToast.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASMToast";
+			sourceTree = "<group>";
+		};
+		87B3B183FF97174DA3B78787A7B10B1B /* ASButton */ = {
+			isa = PBXGroup;
+			children = (
+				028D9A931BD4C96DC1C3F6D3BAF8BA72 /* ASButton.swift */,
+				519A4B12F0832AF1F89AA839119DE5D8 /* ASButtonStyleClassic.swift */,
+				D6709BE270D3C24FD63EB0C9DB1A5A2D /* Support Files */,
+			);
+			path = ASButton;
+			sourceTree = "<group>";
+		};
+		97BAE3BD9CD6C9FF70F5C5ED72FD8508 /* ASLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8A74B59CDEBFCC663A86130D5A93DE67 /* ASLabel.swift */,
+				B52A9D7795587F08EE5CEB1FD419D59B /* ASLabel+Extension.swift */,
+				E443671C81AD6514D30979A0D2C41522 /* ASLabelStyleClassic.swift */,
+				6DD5124A8BABC90F5150E4076BE4F5C0 /* ASLabelStyleDark.swift */,
+				0AA39771C6F75E2F85C49F7D1FF6903A /* ASLabelStyleNormal.swift */,
+				A1BA1D41B36535AA8C0BE0E1E64237DB /* Support Files */,
+			);
+			path = ASLabel;
+			sourceTree = "<group>";
+		};
+		9EF2948538C6582F805E005B232C2E07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13533D14039CEAC7879881EC78854209 /* ASTextField.modulemap */,
+				CECE35EAE2A9436FE382A418244F8BF7 /* ASTextField-dummy.m */,
+				9165628B65FE7C386FD7B6A3C19EB0C7 /* ASTextField-Info.plist */,
+				8738B517613A98B35998A85992DC813B /* ASTextField-prefix.pch */,
+				C64551224434F3946ACF4D3686BC3483 /* ASTextField-umbrella.h */,
+				E276FA20B0AA9852052B3AFFF99DF1F6 /* ASTextField.debug.xcconfig */,
+				546C88169E3F53F45DA01E1D785BE747 /* ASTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASTextField";
+			sourceTree = "<group>";
+		};
+		A19EE848F0DDBEF89B5F402B3B6DA3C0 /* Pods-ASForm_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E77932201FCBDF9ADDF00827E28A486 /* Pods-ASForm_Example.modulemap */,
+				0C847DBB33EEA2CF19438F28BCFADC9C /* Pods-ASForm_Example-acknowledgements.markdown */,
+				61B8397B0A414222D5BEE99C9EC03E42 /* Pods-ASForm_Example-acknowledgements.plist */,
+				F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */,
+				6DED8F8B0A9A95E98A3470C385782F08 /* Pods-ASForm_Example-frameworks.sh */,
+				DD954E6074BB688D7734D91A4A3C0025 /* Pods-ASForm_Example-Info.plist */,
+				FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */,
+				4C29301CF9E25E86C333E55A5305F10B /* Pods-ASForm_Example.debug.xcconfig */,
+				D43B8B2059B385B0C53E0A7C0CA9C310 /* Pods-ASForm_Example.release.xcconfig */,
+			);
+			name = "Pods-ASForm_Example";
+			path = "Target Support Files/Pods-ASForm_Example";
+			sourceTree = "<group>";
+		};
+		A1BA1D41B36535AA8C0BE0E1E64237DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A89650D1486113524F5C6DDE8AEC4 /* ASLabel.modulemap */,
+				7FAC467FE250F6DBC21B51960CF9C534 /* ASLabel-dummy.m */,
+				3FDC86A1CF6C34FC5920905CD10B75B7 /* ASLabel-Info.plist */,
+				9662BC2244740109C1A80234F339F90A /* ASLabel-prefix.pch */,
+				2384062A7061FB7A16C4EFE897E6AA25 /* ASLabel-umbrella.h */,
+				296AEF7E4DC191E6D70B2107BFA85972 /* ASLabel.debug.xcconfig */,
+				9B0C299ACC467A023ACC30475A57445B /* ASLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASLabel";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49EFFE509D3BCF8B4F794AAB4BB2C5B /* ASForm */ = {
+			isa = PBXGroup;
+			children = (
+				2859ACE424BDBBFB006BDAFE /* Source */,
+				5344C9E9E8E062C76ACDCFC7163F1C62 /* Pod */,
+				05B7487032E78742A08F63788E4695A7 /* Support Files */,
+			);
+			name = ASForm;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EE4E35E9525960180A4ADC8BAC6A5714 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				25BFB632A6E98608559FB5744C25D69F /* Pods */,
+				DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */,
+				DFAB499961483EA6A9303C4CBFB199FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D586239BA16768794AF333C3228B34C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EC5BB11D3376622F2934F2D2180E6ED /* ASOtpTextField.modulemap */,
+				02357A8F69C98DDC6D9182C2CB679185 /* ASOtpTextField-dummy.m */,
+				2490692FD3F5AEF80CCD09E32B7A9F93 /* ASOtpTextField-Info.plist */,
+				A4B5A4353859AD777D42968C76D1C705 /* ASOtpTextField-prefix.pch */,
+				CD31D5B30EDC926CAFD592366F2647DE /* ASOtpTextField-umbrella.h */,
+				4566A046EA9AC9362CDEDC4EEDE234D6 /* ASOtpTextField.debug.xcconfig */,
+				1F60EA06C107D84710371D93BA61CC58 /* ASOtpTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASOtpTextField";
+			sourceTree = "<group>";
+		};
+		D6709BE270D3C24FD63EB0C9DB1A5A2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3D444D5EA456A8E49465325455AC339 /* ASButton.modulemap */,
+				40C9308C1E524FF03A18DD6F14CA0853 /* ASButton-dummy.m */,
+				7E0A191B0C0759A7C969D35E6297B5F2 /* ASButton-Info.plist */,
+				5B484C9A37BF6BCA9C23A34ECEB76A75 /* ASButton-prefix.pch */,
+				6FE33C5B5B1D1A44C3615DA819E42E1E /* ASButton-umbrella.h */,
+				28B97F33DF9841CAE2946EF9D8D120B0 /* ASButton.debug.xcconfig */,
+				030CA5EB9ADBA1E39C98EFCAB43F98CA /* ASButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASButton";
+			sourceTree = "<group>";
+		};
+		D865E29EF39C664B8E64D6D06D911A78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B92F7D3541C219546B33F7FD8121D9 /* ASValidator.modulemap */,
+				02BFABBE1307CC77165C55DD2AA8D734 /* ASValidator-dummy.m */,
+				F9345CF274F1FCE81AF6C91387BE6FD0 /* ASValidator-Info.plist */,
+				2821573E574098C743FDE50A5463D528 /* ASValidator-prefix.pch */,
+				EFA41EE81B73D953E162271A774F1F93 /* ASValidator-umbrella.h */,
+				7DA0F29F683674F9315EA15739317010 /* ASValidator.debug.xcconfig */,
+				05F569508CCD945DF0B1C260CAE1D701 /* ASValidator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASValidator";
+			sourceTree = "<group>";
+		};
+		DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20528F85D59EF8BAD35FEEA2DA09AC8A /* ASButton.framework */,
+				60916C31DA0F03E17229E0D1AB4DF68B /* ASDropDown.framework */,
+				9EE7F49EA01C5FC6DD7BD8BDC8A0635D /* ASForm.framework */,
+				7ECB99039A1DA492B8B1BE9BA21F6A5F /* ASLabel.framework */,
+				BA39F95F30D559A03A71CFD5B35C5A4D /* ASMToast.framework */,
+				DD67712C5A4E1E9094BD17D12A65CB18 /* ASOtpTextField.framework */,
+				49409676A8B3AFBB4F8C9889DA671D74 /* ASRadioGroup.framework */,
+				AA23B176834C63271935A1CCD52E92F4 /* ASTextField.framework */,
+				507695D53A917635C922884C359D94FC /* ASValidator.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				0544C5BE060B2B10AAE702A4D0CCD90F /* Pods_ASForm_Example.framework */,
+				208088C54D88C0C13C57E65ECDC48F92 /* Pods_ASForm_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFAB499961483EA6A9303C4CBFB199FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19EE848F0DDBEF89B5F402B3B6DA3C0 /* Pods-ASForm_Example */,
+				382526EBEF6C77ABF4E570E5443FBCE7 /* Pods-ASForm_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E75F1F837DC1C5FFBDDB7B1B87F225AF /* ASDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D20AD2DBEDBFFA30E6E625595ECE5AFA /* ASDropDown.swift */,
+				E0B74D6C5DB01E92CD9D9F71A99C1AB6 /* ASDropDownBox.swift */,
+				D9DE51352EC7C9F051E003D8A5582641 /* ASDropDownCell.swift */,
+				2FE8EA09D74A9B499028804282FBB5B9 /* ASDropDownItem.swift */,
+				5C4E7312AFD657216291228014880918 /* ASDropDownView.swift */,
+				ACBE68D02B19A75142DB3018AA676A27 /* ASDropDownView+Extension.swift */,
+				CDD6490A7E3DC21A5A0CC5ACB7435D0C /* ASDropDownViewDefault.swift */,
+				0D6E8A458E091A953EF998AFA3CE10CD /* Support Files */,
+			);
+			path = ASDropDown;
+			sourceTree = "<group>";
+		};
+		EA9D0D07B3166BE243DD177C334CAEDA /* ASTextField */ = {
+			isa = PBXGroup;
+			children = (
+				053FBC44AF6A5F894EAFBB2343D9703D /* ASDropDownIcon.swift */,
+				2CC16A7BD147E017F64282C1A865574D /* ASTextField.swift */,
+				CC35B3AE7A4149AEB0B3B8E348BE5890 /* ASTextField+Extensions.swift */,
+				49AD1E49D033F36AC754CC35386C6769 /* ASTextFieldClassicStyle.swift */,
+				6AA5A93303B1C9912DE121E5CCCA210A /* ASTextFieldMath.swift */,
+				9EF2948538C6582F805E005B232C2E07 /* Support Files */,
+			);
+			path = ASTextField;
+			sourceTree = "<group>";
+		};
+		ECFD3C075D7494F50C52122FF2A39ACC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				67D02E4ABC18001626CE9D45A7DA8945 /* FBSnapshotTestCase.h */,
+				3F2450D05E9A1C501814806A6D964828 /* FBSnapshotTestCase.m */,
+				824831E9E93D80E86F6FDE8EB7250C2A /* FBSnapshotTestCasePlatform.h */,
+				001B31F6B728CBFE9DD49E64ADAF81F0 /* FBSnapshotTestCasePlatform.m */,
+				9325BD587120AFCACF2592C94C70F882 /* FBSnapshotTestController.h */,
+				7B462E9A070522BC4A6AC2C1178C2339 /* FBSnapshotTestController.m */,
+				EC39B77D06FD418941FAAB3DFB0ECAFC /* UIApplication+StrictKeyWindow.h */,
+				905C49D0884B0A113DBC36D4AD1F178E /* UIApplication+StrictKeyWindow.m */,
+				E3F9BE39E3D5AF311A01266B8D3BCE24 /* UIImage+Compare.h */,
+				C2AD89EEF1F980BAC2CDC7C22C37A730 /* UIImage+Compare.m */,
+				F59B63D41001F2393B88BE006C3C9D28 /* UIImage+Diff.h */,
+				6E2ABC4805A94B2E3AF5054217C2AB2E /* UIImage+Diff.m */,
+				EC3CDAD68F01E4571D97E6C6DCE18D78 /* UIImage+Snapshot.h */,
+				81EED77F219C6C70E1AAFFAEA16F1570 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EE4E35E9525960180A4ADC8BAC6A5714 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C49EFFE509D3BCF8B4F794AAB4BB2C5B /* ASForm */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		084E47F4301878F78097C134C86810B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBB72B4C90522C68F68BDA225E10D0B /* ASForm-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D64232A4B7D215FB0E76FA976929A3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11137322E29B4611DD945E868388E328 /* ASLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4F7959A2731A1E291AAF7261A6A7C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297AB089A2D2684687E4ABA7576E401D /* Pods-ASForm_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1FDF5B81EAF698C8AA584399BDC5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D4F25E67D65D40F87A9B2D5E89117D /* ASOtpTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4804194E88C502E42A65AEDC63290090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930A03976A3615F302939F4CE49ECDCC /* ASMToast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4A8ACAEE5D9C19CF1D0A8C1F83C6D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65B20582E1C3A0B2E23EA19F370EB60 /* ASButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB6C2C1133219F94C14240844CA90D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A88C2C04891D5A1BF18D67948EDAA6E /* Pods-ASForm_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA57A8350AFA3305C4E777468DF93068 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2C171FA11DC8F32CA07828387A61A3 /* ASTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EC92DE33378C64206509F815893C67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3D3228D86587DC8BAA62C15139536C /* ASDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FF929230D62C1FB7F3E47CEF503DF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958C30FDACC59793247DCDD5CA19DBAD /* ASValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9778F00038BEAE85908B94C73A59213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5665232574E0BBC0271A334BF83A88D6 /* ASRadioGroup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08DA35DF5FFE83080450A06B7F8AA92C /* ASDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B11CAA1E9FB508750470FDC9364565 /* Build configuration list for PBXNativeTarget "ASDropDown" */;
+			buildPhases = (
+				C8EC92DE33378C64206509F815893C67 /* Headers */,
+				76792A20F052BFEDB7E4526E44184272 /* Sources */,
+				75DA0BE050D910E6E515369ED2562FF6 /* Frameworks */,
+				4B832F0498190B83E8CF9B941B4B5B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASDropDown;
+			productName = ASDropDown;
+			productReference = 60916C31DA0F03E17229E0D1AB4DF68B /* ASDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		186C3FE72CB97203C32D44BD6F42E497 /* ASTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52585BBB0341A81D095DEF25E96343EA /* Build configuration list for PBXNativeTarget "ASTextField" */;
+			buildPhases = (
+				AA57A8350AFA3305C4E777468DF93068 /* Headers */,
+				46EE28A4BEA405E378EDEBBB3B3A6AC3 /* Sources */,
+				463FD8AC0A86EFDE63EABB9A64B37893 /* Frameworks */,
+				AE8F54963084A8198391368387E5145A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASTextField;
+			productName = ASTextField;
+			productReference = AA23B176834C63271935A1CCD52E92F4 /* ASTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		235FB5394A87EB9D3994D619CF7D3213 /* ASButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A426847BD689110583078035DC7BAF32 /* Build configuration list for PBXNativeTarget "ASButton" */;
+			buildPhases = (
+				5C4A8ACAEE5D9C19CF1D0A8C1F83C6D0 /* Headers */,
+				A01272CCA8719A9234DED3C8A7D1F45C /* Sources */,
+				E3939283577DC1F7229BE38A11397327 /* Frameworks */,
+				568B91233A6D878A0F4BD762B96F86E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASButton;
+			productName = ASButton;
+			productReference = 20528F85D59EF8BAD35FEEA2DA09AC8A /* ASButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F35E31E52D854CC8B71FB5C0776EFF0 /* ASOtpTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156CD3AA0BD9CDF2B2C9830E6D33E1B0 /* Build configuration list for PBXNativeTarget "ASOtpTextField" */;
+			buildPhases = (
+				23B1FDF5B81EAF698C8AA584399BDC5F /* Headers */,
+				A8B3C0A14137D706C2EA118E3B6B26BA /* Sources */,
+				8A190A6740470ED37476C7A706A04B63 /* Frameworks */,
+				475393541735B3A75643226A4A6A2896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASOtpTextField;
+			productName = ASOtpTextField;
+			productReference = DD67712C5A4E1E9094BD17D12A65CB18 /* ASOtpTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		533F51812BC178DDE43D8C362143131C /* Pods-ASForm_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E176D6DE5CE587680EC2E5FF00E96D40 /* Build configuration list for PBXNativeTarget "Pods-ASForm_Example" */;
+			buildPhases = (
+				1B4F7959A2731A1E291AAF7261A6A7C6 /* Headers */,
+				E928D5D16A5BCE2C26870F62128A6E96 /* Sources */,
+				3AC18FCB6B9E9343CF7A36791D8D5C10 /* Frameworks */,
+				1C978EFE9DE963CAF770E5E9AA87AE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB9BA2F60CB8AADB781F4E70D688CB3 /* PBXTargetDependency */,
+				D2CB8F221EED477D55FCC6B23975FC10 /* PBXTargetDependency */,
+				B1BFD2076308D5C6ACF5A1ED848D7765 /* PBXTargetDependency */,
+				4013D279A6351C6E0165F79715FE4703 /* PBXTargetDependency */,
+				FBFFEE5521810F7108E89F423C241A82 /* PBXTargetDependency */,
+				1B57693FE6872EA66AD1B239DAAF2197 /* PBXTargetDependency */,
+				2BA8A3166CCA835882AA84C99288B49C /* PBXTargetDependency */,
+				2770A5618BA4A2B55A863EDFF790E217 /* PBXTargetDependency */,
+				FF112544BB4241B60E553FC63F028862 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASForm_Example";
+			productName = "Pods-ASForm_Example";
+			productReference = 0544C5BE060B2B10AAE702A4D0CCD90F /* Pods_ASForm_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8C2AB04A79406CD3EF58F9525A7B76 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */;
+			buildPhases = (
+				E9778F00038BEAE85908B94C73A59213 /* Headers */,
+				132B519CD4FF789F05EFAFBB18E64B66 /* Sources */,
+				FD5A2575DBC90F56D06B4F69768D59DD /* Frameworks */,
+				01664B0FE1C390A06E38390CEC790BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASRadioGroup;
+			productName = ASRadioGroup;
+			productReference = 49409676A8B3AFBB4F8C9889DA671D74 /* ASRadioGroup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC636DC6881ACB96FE5B085BF317EC2 /* Pods-ASForm_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805A86DEAAA214F9700907EDD6CE897B /* Build configuration list for PBXNativeTarget "Pods-ASForm_Tests" */;
+			buildPhases = (
+				A7BB6C2C1133219F94C14240844CA90D /* Headers */,
+				04DC1045CD5DFF551750EBDD5353A961 /* Sources */,
+				E4651FAB659508585AF7F5E7480DEDCA /* Frameworks */,
+				6E0A33900C013E177AB1F398D5DD4860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551D44047EF480B39769CAB7B9009281 /* PBXTargetDependency */,
+				D216E4EEC644B4040543F53DB5F96E54 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASForm_Tests";
+			productName = "Pods-ASForm_Tests";
+			productReference = 208088C54D88C0C13C57E65ECDC48F92 /* Pods_ASForm_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADC5BF3C10FF79F5EB23B8C315DE9889 /* ASForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBFA8E12706574E0859F55CDBA0B5F0 /* Build configuration list for PBXNativeTarget "ASForm" */;
+			buildPhases = (
+				084E47F4301878F78097C134C86810B4 /* Headers */,
+				860757082A9502849E97FD10757F2886 /* Sources */,
+				5C0FEB5C7E03BEF0765F34236626C075 /* Frameworks */,
+				CF3160F367DFF7DB70ABE5B2E8CE0015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASForm;
+			productName = ASForm;
+			productReference = 9EE7F49EA01C5FC6DD7BD8BDC8A0635D /* ASForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6DBA8E2477FAC5E45B8E178A9BA1889 /* Build configuration list for PBXNativeTarget "ASLabel" */;
+			buildPhases = (
+				0D64232A4B7D215FB0E76FA976929A3B /* Headers */,
+				D747EB54779871FDA6A609A5BA6F705A /* Sources */,
+				B8927F866781B957AAB750424EE35658 /* Frameworks */,
+				9A0326FCB74B6925667DBE9E95C588E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASLabel;
+			productName = ASLabel;
+			productReference = 7ECB99039A1DA492B8B1BE9BA21F6A5F /* ASLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF756F85F83DBCAB00F3BE1EC3E05EA6 /* ASValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE0A1F2407CBD49E0F89DA4789FF704 /* Build configuration list for PBXNativeTarget "ASValidator" */;
+			buildPhases = (
+				D5FF929230D62C1FB7F3E47CEF503DF1 /* Headers */,
+				2D204A444EB2DD9C86CA2D6A554779B5 /* Sources */,
+				A3A2527119DAB48DF6FD90AE77AC36FD /* Frameworks */,
+				9A64E0E2E1CBEBF61CD45D3460B289EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASValidator;
+			productName = ASValidator;
+			productReference = 507695D53A917635C922884C359D94FC /* ASValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F7391D324A26A71CE1BF1908BBFA19 /* Build configuration list for PBXNativeTarget "ASMToast" */;
+			buildPhases = (
+				4804194E88C502E42A65AEDC63290090 /* Headers */,
+				249E2593323370D4D462B778C11B85A2 /* Sources */,
+				9C18E782996D75981FF7B02456B98CE2 /* Frameworks */,
+				800A9E515DA8D06DDA09E308BAD8B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASMToast;
+			productName = ASMToast;
+			productReference = BA39F95F30D559A03A71CFD5B35C5A4D /* ASMToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235FB5394A87EB9D3994D619CF7D3213 /* ASButton */,
+				08DA35DF5FFE83080450A06B7F8AA92C /* ASDropDown */,
+				ADC5BF3C10FF79F5EB23B8C315DE9889 /* ASForm */,
+				B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */,
+				E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */,
+				2F35E31E52D854CC8B71FB5C0776EFF0 /* ASOtpTextField */,
+				A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */,
+				186C3FE72CB97203C32D44BD6F42E497 /* ASTextField */,
+				DF756F85F83DBCAB00F3BE1EC3E05EA6 /* ASValidator */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				533F51812BC178DDE43D8C362143131C /* Pods-ASForm_Example */,
+				AAC636DC6881ACB96FE5B085BF317EC2 /* Pods-ASForm_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01664B0FE1C390A06E38390CEC790BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C978EFE9DE963CAF770E5E9AA87AE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475393541735B3A75643226A4A6A2896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B832F0498190B83E8CF9B941B4B5B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568B91233A6D878A0F4BD762B96F86E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0A33900C013E177AB1F398D5DD4860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800A9E515DA8D06DDA09E308BAD8B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0326FCB74B6925667DBE9E95C588E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A64E0E2E1CBEBF61CD45D3460B289EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8F54963084A8198391368387E5145A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3160F367DFF7DB70ABE5B2E8CE0015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DC1045CD5DFF551750EBDD5353A961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F714EDF773CAB69D863D6B22784DF9 /* Pods-ASForm_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132B519CD4FF789F05EFAFBB18E64B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB291EE2394FEC463AE6FA375AB9EA7 /* ASRadioButton+Extension.swift in Sources */,
+				5978D0C29D07520FD7530C14F60538A4 /* ASRadioButton.swift in Sources */,
+				FB3B2870E65EDE1D1975367AE7FF1D30 /* ASRadioButtonClassic.swift in Sources */,
+				2571B82FA71CDD163A54C717DEE1B527 /* ASRadioGroup+Extension.swift in Sources */,
+				6E7E2963E46D61D88EC260FF76269639 /* ASRadioGroup-dummy.m in Sources */,
+				922A764474890BDD0DD37B26B298AFAB /* ASRadioGroup.swift in Sources */,
+				085BEC3B4970F393AD5AE3BED2568D90 /* ASRadioGroupClassic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249E2593323370D4D462B778C11B85A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B7ECE0A98BBA80DF52C5FD7E652F3E /* ASMToast-dummy.m in Sources */,
+				14D1F57BC3FBFD9FA30F71A89EF3797C /* ASMToast.swift in Sources */,
+				BCB2E68B8BEE10733AFE3C4F321DFE31 /* ASMToastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D204A444EB2DD9C86CA2D6A554779B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F22C987E577000E952D7FB9C172A57 /* ASValidation.swift in Sources */,
+				1693F1D4766283BC3D109A8D379BBFD6 /* ASValidator-dummy.m in Sources */,
+				422B8594E4B9AD8C145F1B2394145F3E /* ASValidator.swift in Sources */,
+				CBA68F5CB62388EF5405B62698749C66 /* ASValidatorEntity.swift in Sources */,
+				A1CD7BFD19F80DBCAF9475B2F181636B /* ASVError.swift in Sources */,
+				90E3C0212419034709E5D411C35E649F /* ASVLengthRule.swift in Sources */,
+				B5B1792BE5B812B8926DBC298E6EE95F /* ASVMailRule.swift in Sources */,
+				7DEF1866D9D79DE2BB491958C8B70AA2 /* ASVMath.swift in Sources */,
+				45AA90FAD1342029339E1A15AD30FCB7 /* ASVMaxLengthRule.swift in Sources */,
+				DE078229683F165AC439D285BC256203 /* ASVMinLengthRule.swift in Sources */,
+				0DE78A5859FBE9BCF29A29B39361C174 /* ASVRequiredRule.swift in Sources */,
+				2CC7C1833B85A0AC36194FB3C80C59F0 /* ASVResult.swift in Sources */,
+				CA23D2507B93661AB1FABA441593641E /* ASVRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EE28A4BEA405E378EDEBBB3B3A6AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5ADBABA19FA634AC4C74B50E6DDE4B1 /* ASDropDownIcon.swift in Sources */,
+				EEEA05B018E8D729A34E7301717774E2 /* ASTextField+Extensions.swift in Sources */,
+				92D18DE130C997D21D6B67CD6F9D8E82 /* ASTextField-dummy.m in Sources */,
+				58017D20A3F6B576A02DC9F26B5EE2E7 /* ASTextField.swift in Sources */,
+				645DC047D269F50FF9C25FBBE2C7C69A /* ASTextFieldClassicStyle.swift in Sources */,
+				5E8E83CB2763F44079A0A5A7D43B026E /* ASTextFieldMath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76792A20F052BFEDB7E4526E44184272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE99E55EF36D428E8589D24CC420B40 /* ASDropDown-dummy.m in Sources */,
+				99010B00861A520F4A861E6D814D129F /* ASDropDown.swift in Sources */,
+				1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */,
+				7A3E9F2D93F4EDC4DE98D0F5237C7B25 /* ASDropDownCell.swift in Sources */,
+				52123B5E4E8A6A489ED0EBBCFD077E85 /* ASDropDownItem.swift in Sources */,
+				069755F3EAE1B4732613B5B3BCE08667 /* ASDropDownView+Extension.swift in Sources */,
+				765BBA39893230033CE61ED4DA1B282A /* ASDropDownView.swift in Sources */,
+				EA66328389871FC838E0CAC040AB5D8D /* ASDropDownViewDefault.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860757082A9502849E97FD10757F2886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FBF20514DFE9A290DB1E48D547A9E9 /* ASForm-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01272CCA8719A9234DED3C8A7D1F45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */,
+				8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */,
+				E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B3C0A14137D706C2EA118E3B6B26BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA4457AC00DD5930C05CA701D87A732 /* ASOtpField.swift in Sources */,
+				7EC15057AB31323D0DD250A04BE51F05 /* ASOtpTextField+Extensions.swift in Sources */,
+				4F8711C7406D67CD176C9F7C4F6847F4 /* ASOtpTextField-dummy.m in Sources */,
+				B2C320A3493AE738BE99FBDADDCBCC21 /* ASOtpTextField.swift in Sources */,
+				A3532FAE1E4F545A027974DD5EFD0489 /* ASOtpTextFieldClassic.swift in Sources */,
+				61BE5F7FA2E5BF9C49AF265611ACC9A1 /* ASOtpTextFieldView+Extensions.swift in Sources */,
+				8A52FC035ABDBED1219D8CA41F121AB9 /* ASOtpTextFieldView.swift in Sources */,
+				F67BC2FC8D77C052652C66FEB9059DA7 /* ASOtpTextFieldViewClassic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D747EB54779871FDA6A609A5BA6F705A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640FB0DE33FBC7E6CE2245FF992D1DFD /* ASLabel+Extension.swift in Sources */,
+				C59DEC74BDE415B7E1ED8F287DE7EBDD /* ASLabel-dummy.m in Sources */,
+				C205C8B5FFECC6DFB6198DF99C88BA50 /* ASLabel.swift in Sources */,
+				048DAAF9CA58780AD40BBBA0F2BAD8DC /* ASLabelStyleClassic.swift in Sources */,
+				1B11D534CA543DE947626001EA0EB4DC /* ASLabelStyleDark.swift in Sources */,
+				44CCA2BFBA4991CBC83C7B9C69FDC225 /* ASLabelStyleNormal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E928D5D16A5BCE2C26870F62128A6E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B0BECC1A978D7D2E9DFE7A26C49B1C /* Pods-ASForm_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B57693FE6872EA66AD1B239DAAF2197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASOtpTextField;
+			target = 2F35E31E52D854CC8B71FB5C0776EFF0 /* ASOtpTextField */;
+			targetProxy = CE71AEA02DA293086BC58CD3571952C6 /* PBXContainerItemProxy */;
+		};
+		2770A5618BA4A2B55A863EDFF790E217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASTextField;
+			target = 186C3FE72CB97203C32D44BD6F42E497 /* ASTextField */;
+			targetProxy = 92F82A190F81BF6E9E06588AAC2A1B92 /* PBXContainerItemProxy */;
+		};
+		2BA8A3166CCA835882AA84C99288B49C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASRadioGroup;
+			target = A3727D9A844E96F27F667DDF43D3DF09 /* ASRadioGroup */;
+			targetProxy = 4E88B9C4C8BA99B4EEE8EBEFB6C4A630 /* PBXContainerItemProxy */;
+		};
+		4013D279A6351C6E0165F79715FE4703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASLabel;
+			target = B8FB4A81AA73605CFCF9A8FFC20F65BD /* ASLabel */;
+			targetProxy = AE508F41B9D5895737D088DAD12E00A5 /* PBXContainerItemProxy */;
+		};
+		551D44047EF480B39769CAB7B9009281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 4B37504C55EBBD33C26A8F3F0314D269 /* PBXContainerItemProxy */;
+		};
+		B1BFD2076308D5C6ACF5A1ED848D7765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASForm;
+			target = ADC5BF3C10FF79F5EB23B8C315DE9889 /* ASForm */;
+			targetProxy = C312C05574AEC50CCF40747ABFB2E5E1 /* PBXContainerItemProxy */;
+		};
+		BAB9BA2F60CB8AADB781F4E70D688CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASButton;
+			target = 235FB5394A87EB9D3994D619CF7D3213 /* ASButton */;
+			targetProxy = 2B763E2AF0BE0B11BACE1D7C94A50368 /* PBXContainerItemProxy */;
+		};
+		D216E4EEC644B4040543F53DB5F96E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ASForm_Example";
+			target = 533F51812BC178DDE43D8C362143131C /* Pods-ASForm_Example */;
+			targetProxy = 37C0AACBBF5AD0E6C772D3D45CA13658 /* PBXContainerItemProxy */;
+		};
+		D2CB8F221EED477D55FCC6B23975FC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASDropDown;
+			target = 08DA35DF5FFE83080450A06B7F8AA92C /* ASDropDown */;
+			targetProxy = 7AA552B25A833F73F2831EB0C11185A9 /* PBXContainerItemProxy */;
+		};
+		FBFFEE5521810F7108E89F423C241A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASMToast;
+			target = E7CBC6DC217CA468CFDC46CF2ECF5608 /* ASMToast */;
+			targetProxy = 480A78BB28E46BAE958FECA0E872D7F3 /* PBXContainerItemProxy */;
+		};
+		FF112544BB4241B60E553FC63F028862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASValidator;
+			target = DF756F85F83DBCAB00F3BE1EC3E05EA6 /* ASValidator */;
+			targetProxy = CB808DE541E845DDE8CDF3327915A9A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0372889110393D2E73E6987F35A5057C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D59BCAC63BA036984FE278E1B62F5E7 /* ASMToast.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
+				PRODUCT_MODULE_NAME = ASMToast;
+				PRODUCT_NAME = ASMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D8CB55CC6E703E56ECD94742D1A8E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6844E83E1B1528833FB9A54B5DA45AD7 /* Pods-ASForm_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASForm_Tests/Pods-ASForm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASForm_Tests/Pods-ASForm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		153BCBCD57DA9D185BC59D1A3717CF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F569508CCD945DF0B1C260CAE1D701 /* ASValidator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASValidator/ASValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASValidator/ASValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASValidator/ASValidator.modulemap";
+				PRODUCT_MODULE_NAME = ASValidator;
+				PRODUCT_NAME = ASValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BBBC8831E5AFE11AB079622CBC64850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0241848F24F88CF049B9CB9747BF6687 /* ASDropDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASDropDown/ASDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASDropDown/ASDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASDropDown/ASDropDown.modulemap";
+				PRODUCT_MODULE_NAME = ASDropDown;
+				PRODUCT_NAME = ASDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3667550138D0B7477632E124FED96CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296AEF7E4DC191E6D70B2107BFA85972 /* ASLabel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASLabel/ASLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLabel/ASLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLabel/ASLabel.modulemap";
+				PRODUCT_MODULE_NAME = ASLabel;
+				PRODUCT_NAME = ASLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC047AD54C72969D00AF6F1243561F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43B8B2059B385B0C53E0A7C0CA9C310 /* Pods-ASForm_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASForm_Example/Pods-ASForm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASForm_Example/Pods-ASForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		411B66B771467A23DDC5A3D82BB9BE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82BBC467103D4948B96AD020CF7BC9A /* ASRadioGroup.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = ASRadioGroup;
+				PRODUCT_NAME = ASRadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D2A595CFE440C464D0F711218A213B /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4577F8E409D407463B1D814C1F733D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0C299ACC467A023ACC30475A57445B /* ASLabel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASLabel/ASLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLabel/ASLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLabel/ASLabel.modulemap";
+				PRODUCT_MODULE_NAME = ASLabel;
+				PRODUCT_NAME = ASLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		590F8961A58ECE1F0A829F9CBE60BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E86C6D4BA41C0C2BB2FE48D147CEADE /* ASForm.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
+				PRODUCT_MODULE_NAME = ASForm;
+				PRODUCT_NAME = ASForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FBA57996DDBE7D53314EAF1F72BAD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C88169E3F53F45DA01E1D785BE747 /* ASTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASTextField;
+				PRODUCT_NAME = ASTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		837C01887C80619CF26AE09A513DC801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB90FD7C03B18116A4F54F164F2DED92 /* ASRadioGroup.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASRadioGroup/ASRadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASRadioGroup/ASRadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = ASRadioGroup;
+				PRODUCT_NAME = ASRadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8588C2C0258388CB8B1FB6123AF7BB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C29301CF9E25E86C333E55A5305F10B /* Pods-ASForm_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASForm_Example/Pods-ASForm_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASForm_Example/Pods-ASForm_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87637F78C70E43348DCDA145A787A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B97F33DF9841CAE2946EF9D8D120B0 /* ASButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASButton/ASButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASButton/ASButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASButton/ASButton.modulemap";
+				PRODUCT_MODULE_NAME = ASButton;
+				PRODUCT_NAME = ASButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4BBFB5E5EF3F921A0A5653DA823EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4566A046EA9AC9362CDEDC4EEDE234D6 /* ASOtpTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASOtpTextField/ASOtpTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASOtpTextField;
+				PRODUCT_NAME = ASOtpTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94CE18A30A3CA2FC6C74AE1008718EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8591677938854D9A46A6A4E04E41D9D2 /* ASDropDown.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASDropDown/ASDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASDropDown/ASDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASDropDown/ASDropDown.modulemap";
+				PRODUCT_MODULE_NAME = ASDropDown;
+				PRODUCT_NAME = ASDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		960509C5C39F9EF9F162DB2C347D7758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C20982DBC98AD3342DD489F852B1C62 /* ASMToast.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASMToast/ASMToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMToast/ASMToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMToast/ASMToast.modulemap";
+				PRODUCT_MODULE_NAME = ASMToast;
+				PRODUCT_NAME = ASMToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9DE49EE17AE61E74D527E55FF4D438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030CA5EB9ADBA1E39C98EFCAB43F98CA /* ASButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASButton/ASButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASButton/ASButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASButton/ASButton.modulemap";
+				PRODUCT_MODULE_NAME = ASButton;
+				PRODUCT_NAME = ASButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0F661B47197A3C6895E2457F319154D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E35D79CC6FCF603F6180C821B424C9 /* ASForm.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASForm/ASForm-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASForm/ASForm-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASForm/ASForm.modulemap";
+				PRODUCT_MODULE_NAME = ASForm;
+				PRODUCT_NAME = ASForm;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4828A728920BA9E88C426DD04DB7127 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6D1E3EFE1266F4E6A706642B87533AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA0F29F683674F9315EA15739317010 /* ASValidator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASValidator/ASValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASValidator/ASValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASValidator/ASValidator.modulemap";
+				PRODUCT_MODULE_NAME = ASValidator;
+				PRODUCT_NAME = ASValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EECCAFF8D0AB658ADCE9F7DF8CB3F654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEBC1A6344B0FD34E8CEB823026DEE5 /* Pods-ASForm_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASForm_Tests/Pods-ASForm_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASForm_Tests/Pods-ASForm_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0891796900B15309B723BF611D8ED50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F60EA06C107D84710371D93BA61CC58 /* ASOtpTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASOtpTextField/ASOtpTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASOtpTextField/ASOtpTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASOtpTextField;
+				PRODUCT_NAME = ASOtpTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7977DE091CD4CEE74CE1A471B2FCB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E276FA20B0AA9852052B3AFFF99DF1F6 /* ASTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASTextField/ASTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTextField/ASTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTextField/ASTextField.modulemap";
+				PRODUCT_MODULE_NAME = ASTextField;
+				PRODUCT_NAME = ASTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156CD3AA0BD9CDF2B2C9830E6D33E1B0 /* Build configuration list for PBXNativeTarget "ASOtpTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4BBFB5E5EF3F921A0A5653DA823EED /* Debug */,
+				F0891796900B15309B723BF611D8ED50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBFA8E12706574E0859F55CDBA0B5F0 /* Build configuration list for PBXNativeTarget "ASForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590F8961A58ECE1F0A829F9CBE60BC01 /* Debug */,
+				B0F661B47197A3C6895E2457F319154D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B11CAA1E9FB508750470FDC9364565 /* Build configuration list for PBXNativeTarget "ASDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CE18A30A3CA2FC6C74AE1008718EB1 /* Debug */,
+				1BBBC8831E5AFE11AB079622CBC64850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F7391D324A26A71CE1BF1908BBFA19 /* Build configuration list for PBXNativeTarget "ASMToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0372889110393D2E73E6987F35A5057C /* Debug */,
+				960509C5C39F9EF9F162DB2C347D7758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8C2AB04A79406CD3EF58F9525A7B76 /* Build configuration list for PBXNativeTarget "ASRadioGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411B66B771467A23DDC5A3D82BB9BE94 /* Debug */,
+				837C01887C80619CF26AE09A513DC801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52585BBB0341A81D095DEF25E96343EA /* Build configuration list for PBXNativeTarget "ASTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7977DE091CD4CEE74CE1A471B2FCB5D /* Debug */,
+				7FBA57996DDBE7D53314EAF1F72BAD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805A86DEAAA214F9700907EDD6CE897B /* Build configuration list for PBXNativeTarget "Pods-ASForm_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECCAFF8D0AB658ADCE9F7DF8CB3F654 /* Debug */,
+				0D8CB55CC6E703E56ECD94742D1A8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A426847BD689110583078035DC7BAF32 /* Build configuration list for PBXNativeTarget "ASButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87637F78C70E43348DCDA145A787A453 /* Debug */,
+				A9DE49EE17AE61E74D527E55FF4D438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E176D6DE5CE587680EC2E5FF00E96D40 /* Build configuration list for PBXNativeTarget "Pods-ASForm_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8588C2C0258388CB8B1FB6123AF7BB96 /* Debug */,
+				3AC047AD54C72969D00AF6F1243561F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6DBA8E2477FAC5E45B8E178A9BA1889 /* Build configuration list for PBXNativeTarget "ASLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667550138D0B7477632E124FED96CCC /* Debug */,
+				4577F8E409D407463B1D814C1F733D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE0A1F2407CBD49E0F89DA4789FF704 /* Build configuration list for PBXNativeTarget "ASValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D1E3EFE1266F4E6A706642B87533AA /* Debug */,
+				153BCBCD57DA9D185BC59D1A3717CF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
