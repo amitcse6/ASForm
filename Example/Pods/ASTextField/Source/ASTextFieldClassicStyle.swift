@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 public class ASTextFieldClassicStyle: ASTextField {
     public override init(frame: CGRect) {
         super.init(frame: frame)

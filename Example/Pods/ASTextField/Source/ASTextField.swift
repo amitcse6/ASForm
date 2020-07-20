@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 @objc public protocol ASTextFieldDelegate {
     @objc optional func textFieldShouldBeginEditing(_ asTextField: ASTextField, _ textField: UITextField)
@@ -22,7 +23,7 @@ public class ASTextField: UIView {
     var container: UIView?
     var textField: UITextField?
     var errorLabel: UILabel?
-    var dropDownIcon: DropDownIcon?
+    var dropDownIcon: ASDropDownIcon?
     var textFieldRightConstraint: NSLayoutConstraint?
     var autoResetErrorTarget: AnyObject?
     var autoResetErrorAction: Selector?
@@ -34,7 +35,10 @@ public class ASTextField: UIView {
     var isPhoneTextField: Bool = false
     var iscCornerRadius = true
     var selectionAction: ASTextFieldDropDownClosure?
-    var phoneMask = "+XXX (XX) XXXX XXXX"
+    var phoneMask: String? = "+XXX (XX) XXXX XXXX"
+    var phoneMaskRev: String? = "+XXXXXXXXXXXXX"
+    var alwaysLowercase = false
+    var alwaysUppercase = false
     
     public override func layoutSubviews() {
         super.layoutSubviews()
@@ -48,7 +52,7 @@ public class ASTextField: UIView {
         // For Reference. It's action is not here
     }
     
-    @objc public func invalidAction() {
+    @objc public func publicValidationHandler() {
         // For Reference. It's action is not here
     }
 }
@@ -68,28 +72,24 @@ extension ASTextField {
     }
     
     @discardableResult
-    public func setDropDown(_ selectionAction: @escaping ASTextFieldDropDownClosure) -> ASTextField {
+    public func setDropDown(_ selectionAction: @escaping ASTextFieldDropDownClosure, _ size: CGSize?, _ color: UIColor?) -> ASTextField {
         self.selectionAction = selectionAction
-        textFieldRightConstraint?.constant = -30
-        let color = UIColor(red: 150.0/255.0, green: 150.0/255.0, blue: 150.0/255.0, alpha: 1.0)
-        dropDownIcon = DropDownIcon(frame: CGRect(x: 0, y: 0, width: 10, height: 15), pos: CGPoint(x: 15, y: 15), color: color)
+        dropDownIcon = ASDropDownIcon(size: size, color: color)
         container?.addSubview(dropDownIcon.unsafelyUnwrapped)
         dropDownIcon?.backgroundColor = .clear
-        dropDownIcon?.translatesAutoresizingMaskIntoConstraints = false
-        if #available(iOS 9.0, *) {
-            dropDownIcon?.topAnchor.constraint(equalTo: container.unsafelyUnwrapped.topAnchor, constant: 0).isActive = true
-            dropDownIcon?.rightAnchor.constraint(equalTo: container.unsafelyUnwrapped.rightAnchor, constant: -10).isActive = true
-            dropDownIcon?.bottomAnchor.constraint(equalTo: container.unsafelyUnwrapped.bottomAnchor, constant: 0).isActive = true
-            dropDownIcon?.widthAnchor.constraint(equalTo: dropDownIcon.unsafelyUnwrapped.heightAnchor, constant: 0).isActive = true
-            dropDownIcon?.centerYAnchor.constraint(equalTo: container.unsafelyUnwrapped.centerYAnchor, constant: 0).isActive = true
-        } else {
-            // Fallback on earlier versions
-        }
         dropDownIcon?.isUserInteractionEnabled = true
         let tapGestureRecognizer = ASTextFieldGestureRecognizer(target: self, action: #selector(dropDownEvent(_:)))
         tapGestureRecognizer.firstObject = nil
         dropDownIcon?.addGestureRecognizer(tapGestureRecognizer)
+        setupConstraints()
         return self
+    }
+    
+    func mobileNumberFormatApply() {
+        if isPhoneTextField, let phoneMask = phoneMask {
+            //textField.text = textField.text?.applyPatternOnNumbers()
+            textField?.text = textField?.text?.format(with: phoneMask)
+        }
     }
 }
 
@@ -105,16 +105,27 @@ extension ASTextField: UITextFieldDelegate {
     }
     
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        //let updatedString = (textField.text as NSString?)?.replacingCharacters(in: range, with: string)
+        let updatedString = (textField.text as NSString?)?.replacingCharacters(in: range, with: string)
+        if alwaysLowercase {
+            textField.text = updatedString?.lowercased();
+            textFieldDidChange(textField)
+            return false;
+        }
+        if alwaysUppercase {
+            textField.text = updatedString?.uppercased();
+            textFieldDidChange(textField)
+            return false;
+        }
+        
         return true
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
-        if isPhoneTextField {
-            //textField.text = textField.text?.applyPatternOnNumbers()
-            textField.text = textField.text?.format(with: phoneMask)
-        }
+        mobileNumberFormatApply()
         _ = autoInvalidTarget?.perform(autoInvalidAction)
+    }
+    
+    public func textFieldDidChangeSelection(_ textField: UITextField) {
     }
 }
 
@@ -125,7 +136,7 @@ extension ASTextField {
 }
 
 extension ASTextField {
-    public func getDropDownIcon() -> DropDownIcon? { 
+    public func getDropDownIcon() -> ASDropDownIcon? {
         return dropDownIcon
     }
     
@@ -154,7 +165,11 @@ extension ASTextField {
     }
     
     public func getText() -> String {
-        return textField?.text ?? ""
+        if isPhoneTextField, let phoneMaskRev = phoneMaskRev {
+            return textField?.text?.format(with: phoneMaskRev) ?? ""
+        }else {
+            return textField?.text ?? ""
+        }
     }
     
     public func getNormalBorderColor() -> CGColor? {
@@ -168,9 +183,10 @@ extension ASTextField {
     }
     
     @discardableResult
-    public func setPhomeMask(_ phoneMask: String?) -> ASTextField {
+    public func setPhomeMask(_ phoneMask: String?, _ phoneMaskRev: String?) -> ASTextField {
         self.isPhoneTextField = true
-        self.phoneMask = phoneMask ?? ""
+        self.phoneMask = phoneMask
+        self.phoneMaskRev = phoneMaskRev
         return self
     }
     
@@ -230,7 +246,7 @@ extension ASTextField {
         if let action = action {
             self.autoInvalidAction = action
         }else{
-            self.autoInvalidAction = #selector(target?.invalidAction)
+            self.autoInvalidAction = #selector(target?.publicValidationHandler)
         }
         if isLoadTriggered {
             _ = autoInvalidTarget?.perform(autoInvalidAction)
@@ -252,8 +268,11 @@ extension ASTextField {
     }
     
     @discardableResult
-    public func setText(_ value: String?) -> ASTextField {
+    public func setText(_ value: String?, _ isCheck: Bool? = false) -> ASTextField {
         textField?.text = value ?? ""
+        if let isCheck = isCheck, isCheck, let textField = textField {
+            textFieldDidChange(textField)
+        }
         return self
     }
     
@@ -289,6 +308,25 @@ extension ASTextField {
     }
     
     @discardableResult
+    public func setAutocapitalizationType() -> ASTextField {
+        textField?.autocapitalizationType = .allCharacters
+        return self
+    }
+    
+    @discardableResult
+    public func setAlwaysLowercase(_ alwaysLowercase: Bool) -> ASTextField {
+        self.alwaysLowercase = alwaysLowercase
+        return self
+    }
+    
+    @discardableResult
+    public func setAlwaysUppercase(_ alwaysUppercase: Bool) -> ASTextField {
+        self.alwaysUppercase = alwaysUppercase
+        return self
+    }
+    
+    
+    @discardableResult
     public func setDisableEditing() -> ASTextField {
         isEditable = false
         return self
@@ -298,39 +336,6 @@ extension ASTextField {
     public func enableEditing() -> ASTextField {
         isEditable = true
         return self
-    }
-}
-
-public class DropDownIcon : UIView {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        commonInit(pos: CGPoint(x: 10, y: 10), color: .black)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        commonInit(pos: CGPoint(x: 10, y: 10), color: .black)
-    }
-    
-    init(frame: CGRect, pos: CGPoint, color: UIColor) {
-        super.init(frame: frame)
-        commonInit(pos: pos, color: color)
-    }
-    
-    public func commonInit(pos: CGPoint, color: UIColor) {
-        let size = frame.size
-        let path = CGMutablePath()
-        
-        path.move(to: CGPoint(x: pos.x, y: pos.y))
-        path.addLine(to: CGPoint(x: pos.x + size.width/2, y: pos.y + size.height/2))
-        path.addLine(to: CGPoint(x:pos.x + size.width, y: pos.y + 0))
-        path.addLine(to: CGPoint(x: pos.x, y: pos.y))
-        
-        let shape = CAShapeLayer()
-        shape.path = path
-        shape.fillColor = color.cgColor
-        
-        layer.insertSublayer(shape, at: 0)
     }
 }
 

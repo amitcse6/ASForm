@@ -7,116 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4F41CFDC2FF50156CDD4275E89DD5D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00F90555BF21D44C5F29B38A67B36FD1 /* ASOtpTextFieldClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0A0F2A186255F0BA318852146C616 /* ASOtpTextFieldClassic.swift */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = CB970D97E3BB70511F02B7FA8DB1FC59 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F90555BF21D44C5F29B38A67B36FD1 /* ASOtpTextFieldClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635137E660B65922A73F8B9B2F0EEA1 /* ASOtpTextFieldClassic.swift */; };
 		01A4FBC639CC619D26F410E319226372 /* ASForm-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8399FC84BE6F7C55C05B89B5115A9172 /* ASForm-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		068E716721CFC16DF977E712D32E0A78 /* ASVRequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E937390D0509BF03EF40D4F8D0EB07 /* ASVRequiredRule.swift */; };
-		069755F3EAE1B4732613B5B3BCE08667 /* ASDropDownView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25447D203A02F72E41B96E1C6A2965 /* ASDropDownView+Extension.swift */; };
 		06A44013B6354AED565982E1460C2BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8CFCD651CEB6D8546D9E9F1F85C62A /* ASButton-dummy.m */; };
+		0B4AABDE5DDC30C7F5FE92A02DD0B19A /* ASButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D984EA6EF15D6C1347420097D0AD016D /* ASButton-dummy.m */; };
 		0C26042086E2D35510A681E862A65D20 /* ASMToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A531A13998BB7A1FE6FFC0A875CB7FD /* ASMToast.framework */; };
 		0F61428E8E80176CD77B30E9FECE6790 /* ASDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6640DE04F6568E80EF914938F253E7 /* ASDropDown.framework */; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6B31A3E6D881024FF483BB0AE2D28 /* UIApplication+StrictKeyWindow.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AB90707FAEB8C6F490E2FF2ABDFC4 /* UIApplication+StrictKeyWindow.m */; };
 		12F714EDF773CAB69D863D6B22784DF9 /* Pods-ASForm_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4AA7673305800E401052492FA0F275 /* UIImage+Diff.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A066DB5E8DE067EE09461E85A49313 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFCC1B68DC9DD897DBF23AD7780A457 /* QuartzCore.framework */; };
-		16C937159124BC783463BC788B9F8955 /* ASVRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602EF1173DB721C19A57D0A10C097C8 /* ASVRule.swift */; };
 		18B0BECC1A978D7D2E9DFE7A26C49B1C /* Pods-ASForm_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */; };
-		1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E131617FBB786C8F3C564CC06B9F3440 /* ASDropDownBox.swift */; };
-		1C7935E228595C8074FF1D6F5559435E /* ASDropDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E054B1C0F1DEE44D1B3780A5F60D13 /* ASDropDownIcon.swift */; };
+		1C7935E228595C8074FF1D6F5559435E /* ASDropDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD820890F42C8E0CA5423AA885EBCA43 /* ASDropDownIcon.swift */; };
 		1CA9F41705A4A7F49D04A4080E85D598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		1D9ABCD77D1B4C1B0CC22F831C8E1826 /* ASOtpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378519B4D6C31DD237ADD520CFE2BE33 /* ASOtpTextField.swift */; };
-		22FA1A393554E81FD635CD50212ABD3D /* ASOtpTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5456A2DD151ED189C275DEF1447B7351 /* ASOtpTextField+Extensions.swift */; };
+		1D9ABCD77D1B4C1B0CC22F831C8E1826 /* ASOtpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D0139CE6D20181787B77B8B42BD05 /* ASOtpTextField.swift */; };
+		1F0BE87D7EF6ABF401D2750212DE9FB9 /* ASVMaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EF532597B1B9930716A3AE32D39EB /* ASVMaxLengthRule.swift */; };
+		22FA1A393554E81FD635CD50212ABD3D /* ASOtpTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE858A153D079687915BE41FEB1ABD /* ASOtpTextField+Extensions.swift */; };
+		273931928D22812BAEE3CFEEF301544F /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D22CA697C0F366E3A681BC20C1A1F8 /* ASVResult.swift */; };
 		297AB089A2D2684687E4ABA7576E401D /* Pods-ASForm_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CCDEA9FC5541FEFB924733AEA4CBC64 /* ASRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4790B3F1EFC2BA925AEDED7C02C1A22 /* ASRadioButton.swift */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8265F0AC82EBEA702BD4B7AEBBF863 /* UIImage+Compare.m */; };
-		30EAC075AB3D33462D4AE2CFD6FF09BB /* ASTextFieldMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */; };
-		38E3590713A9AA1C7FD99CD44EE0C820 /* ASLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F208750C0F468A8631894A1C36BC0CEA /* ASLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		391B4919AC336A76CD9B66151F66E090 /* ASOtpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C8AE5A74FDC43DA4EA01AD5F758B /* ASOtpTextField-dummy.m */; };
+		2CCDEA9FC5541FEFB924733AEA4CBC64 /* ASRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6942257894BB7665B46DE5E19FE2F1 /* ASRadioButton.swift */; };
+		2D3DFFAF75D39FA0BBEC513F9B3283C5 /* ASVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A2EDE26AA36CB78FB6905FE36F7FD /* ASVError.swift */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B0F796CC9C1A846741BAD325B6500 /* UIImage+Compare.m */; };
+		30EAC075AB3D33462D4AE2CFD6FF09BB /* ASTextFieldMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B81F8E6D5A10290F76357E594117C28 /* ASTextFieldMath.swift */; };
+		32009F7427E06323923571F09965B7E4 /* ASDropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932DD725D21FEF8622B00702676FBA24 /* ASDropDownBox.swift */; };
+		35B395D4941B3CA4DC8E6E00E1527344 /* ASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903612B09C2E189FBB1759FE194A65A8 /* ASValidator.swift */; };
+		38E3590713A9AA1C7FD99CD44EE0C820 /* ASLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F84DEDE53F9C591793163011B40F54 /* ASLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391B4919AC336A76CD9B66151F66E090 /* ASOtpTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B96A835372AE8B426289B44483BB09B /* ASOtpTextField-dummy.m */; };
 		3AEEF141710F3C25225F282E37CA26A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		3E58FDBD07DE1919FD19C1B7992BFFBF /* ASValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDBB259378B64EEF4C48732C8EB794E /* ASValidator.framework */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9357763BF36E37F5176AC1246448F9 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD8348CED0F743F6C65CF4C529E1B93 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4034CF4E2A8CB34C8CA8501AAF703E3D /* ASValidatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D6C63D9F8A63E607A1D185C74AB28 /* ASValidatorEntity.swift */; };
+		4118634DD004D40B046899E89B26CD6E /* ASDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2143086B12B23D8B6DFE89884FED8D6 /* ASDropDownCell.swift */; };
 		4192ED7355624AA84547E9B3F3B77693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		4A88C2C04891D5A1BF18D67948EDAA6E /* Pods-ASForm_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5191D250DD7D1B15C40FCA2607F23E47 /* ASVMailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C878EC377FBD98D737DDA2E0FCA411F /* ASVMailRule.swift */; };
-		52123B5E4E8A6A489ED0EBBCFD077E85 /* ASDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30348F4E4757385BBF53B102A900EF39 /* ASDropDownItem.swift */; };
-		524DA3DD380541FE76BE922098EF1694 /* ASRadioButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74624DEA1AAEDDE0CC0965B10B510993 /* ASRadioButton+Extension.swift */; };
-		536622CB7C93A91FF703051EF9D24410 /* ASLabelStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5373268537C2DCCE9E616D9D71584 /* ASLabelStyleClassic.swift */; };
-		543C45C7DAB12B0F36610D48F64B404B /* ASTextFieldClassicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */; };
-		55F1D71453EF5F59082626C3A173709C /* ASOtpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */; };
+		524DA3DD380541FE76BE922098EF1694 /* ASRadioButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B51FF800E6A30DFD70DE5FB9767D68 /* ASRadioButton+Extension.swift */; };
+		536622CB7C93A91FF703051EF9D24410 /* ASLabelStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DFD607748E6428F2B151A3B036DD2E /* ASLabelStyleClassic.swift */; };
+		543C45C7DAB12B0F36610D48F64B404B /* ASTextFieldClassicStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EEB0974C670695D1FF01DE10C11B3C /* ASTextFieldClassicStyle.swift */; };
+		55F1D71453EF5F59082626C3A173709C /* ASOtpTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3153D5126878A14200394BDD2B8D94 /* ASOtpTextFieldView.swift */; };
 		571DAA16C069426587AF9C14E4A60233 /* ASOtpTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C42543101005B2FE425C4B36D035F /* ASOtpTextField.framework */; };
-		58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		5BBB2E9A952ACAA67449D871965EC4F4 /* ASVMaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A90C1C44DAF77C4BF5ADF46454271C /* ASVMaxLengthRule.swift */; };
+		5A164B67D095DDF1517FDABDEA32EA2E /* ASVLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF7BEE1D0DE973CC3C3B86F1BFE55F /* ASVLengthRule.swift */; };
 		615554D2FB836432198C946D0E4947D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		61A7479A92EB989FAF754E3145FC5C57 /* ASLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80BC4A8DE4CF2572F3E501F532C2DBB /* ASLabel-dummy.m */; };
+		61A7479A92EB989FAF754E3145FC5C57 /* ASLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6AC94E41940C0C4994D6AD0ED0B5FF /* ASLabel-dummy.m */; };
+		640D8E06E6C7B6987E2F738C6B44F614 /* ASDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83267D8E58646C7F54F9B5D5C14BFE /* ASDropDown.swift */; };
+		66EFD6D76BEEDF81316F026AD8CE2BD7 /* ASDropDownProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF83646D6D3542D289B376EBE90750 /* ASDropDownProp.swift */; };
 		698894C697C379125DBD726370045934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E95ED2ACD6C88168CC519C46BBE7C2 /* XCTest.framework */; };
-		6B32EAD97A6C206F4F83DE18814132C7 /* ASLabelStyleNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82085BA61B88928A4F964D6D7536142F /* ASLabelStyleNormal.swift */; };
-		6C508172C84A43B1141437CECCD20AC9 /* ASVResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC7E764F4EC01FC45CE8F4D849CB77 /* ASVResult.swift */; };
-		6D6F6FCFF49793E7050D905AA0686389 /* ASOtpTextFieldView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57F970F440A91542090EC253171133 /* ASOtpTextFieldView+Extensions.swift */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08D162EAFEE6EC9912B63A1EF74D342 /* FBSnapshotTestCase-dummy.m */; };
-		6EE99E55EF36D428E8589D24CC420B40 /* ASDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFED761FD65B09FEB17AAFEA4927601E /* ASDropDown-dummy.m */; };
+		6B32EAD97A6C206F4F83DE18814132C7 /* ASLabelStyleNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E07612C437904FE11CC4AA1A45AED54 /* ASLabelStyleNormal.swift */; };
+		6D6F6FCFF49793E7050D905AA0686389 /* ASOtpTextFieldView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAAA6BFB600AA1A0E44808BEEFC2E1 /* ASOtpTextFieldView+Extensions.swift */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC42EA985C894A9EFF483616B183D2FC /* FBSnapshotTestCase-dummy.m */; };
+		6E9ECBA11A30878D0A030649EC0811F7 /* ASVEqualFieldRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA88C541A1FBB697A0EFDE770863123 /* ASVEqualFieldRule.swift */; };
 		6F09D7B8678DB51E85A0A4D4ED08F6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		7323601CD60D2E1F80996BD701468AE1 /* ASTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		765BBA39893230033CE61ED4DA1B282A /* ASDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B60C3ACE044CD055F6F4965D9C4B71 /* ASDropDownView.swift */; };
-		78291F2C19E2A63E902621B3E66856A2 /* ASRadioGroupClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF489AD3A6AFB324C8254E54B1FC94C /* ASRadioGroupClassic.swift */; };
-		7A3E9F2D93F4EDC4DE98D0F5237C7B25 /* ASDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C7043E8C8B7BBCBC38D09F68A01E5 /* ASDropDownCell.swift */; };
-		7C50CA9A9D8508F424B504F703B64E5D /* ASValidatorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C741CD863185076BCDD1EE3C5E18E3 /* FBSnapshotTestController.m */; };
-		89CD3B565580B88C2086D3640B0EAAF6 /* ASRadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1243AA854542D5652285B342F9AE77EA /* ASRadioGroup-dummy.m */; };
-		8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB3E40810620726CEF12703414E977 /* ASButton.swift */; };
-		8B9DC80C353A46E08FEFEDF71C734E9D /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 698FAF8DDFDC7E6FF7E26BA3619484A6 /* FBSnapshotTestCase.m */; };
-		8D6A965583A72D89B5B894E060A12568 /* ASMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EFCE63EE030F2823789EC59BCC6AE /* ASMToast.swift */; };
-		8E2D243E7964D13ADCC503A3F66A08AB /* ASVMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0299DB5A270AC9504F15E084F0F4B /* ASVMath.swift */; };
-		8EDA7FC28E32B9A83F8BAC9CDBBDEB28 /* ASOtpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67053A61F4E46561EF749F7A856A8C49 /* ASOtpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F0F9D3394477316291E2FDF7B2B8D76 /* ASRadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46895DE23C95C899EF1739E9E89C19E5 /* ASRadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 181F1C5107D7DD265996A5F1B4972897 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7223F40BB3D84C50F931D488FE19A7D2 /* ASDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E98EF34B64C2B2B0EFDB42CBA77CA39 /* ASDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727C473F9F8349D33C0749E5AFF0DAE6 /* ASVRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CA4E3E5771435071ED3FC5FFE2CD5 /* ASVRule.swift */; };
+		7323601CD60D2E1F80996BD701468AE1 /* ASTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF4293B6FE3EC972BA0A8378A8A6ACF /* ASTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78291F2C19E2A63E902621B3E66856A2 /* ASRadioGroupClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA950B590161FB242D6A5BEA20C0DB25 /* ASRadioGroupClassic.swift */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F8F100CEB20CD359310C1B1E049FE /* FBSnapshotTestController.m */; };
+		89CD3B565580B88C2086D3640B0EAAF6 /* ASRadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB22B55CBA0A4E6638E2CA3EC8AAE945 /* ASRadioGroup-dummy.m */; };
+		8B71910F4F886CB4273D5374C6F516B2 /* ASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01F679F12B4474A9D6641B4096FFF36 /* ASButton.swift */; };
+		8B9DC80C353A46E08FEFEDF71C734E9D /* ASLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3529D8644F183C05DDF7EA5D51DA1E /* ASLabel.swift */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C45ED9B9A890C6CD0C666AA322E9985 /* FBSnapshotTestCase.m */; };
+		8D6A965583A72D89B5B894E060A12568 /* ASMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C49BC6F5E4D2911B7E42C0D55AEBA5 /* ASMToast.swift */; };
+		8ECA0133E9B0BC197AB7E41B9B505FC2 /* ASDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75EED15B1D21796C3AD7A18165E9469 /* ASDropDownItem.swift */; };
+		8EDA7FC28E32B9A83F8BAC9CDBBDEB28 /* ASOtpTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8C0C48D936E12FA2A21522A7D96E1A /* ASOtpTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0F9D3394477316291E2FDF7B2B8D76 /* ASRadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0446FF0EDBEED7CDE683E27ECCFAF3B /* ASRadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C4C8C23D82F95C2020B5E10D71D4DC /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		957C4299A0C2482A53859586B3F7392B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		99010B00861A520F4A861E6D814D129F /* ASDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9622B17303F532A7EB43609246498 /* ASDropDown.swift */; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E30228D07DCAD557D6E928022787B5 /* SwiftSupport.swift */; };
-		A121F9FCA0D524185B128A8B17C6EC9B /* ASRadioButtonClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8247B66F8DD0D078502DC4063A6BC2 /* ASRadioButtonClassic.swift */; };
+		97B9932A1B1F8BC0F5F3EA70E264F852 /* ASVRequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547461CF8ED35AA18FD4DA0192628D90 /* ASVRequiredRule.swift */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3234DEAA7001E61970C15D434252930 /* SwiftSupport.swift */; };
+		A121F9FCA0D524185B128A8B17C6EC9B /* ASRadioButtonClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DF0B676C3B1B8314804660AC0981A3 /* ASRadioButtonClassic.swift */; };
 		A2409322F2F4268ED493631116DB2C64 /* ASForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67849D70350D29346AA1B038B602A052 /* ASForm-dummy.m */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 728438BA0976C938562A640F5C74D588 /* UIImage+Snapshot.m */; };
-		A5A96D32034F02603FF4F79EBF6EEB99 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */; };
-		A65B20582E1C3A0B2E23EA19F370EB60 /* ASButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F0B0153B63DC33D35624080474423D /* ASButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA87F6EC26BE0DADBC98166942B85334 /* ASValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13EB4323FCC7401B4C89301542A5582 /* ASValidator.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C19D29EC0644BBB74229ADC0309177 /* UIImage+Snapshot.m */; };
+		A5A96D32034F02603FF4F79EBF6EEB99 /* ASTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4424785970ECBDCD15127A443B0D67E /* ASTextField.swift */; };
+		A65B20582E1C3A0B2E23EA19F370EB60 /* ASButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8830EA111852ABC9DA0EE453D67380 /* ASButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFCDEC811576A5D643038C6193ECED1 /* ASVMinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50286C76655166663741DC08F580AF /* ASVMinLengthRule.swift */; };
 		AE0AE08C849B8EA9C247681A676E25B0 /* ASRadioGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1970C759A0C0787D2380CE94D47A6DB /* ASRadioGroup.framework */; };
-		B132476031092F3FF73E486B6CD34581 /* ASMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */; };
+		B132476031092F3FF73E486B6CD34581 /* ASMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61603741ABE655154B877FAF0101D3 /* ASMToastView.swift */; };
+		B2018D42A252492C769E18B088AA0F89 /* ASVMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B660AED3AD10796C1F0D239F9049F /* ASVMath.swift */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DC9B647324C514E82746A81F6967A6 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B8879EB73D310AF7FF96F20C7BC9C54E /* ASRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432B339BF15B5A353B29739321C1464 /* ASRButton.swift */; };
-		B992D7DD69F764ACABF1A50A24B156F8 /* ASVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3067BD39FA786E549D3B232451881B /* ASVError.swift */; };
-		BD133CB38F15DF836E6042C58E3F74AA /* ASOtpTextFieldViewClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */; };
-		BD3D3228D86587DC8BAA62C15139536C /* ASDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593A10E02ACFCC8C274405B270D3D3CF /* ASDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AF328E93486223C432B0497C1BCA3A /* ASDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC3560A95A2C61B8EE241CDCDCC080 /* ASDropDown-dummy.m */; };
+		B58E429702ACC9C5577867DA83D03307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
+		B628AF3B4BC032EA7D4B25B7F27BCD10 /* ASVMailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14082C6D962F8AC9893752E43CD686D4 /* ASVMailRule.swift */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 728404D9CD250BC9D316379742B8D3B8 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B8879EB73D310AF7FF96F20C7BC9C54E /* ASRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055BAF5BE4CB763765BDD29651F5E1F6 /* ASRButton.swift */; };
+		BD133CB38F15DF836E6042C58E3F74AA /* ASOtpTextFieldViewClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742B335899DA759C94D8DB2666D5B07 /* ASOtpTextFieldViewClassic.swift */; };
 		BDD24E8B3B0FF082E6863E2D6E71270B /* ASButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B773E6752D1DA70B5A6C070EDA90F312 /* ASButton.framework */; };
-		C0E7FCB95F084612ACD09A0635D5436C /* ASValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE17F8B9287708EFE65793877F5A209 /* ASValidation.swift */; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C17568E974EBCD61ADE02B13D1E53257 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6CF9C0177A24CBF64B6B26F7C3E5BF1 /* ASMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDC42624921D2DAE9D2D683EAA6FE65 /* ASMToast-dummy.m */; };
-		CA8AD2230F7D9C6824781723D1D0CFBB /* ASMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6DF2D098DE931C7F54E35F4CC96D58 /* ASTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40944BB6224BDEC143FA388F44646B65 /* ASTextField+Extensions.swift */; };
-		CFE7A7F0BD9063B67C8D77BAB9981068 /* ASLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E102723CDDD17086850528FA9A3A62E7 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D47C54455409B20E942A27FABCC36FD1 /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F31B3E7FF4A07C18D75C4E942F84B /* ASRadioGroup+Extension.swift */; };
-		D5E35BD8F55FDB985CAB011A21C2A49F /* ASVMinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */; };
-		D9498BFB9F5BA5A780EEAA5B86DCDA7F /* ASVLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18536C95A7D0EF54422A93FCAF0FE138 /* ASVLengthRule.swift */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D76A269A3575BB917510B5E1BBD66C7A /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CF9C0177A24CBF64B6B26F7C3E5BF1 /* ASMToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA9D607E446A772CB9BDB398F9745F /* ASMToast-dummy.m */; };
+		C74BC8306FF227A7BDAF37C09DFB2ABC /* ASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D1D61D2A24DF803E35A1C70A5B16C0 /* ASValidator-dummy.m */; };
+		CA8AD2230F7D9C6824781723D1D0CFBB /* ASMToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCE29EABFABA407512F02E2A057FCF /* ASMToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CACBFEA47AEC250C5FF559712447F941 /* ASDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE18EEA34200461C3A14D9B6E67AE1A /* ASDropDownView.swift */; };
+		CB6DF2D098DE931C7F54E35F4CC96D58 /* ASTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E845B4D083A01FDF2B932713DA6D79 /* ASTextField+Extensions.swift */; };
+		CFE7A7F0BD9063B67C8D77BAB9981068 /* ASLabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289204245D69C4845776A3601F65FD70 /* ASLabel+Extension.swift */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 01988196B6BADBF8E3AFDFE040BA3108 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D47C54455409B20E942A27FABCC36FD1 /* ASRadioGroup+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60579B64DF2250A8E7CFCAC2FCE1715E /* ASRadioGroup+Extension.swift */; };
 		DA2006CF6C38F58BFA92F1D553998450 /* ASForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4944AA2FAE2947279F53E5C2674372C9 /* ASForm.swift */; };
-		DA449660ACA7E87C537092B3017CA3B0 /* ASRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB9293C727E1C59F3AC1C51DA3794 /* ASRadioGroup.swift */; };
+		DA449660ACA7E87C537092B3017CA3B0 /* ASRadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42051AB6201BFE159B392558ED0F855A /* ASRadioGroup.swift */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC4975EEF257B5538A28DF9FE1F6823 /* UIKit.framework */; };
-		E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AD62CC8E26EC75D7F123E5C2672BA /* ASButtonStyleClassic.swift */; };
-		E564C4D9D608A67C56CB77769C512989 /* ASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E68442399536EEB9160E784294BF27B /* ASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47A9789FB4C83AD959F196EA30C4222 /* ASButtonStyleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12D5FA16EFFB7DC6B05261DC443B41 /* ASButtonStyleClassic.swift */; };
+		E564C4D9D608A67C56CB77769C512989 /* ASValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C64A814DF0FC21A10EF5CF9B1712C2EF /* ASValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E632052B614BE2E3C88E45866FCAB32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
 		E6E125335020D1C09C553B9A85B95021 /* ASLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09299A59FF4A4E032BA5A96D9866FA0A /* ASLabel.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 59980D592EEBAA1517343B8D6D8D5420 /* FBSnapshotTestCasePlatform.m */; };
-		EA66328389871FC838E0CAC040AB5D8D /* ASDropDownViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EE37BCED93E958E89C5BE23CD2A2D /* ASDropDownViewDefault.swift */; };
-		ECD01B59A4A65C4346CB022A41CD6592 /* ASTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD4F4A380F36352B45A84C05BD0BFA /* ASTextField-dummy.m */; };
-		EE5E23D98C694C7D29116DD5B4E12BFF /* ASLabelStyleDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */; };
-		F1008DE54E930511F496E82514E70148 /* ASOtpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C532830F41ADC6F88A628C0CF03EC54 /* ASOtpField.swift */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EB934CE4CC702A89C7F5250C6C7F1C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7CCF3C5BADDE9FDC44CE6975C2927 /* FBSnapshotTestCasePlatform.m */; };
+		EA91CBABE23D7691B004927A1FA71A5A /* ASDropDownView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC920B1DB5C52903D2A604FADB99D8B /* ASDropDownView+Extension.swift */; };
+		ECD01B59A4A65C4346CB022A41CD6592 /* ASTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2687242A8131DC80A7FE326838A239 /* ASTextField-dummy.m */; };
+		EE5E23D98C694C7D29116DD5B4E12BFF /* ASLabelStyleDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB69224A3191966D046706EBF08E8BD5 /* ASLabelStyleDark.swift */; };
+		F1008DE54E930511F496E82514E70148 /* ASOtpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2831DA0537E9B5891BD3210EC160216 /* ASOtpField.swift */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C5052DC3379B9F7C74B526C7C7FC9D4F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F66C729AA6B1B5F0ADDC5658C4EB57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBB796A430CC029EB6F62560098065E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7D60C423BA691C74A583A3E1753FBBE /* ASValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 470826A75DF11E9856906151A9900263 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA98667D6622C511C2087C2D0D3749F0 /* ASTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B43E28D0D8A33C3DC963F527B9A0F0 /* ASTextField.framework */; };
+		FB468898BA019F4D5E565F7BAE896D8C /* ASDropDownViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A0730803321A38CD8ACF86969BB0E /* ASDropDownViewDefault.swift */; };
+		FE24E8AC43500BB5947FC19F304AB276 /* ASValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F624B2951F762785C7E7304239389 /* ASValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,188 +258,198 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01988196B6BADBF8E3AFDFE040BA3108 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		01D99E4F49CFB9CE26E73FF18AFC349C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		029B529F7B8841A9DD99805DB37E5EC9 /* ASOtpTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASOtpTextField.modulemap; sourceTree = "<group>"; };
-		02EB934CE4CC702A89C7F5250C6C7F1C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.release.xcconfig; sourceTree = "<group>"; };
 		0544C5BE060B2B10AAE702A4D0CCD90F /* Pods_ASForm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASForm_Example.framework; path = "Pods-ASForm_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05A6B31A3E6D881024FF483BB0AE2D28 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		089F8DC630B7A28CF46312596ECABA4C /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		055BAF5BE4CB763765BDD29651F5E1F6 /* ASRButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRButton.swift; path = Source/ASRButton.swift; sourceTree = "<group>"; };
 		09299A59FF4A4E032BA5A96D9866FA0A /* ASLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E1F588C1250C62F35BDD77B201C668 /* Pods-ASForm_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASForm_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A531A13998BB7A1FE6FFC0A875CB7FD /* ASMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-umbrella.h"; sourceTree = "<group>"; };
-		0BB9889092E96E449A7C592C9E9A16CE /* ASValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASValidator-Info.plist"; sourceTree = "<group>"; };
-		0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidatorEntity.swift; path = Source/ASValidatorEntity.swift; sourceTree = "<group>"; };
-		0BE935232178FDFEB3C3613CD900774C /* ASMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.release.xcconfig; sourceTree = "<group>"; };
-		0C1059EB3D6502AF71968009532ED564 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		0BC920B1DB5C52903D2A604FADB99D8B /* ASDropDownView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASDropDownView+Extension.swift"; path = "Source/ASDropDownView+Extension.swift"; sourceTree = "<group>"; };
+		0BE18EEA34200461C3A14D9B6E67AE1A /* ASDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownView.swift; path = Source/ASDropDownView.swift; sourceTree = "<group>"; };
+		0C45ED9B9A890C6CD0C666AA322E9985 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		0C847DBB33EEA2CF19438F28BCFADC9C /* Pods-ASForm_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASForm_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0CAB4E1EEDCC06AA95A0215C5603A884 /* ASValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.debug.xcconfig; sourceTree = "<group>"; };
 		0CDBF4AC27EC81F15AEB5AAABF7217AC /* ASForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASForm-prefix.pch"; sourceTree = "<group>"; };
-		0E8EFCE63EE030F2823789EC59BCC6AE /* ASMToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToast.swift; path = Source/ASMToast.swift; sourceTree = "<group>"; };
-		1243AA854542D5652285B342F9AE77EA /* ASRadioGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASRadioGroup-dummy.m"; sourceTree = "<group>"; };
-		158C7043E8C8B7BBCBC38D09F68A01E5 /* ASDropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownCell.swift; path = Source/ASDropDownCell.swift; sourceTree = "<group>"; };
-		181F1C5107D7DD265996A5F1B4972897 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		18536C95A7D0EF54422A93FCAF0FE138 /* ASVLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVLengthRule.swift; path = Source/ASVLengthRule.swift; sourceTree = "<group>"; };
-		1B0F31B3E7FF4A07C18D75C4E942F84B /* ASRadioGroup+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioGroup+Extension.swift"; path = "Source/ASRadioGroup+Extension.swift"; sourceTree = "<group>"; };
-		1B8247B66F8DD0D078502DC4063A6BC2 /* ASRadioButtonClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButtonClassic.swift; path = Source/ASRadioButtonClassic.swift; sourceTree = "<group>"; };
-		1C878EC377FBD98D737DDA2E0FCA411F /* ASVMailRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMailRule.swift; path = Source/ASVMailRule.swift; sourceTree = "<group>"; };
-		1D4AA7673305800E401052492FA0F275 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		109ABD06DE8BA083BB85F32D6C5E9B01 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		14082C6D962F8AC9893752E43CD686D4 /* ASVMailRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMailRule.swift; path = Source/ASVMailRule.swift; sourceTree = "<group>"; };
+		188F0CE64288ACDDC8FED1F1F4D2FCD9 /* ASRadioGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASRadioGroup-Info.plist"; sourceTree = "<group>"; };
+		1ABAAA6BFB600AA1A0E44808BEEFC2E1 /* ASOtpTextFieldView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextFieldView+Extensions.swift"; path = "Source/ASOtpTextFieldView+Extensions.swift"; sourceTree = "<group>"; };
+		1C299BA11B0227BBEA56670B37988EFB /* ASLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASLabel-Info.plist"; sourceTree = "<group>"; };
+		1C6AC94E41940C0C4994D6AD0ED0B5FF /* ASLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLabel-dummy.m"; sourceTree = "<group>"; };
 		1E77932201FCBDF9ADDF00827E28A486 /* Pods-ASForm_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASForm_Example.modulemap"; sourceTree = "<group>"; };
+		1FA88C541A1FBB697A0EFDE770863123 /* ASVEqualFieldRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVEqualFieldRule.swift; path = Source/ASVEqualFieldRule.swift; sourceTree = "<group>"; };
 		20528F85D59EF8BAD35FEEA2DA09AC8A /* ASButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASButton.framework; path = ASButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		208088C54D88C0C13C57E65ECDC48F92 /* Pods_ASForm_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASForm_Tests.framework; path = "Pods-ASForm_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.debug.xcconfig; sourceTree = "<group>"; };
-		25E8DC7D6041448D233125F5D6916B5D /* ASLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-prefix.pch"; sourceTree = "<group>"; };
+		27C19D29EC0644BBB74229ADC0309177 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		289204245D69C4845776A3601F65FD70 /* ASLabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASLabel+Extension.swift"; path = "Source/ASLabel+Extension.swift"; sourceTree = "<group>"; };
 		28B43E28D0D8A33C3DC963F527B9A0F0 /* ASTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.debug.xcconfig; sourceTree = "<group>"; };
-		2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldView.swift; path = Source/ASOtpTextFieldView.swift; sourceTree = "<group>"; };
-		30348F4E4757385BBF53B102A900EF39 /* ASDropDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownItem.swift; path = Source/ASDropDownItem.swift; sourceTree = "<group>"; };
+		28BC24127E93EAFEC529A2398AADA739 /* ASRadioGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.release.xcconfig; sourceTree = "<group>"; };
+		2BE9F687B4D2A935EA9677B81BA1FFAC /* ASValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.release.xcconfig; sourceTree = "<group>"; };
+		2D8C0C48D936E12FA2A21522A7D96E1A /* ASOtpTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-umbrella.h"; sourceTree = "<group>"; };
+		2E07612C437904FE11CC4AA1A45AED54 /* ASLabelStyleNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleNormal.swift; path = Source/ASLabelStyleNormal.swift; sourceTree = "<group>"; };
+		2E84054F64A27311A179EE482FA87E4A /* ASMToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-prefix.pch"; sourceTree = "<group>"; };
+		3039B1FA988963D9AC8A105F01FEA453 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		30B30A62C42691A34886115C0CD7A2C2 /* Pods-ASForm_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASForm_Tests-dummy.m"; sourceTree = "<group>"; };
+		32FCE29EABFABA407512F02E2A057FCF /* ASMToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-umbrella.h"; sourceTree = "<group>"; };
 		34D79F5A3EC76E079057FD6BA9D8B06C /* Pods-ASForm_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Tests-Info.plist"; sourceTree = "<group>"; };
-		34F0299DB5A270AC9504F15E084F0F4B /* ASVMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMath.swift; path = Source/ASVMath.swift; sourceTree = "<group>"; };
-		364E5ACD340CD46DD16E3A85E7781884 /* ASMToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASMToast-Info.plist"; sourceTree = "<group>"; };
-		378519B4D6C31DD237ADD520CFE2BE33 /* ASOtpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextField.swift; path = Source/ASOtpTextField.swift; sourceTree = "<group>"; };
-		37A90C1C44DAF77C4BF5ADF46454271C /* ASVMaxLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMaxLengthRule.swift; path = Source/ASVMaxLengthRule.swift; sourceTree = "<group>"; };
-		37E054B1C0F1DEE44D1B3780A5F60D13 /* ASDropDownIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownIcon.swift; path = Source/ASDropDownIcon.swift; sourceTree = "<group>"; };
-		37E8479E332BFAB081BC1FDBC49EEEE6 /* ASButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASButton-Info.plist"; sourceTree = "<group>"; };
-		3BBAAA3F3538E28D858DE0B16FB0ED17 /* ASMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.debug.xcconfig; sourceTree = "<group>"; };
-		3BF51B0325071CB016652019972FF123 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		38DFD607748E6428F2B151A3B036DD2E /* ASLabelStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleClassic.swift; path = Source/ASLabelStyleClassic.swift; sourceTree = "<group>"; };
+		39582D96D68E31179295F4265F8B68C7 /* ASRadioGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASRadioGroup.modulemap; sourceTree = "<group>"; };
+		3AECF0D6A599B24334D8BEBB688C0CB8 /* ASLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.debug.xcconfig; sourceTree = "<group>"; };
+		3D1EF532597B1B9930716A3AE32D39EB /* ASVMaxLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMaxLengthRule.swift; path = Source/ASVMaxLengthRule.swift; sourceTree = "<group>"; };
+		3D2687242A8131DC80A7FE326838A239 /* ASTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASTextField-dummy.m"; sourceTree = "<group>"; };
+		3D900865D4DC32865B0A5D57E274F56C /* ASDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.release.xcconfig; sourceTree = "<group>"; };
 		3EE32A6B9450BE8EEF2FB9EC259EB3D7 /* Pods-ASForm_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASForm_Tests-umbrella.h"; sourceTree = "<group>"; };
-		40944BB6224BDEC143FA388F44646B65 /* ASTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASTextField+Extensions.swift"; path = "Source/ASTextField+Extensions.swift"; sourceTree = "<group>"; };
-		41F059E76C8BDE1A6AF19A8C088921F9 /* ASMToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMToast-prefix.pch"; sourceTree = "<group>"; };
+		42051AB6201BFE159B392558ED0F855A /* ASRadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroup.swift; path = Source/ASRadioGroup.swift; sourceTree = "<group>"; };
+		420A0730803321A38CD8ACF86969BB0E /* ASDropDownViewDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownViewDefault.swift; path = Source/ASDropDownViewDefault.swift; sourceTree = "<group>"; };
 		43FDDF1A3016C7422736B177FC8C1F87 /* ASForm-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASForm-Info.plist"; sourceTree = "<group>"; };
 		44A4B05C232304954AC73D03C703B680 /* Pods-ASForm_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASForm_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		46895DE23C95C899EF1739E9E89C19E5 /* ASRadioGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-umbrella.h"; sourceTree = "<group>"; };
-		46CC7E764F4EC01FC45CE8F4D849CB77 /* ASVResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVResult.swift; path = Source/ASVResult.swift; sourceTree = "<group>"; };
+		46FC3560A95A2C61B8EE241CDCDCC080 /* ASDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASDropDown-dummy.m"; sourceTree = "<group>"; };
+		470826A75DF11E9856906151A9900263 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		4736D91109C2B2B6CBF6E82C59F3E348 /* Pods-ASForm_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		49409676A8B3AFBB4F8C9889DA671D74 /* ASRadioGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASRadioGroup.framework; path = ASRadioGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4944AA2FAE2947279F53E5C2674372C9 /* ASForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASForm.swift; path = Source/ASForm.swift; sourceTree = "<group>"; };
+		4A59F2356DBD27E70346608516530BDA /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		4B086BC46200BAC89E8716E68F1D2889 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B4B0F796CC9C1A846741BAD325B6500 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		4C29301CF9E25E86C333E55A5305F10B /* Pods-ASForm_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E68442399536EEB9160E784294BF27B /* ASValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-umbrella.h"; sourceTree = "<group>"; };
-		4E8E5DEC425EEFC53E63C404A51DD7C8 /* ASButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.release.xcconfig; sourceTree = "<group>"; };
 		507695D53A917635C922884C359D94FC /* ASValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASValidator.framework; path = ASValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		512384060520E57E7F6B8290ECE9D9AB /* ASOtpTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.release.xcconfig; sourceTree = "<group>"; };
-		51F8A1D22ABC91A3BD80AE4064C82FC4 /* ASTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-prefix.pch"; sourceTree = "<group>"; };
-		52C1C8AE5A74FDC43DA4EA01AD5F758B /* ASOtpTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASOtpTextField-dummy.m"; sourceTree = "<group>"; };
-		53FCF3919323BFDC64D00A033E74FB86 /* ASTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASTextField-Info.plist"; sourceTree = "<group>"; };
-		5456A2DD151ED189C275DEF1447B7351 /* ASOtpTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextField+Extensions.swift"; path = "Source/ASOtpTextField+Extensions.swift"; sourceTree = "<group>"; };
-		54C5373268537C2DCCE9E616D9D71584 /* ASLabelStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleClassic.swift; path = Source/ASLabelStyleClassic.swift; sourceTree = "<group>"; };
-		565206557B4549FD82D8C39B7A37A611 /* ASDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASDropDown-Info.plist"; sourceTree = "<group>"; };
-		593A10E02ACFCC8C274405B270D3D3CF /* ASDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-umbrella.h"; sourceTree = "<group>"; };
-		59980D592EEBAA1517343B8D6D8D5420 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		547461CF8ED35AA18FD4DA0192628D90 /* ASVRequiredRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRequiredRule.swift; path = Source/ASVRequiredRule.swift; sourceTree = "<group>"; };
+		5865921BC1141AB51BECEE531AF3CB00 /* ASButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.debug.xcconfig; sourceTree = "<group>"; };
+		588D0139CE6D20181787B77B8B42BD05 /* ASOtpTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextField.swift; path = Source/ASOtpTextField.swift; sourceTree = "<group>"; };
+		5B7AB90707FAEB8C6F490E2FF2ABDFC4 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		5B96A835372AE8B426289B44483BB09B /* ASOtpTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASOtpTextField-dummy.m"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C532830F41ADC6F88A628C0CF03EC54 /* ASOtpField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpField.swift; path = Source/ASOtpField.swift; sourceTree = "<group>"; };
-		5CEAD66CD9CBDAAE1EA9ED6784FF2D50 /* ASDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASDropDown.modulemap; sourceTree = "<group>"; };
-		5D5EE37BCED93E958E89C5BE23CD2A2D /* ASDropDownViewDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownViewDefault.swift; path = Source/ASDropDownViewDefault.swift; sourceTree = "<group>"; };
-		5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToastView.swift; path = Source/ASMToastView.swift; sourceTree = "<group>"; };
-		5E9F360E88244818D76A90C8D2067793 /* ASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-prefix.pch"; sourceTree = "<group>"; };
-		5FAB4EF88E9EB837B971F0ABAD0FCD69 /* ASButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.debug.xcconfig; sourceTree = "<group>"; };
+		5E83267D8E58646C7F54F9B5D5C14BFE /* ASDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDown.swift; path = Source/ASDropDown.swift; sourceTree = "<group>"; };
+		5E98EF34B64C2B2B0EFDB42CBA77CA39 /* ASDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-umbrella.h"; sourceTree = "<group>"; };
+		60579B64DF2250A8E7CFCAC2FCE1715E /* ASRadioGroup+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioGroup+Extension.swift"; path = "Source/ASRadioGroup+Extension.swift"; sourceTree = "<group>"; };
 		60916C31DA0F03E17229E0D1AB4DF68B /* ASDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASDropDown.framework; path = ASDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		613AFA6AF89C1193234064FCD78F5938 /* ASOtpTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-prefix.pch"; sourceTree = "<group>"; };
 		61B8397B0A414222D5BEE99C9EC03E42 /* Pods-ASForm_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6432B339BF15B5A353B29739321C1464 /* ASRButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRButton.swift; path = Source/ASRButton.swift; sourceTree = "<group>"; };
-		65AEA2D58D6179231C0EF8A4DDE9A319 /* ASDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-prefix.pch"; sourceTree = "<group>"; };
-		67053A61F4E46561EF749F7A856A8C49 /* ASOtpTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-umbrella.h"; sourceTree = "<group>"; };
+		62CD79E969CC0ED97F7C6D2A349082CA /* ASMToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.release.xcconfig; sourceTree = "<group>"; };
+		63451656CE3C5459693E63B7342DEBEC /* ASButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASButton.release.xcconfig; sourceTree = "<group>"; };
+		63B1C7B9D8D3E5FD12DB0AA1EC05ECA3 /* ASTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASTextField-Info.plist"; sourceTree = "<group>"; };
 		67849D70350D29346AA1B038B602A052 /* ASForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASForm-dummy.m"; sourceTree = "<group>"; };
-		683AD62CC8E26EC75D7F123E5C2672BA /* ASButtonStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButtonStyleClassic.swift; path = Source/ASButtonStyleClassic.swift; sourceTree = "<group>"; };
 		6844E83E1B1528833FB9A54B5DA45AD7 /* Pods-ASForm_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		698FAF8DDFDC7E6FF7E26BA3619484A6 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldViewClassic.swift; path = Source/ASOtpTextFieldViewClassic.swift; sourceTree = "<group>"; };
+		68D22CA697C0F366E3A681BC20C1A1F8 /* ASVResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVResult.swift; path = Source/ASVResult.swift; sourceTree = "<group>"; };
+		69C4C8C23D82F95C2020B5E10D71D4DC /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		6DDA9D607E446A772CB9BDB398F9745F /* ASMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASMToast-dummy.m"; sourceTree = "<group>"; };
 		6DED8F8B0A9A95E98A3470C385782F08 /* Pods-ASForm_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASForm_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F3529D8644F183C05DDF7EA5D51DA1E /* ASLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabel.swift; path = Source/ASLabel.swift; sourceTree = "<group>"; };
 		6FC4975EEF257B5538A28DF9FE1F6823 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		728438BA0976C938562A640F5C74D588 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.debug.xcconfig; sourceTree = "<group>"; };
+		728404D9CD250BC9D316379742B8D3B8 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		745EEBD7F5BB54D4EAA9DA4EF4F490F5 /* ASForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.release.xcconfig; sourceTree = "<group>"; };
-		74624DEA1AAEDDE0CC0965B10B510993 /* ASRadioButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioButton+Extension.swift"; path = "Source/ASRadioButton+Extension.swift"; sourceTree = "<group>"; };
-		74DC9B647324C514E82746A81F6967A6 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		77C4FD381FF0261D55F44EC0A1C535AF /* ASButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-prefix.pch"; sourceTree = "<group>"; };
-		77E9C2216780CB96EC0B221ED5B893F0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		7BBA9CA2BB7F9202038FE1DB08BB57F1 /* ASMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASMToast.modulemap; sourceTree = "<group>"; };
+		74F84DEDE53F9C591793163011B40F54 /* ASLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-umbrella.h"; sourceTree = "<group>"; };
+		7676DCDEC198AA95D54B7CC53C589168 /* ASButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASButton-Info.plist"; sourceTree = "<group>"; };
+		7742B335899DA759C94D8DB2666D5B07 /* ASOtpTextFieldViewClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldViewClassic.swift; path = Source/ASOtpTextFieldViewClassic.swift; sourceTree = "<group>"; };
+		79DF0B676C3B1B8314804660AC0981A3 /* ASRadioButtonClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButtonClassic.swift; path = Source/ASRadioButtonClassic.swift; sourceTree = "<group>"; };
+		7B61603741ABE655154B877FAF0101D3 /* ASMToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToastView.swift; path = Source/ASMToastView.swift; sourceTree = "<group>"; };
+		7B81F8E6D5A10290F76357E594117C28 /* ASTextFieldMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldMath.swift; path = Source/ASTextFieldMath.swift; sourceTree = "<group>"; };
+		7C178A7036AE85916BAC8F6C69151F83 /* ASLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASLabel.modulemap; sourceTree = "<group>"; };
 		7CDBB259378B64EEF4C48732C8EB794E /* ASValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASLabel+Extension.swift"; path = "Source/ASLabel+Extension.swift"; sourceTree = "<group>"; };
 		7ECB99039A1DA492B8B1BE9BA21F6A5F /* ASLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASLabel.framework; path = ASLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldClassicStyle.swift; path = Source/ASTextFieldClassicStyle.swift; sourceTree = "<group>"; };
-		817C3A84D4A113B04B80E24A9ACF9A35 /* ASLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASLabel.modulemap; sourceTree = "<group>"; };
-		82085BA61B88928A4F964D6D7536142F /* ASLabelStyleNormal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleNormal.swift; path = Source/ASLabelStyleNormal.swift; sourceTree = "<group>"; };
+		820B660AED3AD10796C1F0D239F9049F /* ASVMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMath.swift; path = Source/ASVMath.swift; sourceTree = "<group>"; };
+		82A066DB5E8DE067EE09461E85A49313 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		8399FC84BE6F7C55C05B89B5115A9172 /* ASForm-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASForm-umbrella.h"; sourceTree = "<group>"; };
-		83A9622B17303F532A7EB43609246498 /* ASDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDown.swift; path = Source/ASDropDown.swift; sourceTree = "<group>"; };
-		83EC9504642DE2B804AC8FCCC9F935F1 /* ASValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASValidator.modulemap; sourceTree = "<group>"; };
-		841EB9293C727E1C59F3AC1C51DA3794 /* ASRadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroup.swift; path = Source/ASRadioGroup.swift; sourceTree = "<group>"; };
-		84CB3E40810620726CEF12703414E977 /* ASButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButton.swift; path = Source/ASButton.swift; sourceTree = "<group>"; };
-		85C0A0F2A186255F0BA318852146C616 /* ASOtpTextFieldClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldClassic.swift; path = Source/ASOtpTextFieldClassic.swift; sourceTree = "<group>"; };
-		85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.release.xcconfig; sourceTree = "<group>"; };
-		8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextField.swift; path = Source/ASTextField.swift; sourceTree = "<group>"; };
-		8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleDark.swift; path = Source/ASLabelStyleDark.swift; sourceTree = "<group>"; };
-		8D7C0B85CAB594CCD290A9F0DEEAE2F6 /* ASRadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-prefix.pch"; sourceTree = "<group>"; };
+		87010DB015B0AF3031518E30049C7BA6 /* ASOtpTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.debug.xcconfig; sourceTree = "<group>"; };
+		87EEB0974C670695D1FF01DE10C11B3C /* ASTextFieldClassicStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldClassicStyle.swift; path = Source/ASTextFieldClassicStyle.swift; sourceTree = "<group>"; };
+		89BC612FCC00839711602CE695D0ED31 /* ASMToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASMToast-Info.plist"; sourceTree = "<group>"; };
+		8C9A2EDE26AA36CB78FB6905FE36F7FD /* ASVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVError.swift; path = Source/ASVError.swift; sourceTree = "<group>"; };
+		8CD8348CED0F743F6C65CF4C529E1B93 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		903612B09C2E189FBB1759FE194A65A8 /* ASValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidator.swift; path = Source/ASValidator.swift; sourceTree = "<group>"; };
+		91468523CFE2FB36D9A6EE8C2A620049 /* ASRadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-prefix.pch"; sourceTree = "<group>"; };
+		9275FE9CAE9D1E0B79F3ED133C6E6349 /* ASValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASValidator-Info.plist"; sourceTree = "<group>"; };
+		932DD725D21FEF8622B00702676FBA24 /* ASDropDownBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownBox.swift; path = Source/ASDropDownBox.swift; sourceTree = "<group>"; };
 		94FA3F0C0E4D3F7F7DF3086F8CCEAC19 /* Pods-ASForm_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASForm_Tests.modulemap"; sourceTree = "<group>"; };
-		96B341DE24D09CA3F17495F7B07BFA23 /* ASDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.debug.xcconfig; sourceTree = "<group>"; };
-		99F0B0153B63DC33D35624080474423D /* ASButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-umbrella.h"; sourceTree = "<group>"; };
-		9B8CFCD651CEB6D8546D9E9F1F85C62A /* ASButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASButton-dummy.m"; sourceTree = "<group>"; };
+		95FEBB1AA03A2C19E5738079E509CB20 /* ASTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.debug.xcconfig; sourceTree = "<group>"; };
+		96EE858A153D079687915BE41FEB1ABD /* ASOtpTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextField+Extensions.swift"; path = "Source/ASOtpTextField+Extensions.swift"; sourceTree = "<group>"; };
+		9A6CA4E3E5771435071ED3FC5FFE2CD5 /* ASVRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRule.swift; path = Source/ASVRule.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E78FF7511A562667C5F92FC8AA4FF1A /* ASForm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ASForm.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE7F49EA01C5FC6DD7BD8BDC8A0635D /* ASForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASForm.framework; path = ASForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2EA44AB6191F1AACE232DA40284F437 /* ASOtpTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASOtpTextField-Info.plist"; sourceTree = "<group>"; };
+		A14F624B2951F762785C7E7304239389 /* ASValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidation.swift; path = Source/ASValidation.swift; sourceTree = "<group>"; };
+		A4424785970ECBDCD15127A443B0D67E /* ASTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextField.swift; path = Source/ASTextField.swift; sourceTree = "<group>"; };
+		A4C49BC6F5E4D2911B7E42C0D55AEBA5 /* ASMToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASMToast.swift; path = Source/ASMToast.swift; sourceTree = "<group>"; };
 		A6E95ED2ACD6C88168CC519C46BBE7C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AA23B176834C63271935A1CCD52E92F4 /* ASTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASTextField.framework; path = ASTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASTextFieldMath.swift; path = Source/ASTextFieldMath.swift; sourceTree = "<group>"; };
+		AB1A1CDA2BBDE03ACE618CECCFF9F66D /* ASButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-prefix.pch"; sourceTree = "<group>"; };
 		ABAB60AA5139AFC277CBB890C9E04C34 /* ASForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASForm.debug.xcconfig; sourceTree = "<group>"; };
-		AE8265F0AC82EBEA702BD4B7AEBBF863 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		AF3F100E00C1988D0259A1C559CC849F /* ASLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.debug.xcconfig; sourceTree = "<group>"; };
-		AFED761FD65B09FEB17AAFEA4927601E /* ASDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASDropDown-dummy.m"; sourceTree = "<group>"; };
-		B405D759AD19262797FCAFC5A9FE51A8 /* ASLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.release.xcconfig; sourceTree = "<group>"; };
-		B4383A36F8238BD6605FA4DF8BBF6172 /* ASTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASTextField.modulemap; sourceTree = "<group>"; };
+		ABAF83646D6D3542D289B376EBE90750 /* ASDropDownProp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownProp.swift; path = Source/ASDropDownProp.swift; sourceTree = "<group>"; };
+		AC42EA985C894A9EFF483616B183D2FC /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		ACF4293B6FE3EC972BA0A8378A8A6ACF /* ASTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-umbrella.h"; sourceTree = "<group>"; };
+		AF39C6BC901D199E81072DF0DE34C5F3 /* ASRadioGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.debug.xcconfig; sourceTree = "<group>"; };
+		B0446FF0EDBEED7CDE683E27ECCFAF3B /* ASRadioGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASRadioGroup-umbrella.h"; sourceTree = "<group>"; };
+		B0D1D61D2A24DF803E35A1C70A5B16C0 /* ASValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASValidator-dummy.m"; sourceTree = "<group>"; };
 		B773E6752D1DA70B5A6C070EDA90F312 /* ASButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASValidator-dummy.m"; sourceTree = "<group>"; };
+		B7E845B4D083A01FDF2B932713DA6D79 /* ASTextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASTextField+Extensions.swift"; path = "Source/ASTextField+Extensions.swift"; sourceTree = "<group>"; };
 		BA39F95F30D559A03A71CFD5B35C5A4D /* ASMToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASMToast.framework; path = ASMToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASRadioGroup.release.xcconfig; sourceTree = "<group>"; };
+		BC06C7797D65F7DAA94BF4A6B72D93B7 /* ASOtpTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASOtpTextField-Info.plist"; sourceTree = "<group>"; };
 		BC2C42543101005B2FE425C4B36D035F /* ASOtpTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASOtpTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD9357763BF36E37F5176AC1246448F9 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		BFFCC1B68DC9DD897DBF23AD7780A457 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C17568E974EBCD61ADE02B13D1E53257 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		C01F679F12B4474A9D6641B4096FFF36 /* ASButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButton.swift; path = Source/ASButton.swift; sourceTree = "<group>"; };
+		C2143086B12B23D8B6DFE89884FED8D6 /* ASDropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownCell.swift; path = Source/ASDropDownCell.swift; sourceTree = "<group>"; };
+		C44789160AD6CF11321D62C39C949181 /* ASMToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMToast.debug.xcconfig; sourceTree = "<group>"; };
 		C4E5058154C9F6BACE4E19E630F83F73 /* ASForm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASForm.modulemap; sourceTree = "<group>"; };
+		C5052DC3379B9F7C74B526C7C7FC9D4F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		C55F8F100CEB20CD359310C1B1E049FE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C5D18BA98ACE96A56D7F9C1E8AD08283 /* ASTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASTextField.modulemap; sourceTree = "<group>"; };
+		C635137E660B65922A73F8B9B2F0EEA1 /* ASOtpTextFieldClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldClassic.swift; path = Source/ASOtpTextFieldClassic.swift; sourceTree = "<group>"; };
+		C64A814DF0FC21A10EF5CF9B1712C2EF /* ASValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-umbrella.h"; sourceTree = "<group>"; };
+		C825CAFD567496A96B5EA8D96C596CAE /* ASDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		CB6055A821E661225951E779D29ADCC2 /* ASMToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASMToast.modulemap; sourceTree = "<group>"; };
+		CB970D97E3BB70511F02B7FA8DB1FC59 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		CB9FD1178548D7E979A85A87A65EFC8D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CCEBC1A6344B0FD34E8CEB823026DEE5 /* Pods-ASForm_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD327E33E5A47C90E4025A6C4A6E24C6 /* ASRadioGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASRadioGroup.modulemap; sourceTree = "<group>"; };
-		CEE17F8B9287708EFE65793877F5A209 /* ASValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidation.swift; path = Source/ASValidation.swift; sourceTree = "<group>"; };
-		CF755AA9E7547544D7460A53BE440FC8 /* ASRadioGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASRadioGroup-Info.plist"; sourceTree = "<group>"; };
-		D08D162EAFEE6EC9912B63A1EF74D342 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		D0B60C3ACE044CD055F6F4965D9C4B71 /* ASDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownView.swift; path = Source/ASDropDownView.swift; sourceTree = "<group>"; };
-		D14286AEB705A5AC409D82E178DA97C2 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D1B1613ACD8A4F758B137BE9C11D40A6 /* ASLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASLabel-Info.plist"; sourceTree = "<group>"; };
+		CE4BE5A2868E74C02BB17F4E2A6314F1 /* ASLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-prefix.pch"; sourceTree = "<group>"; };
+		CECB50468390F1403C4F3CF56BCA1351 /* ASLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLabel.release.xcconfig; sourceTree = "<group>"; };
+		CF530E92BE4637C17DF93A49C9CB10BF /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		D0C7E5202EE96233A97CB6A104D2C399 /* ASOtpTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASOtpTextField.release.xcconfig; sourceTree = "<group>"; };
+		D1ABA8DF85917413F0CC4B536A9EF663 /* ASDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASDropDown-Info.plist"; sourceTree = "<group>"; };
+		D2831DA0537E9B5891BD3210EC160216 /* ASOtpField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpField.swift; path = Source/ASOtpField.swift; sourceTree = "<group>"; };
+		D2BA59E90DC9A1A11449E733BF77C8ED /* ASButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASButton.modulemap; sourceTree = "<group>"; };
+		D3234DEAA7001E61970C15D434252930 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		D43B8B2059B385B0C53E0A7C0CA9C310 /* Pods-ASForm_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASForm_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D4CD4F4A380F36352B45A84C05BD0BFA /* ASTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASTextField-dummy.m"; sourceTree = "<group>"; };
-		D602EF1173DB721C19A57D0A10C097C8 /* ASVRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRule.swift; path = Source/ASVRule.swift; sourceTree = "<group>"; };
-		D80BC4A8DE4CF2572F3E501F532C2DBB /* ASLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLabel-dummy.m"; sourceTree = "<group>"; };
+		D4C7CCF3C5BADDE9FDC44CE6975C2927 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		D7147323D487F773D111C98F4430FB46 /* ASOtpTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASOtpTextField.modulemap; sourceTree = "<group>"; };
+		D72A0AB95009323AEA834BD3AE49ED1E /* ASDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASDropDown.modulemap; sourceTree = "<group>"; };
+		D75EED15B1D21796C3AD7A18165E9469 /* ASDropDownItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownItem.swift; path = Source/ASDropDownItem.swift; sourceTree = "<group>"; };
+		D76A269A3575BB917510B5E1BBD66C7A /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D984EA6EF15D6C1347420097D0AD016D /* ASButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASButton-dummy.m"; sourceTree = "<group>"; };
+		DA50286C76655166663741DC08F580AF /* ASVMinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMinLengthRule.swift; path = Source/ASVMinLengthRule.swift; sourceTree = "<group>"; };
+		DA950B590161FB242D6A5BEA20C0DB25 /* ASRadioGroupClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroupClassic.swift; path = Source/ASRadioGroupClassic.swift; sourceTree = "<group>"; };
+		DB22B55CBA0A4E6638E2CA3EC8AAE945 /* ASRadioGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASRadioGroup-dummy.m"; sourceTree = "<group>"; };
 		DD67712C5A4E1E9094BD17D12A65CB18 /* ASOtpTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASOtpTextField.framework; path = ASOtpTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD954E6074BB688D7734D91A4A3C0025 /* Pods-ASForm_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASForm_Example-Info.plist"; sourceTree = "<group>"; };
-		DEDC42624921D2DAE9D2D683EAA6FE65 /* ASMToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASMToast-dummy.m"; sourceTree = "<group>"; };
-		DEF489AD3A6AFB324C8254E54B1FC94C /* ASRadioGroupClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioGroupClassic.swift; path = Source/ASRadioGroupClassic.swift; sourceTree = "<group>"; };
-		DF25447D203A02F72E41B96E1C6A2965 /* ASDropDownView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASDropDownView+Extension.swift"; path = "Source/ASDropDownView+Extension.swift"; sourceTree = "<group>"; };
-		E0E30228D07DCAD557D6E928022787B5 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		E102723CDDD17086850528FA9A3A62E7 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E131617FBB786C8F3C564CC06B9F3440 /* ASDropDownBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownBox.swift; path = Source/ASDropDownBox.swift; sourceTree = "<group>"; };
+		DE3153D5126878A14200394BDD2B8D94 /* ASOtpTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASOtpTextFieldView.swift; path = Source/ASOtpTextFieldView.swift; sourceTree = "<group>"; };
+		DF2D6C63D9F8A63E607A1D185C74AB28 /* ASValidatorEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidatorEntity.swift; path = Source/ASValidatorEntity.swift; sourceTree = "<group>"; };
 		E1970C759A0C0787D2380CE94D47A6DB /* ASRadioGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASRadioGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVMinLengthRule.swift; path = Source/ASVMinLengthRule.swift; sourceTree = "<group>"; };
-		E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabel.swift; path = Source/ASLabel.swift; sourceTree = "<group>"; };
-		E833F92FD5866253A42830CA0E07BE43 /* ASDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASDropDown.release.xcconfig; sourceTree = "<group>"; };
-		EB3067BD39FA786E549D3B232451881B /* ASVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVError.swift; path = Source/ASVError.swift; sourceTree = "<group>"; };
+		E3DF7BEE1D0DE973CC3C3B86F1BFE55F /* ASVLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVLengthRule.swift; path = Source/ASVLengthRule.swift; sourceTree = "<group>"; };
+		E460D0398C546474A19148FC64FD14F7 /* ASTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTextField.release.xcconfig; sourceTree = "<group>"; };
+		E88D223A49DAF1037DE066382E588535 /* ASValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASValidator.modulemap; sourceTree = "<group>"; };
+		EB69224A3191966D046706EBF08E8BD5 /* ASLabelStyleDark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASLabelStyleDark.swift; path = Source/ASLabelStyleDark.swift; sourceTree = "<group>"; };
+		EC12D5FA16EFFB7DC6B05261DC443B41 /* ASButtonStyleClassic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASButtonStyleClassic.swift; path = Source/ASButtonStyleClassic.swift; sourceTree = "<group>"; };
 		ECCD8E4B789F463D27788067CA7E0B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EF57F970F440A91542090EC253171133 /* ASOtpTextFieldView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASOtpTextFieldView+Extensions.swift"; path = "Source/ASOtpTextFieldView+Extensions.swift"; sourceTree = "<group>"; };
-		EFBB796A430CC029EB6F62560098065E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		F09403B565BC5D9690FC967AC05A3206 /* Pods-ASForm_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASForm_Example-dummy.m"; sourceTree = "<group>"; };
-		F13EB4323FCC7401B4C89301542A5582 /* ASValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASValidator.swift; path = Source/ASValidator.swift; sourceTree = "<group>"; };
-		F208750C0F468A8631894A1C36BC0CEA /* ASLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLabel-umbrella.h"; sourceTree = "<group>"; };
-		F3C741CD863185076BCDD1EE3C5E18E3 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		F4790B3F1EFC2BA925AEDED7C02C1A22 /* ASRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButton.swift; path = Source/ASRadioButton.swift; sourceTree = "<group>"; };
-		F6E937390D0509BF03EF40D4F8D0EB07 /* ASVRequiredRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASVRequiredRule.swift; path = Source/ASVRequiredRule.swift; sourceTree = "<group>"; };
-		F9FC738B433602A9EA55B0C4EA9F6C4B /* ASButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASButton.modulemap; sourceTree = "<group>"; };
+		F2B51FF800E6A30DFD70DE5FB9767D68 /* ASRadioButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ASRadioButton+Extension.swift"; path = "Source/ASRadioButton+Extension.swift"; sourceTree = "<group>"; };
+		F57CC4C754D3866971730F4114CB18EB /* ASValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASValidator-prefix.pch"; sourceTree = "<group>"; };
+		F59BAD55F9D3F3AB615165F6038FD343 /* ASDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASDropDown-prefix.pch"; sourceTree = "<group>"; };
+		FA1A4B26115E5A62119E95E9F466836B /* ASOtpTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASOtpTextField-prefix.pch"; sourceTree = "<group>"; };
+		FA3A7C1A70259EBD0DEAE6D623DF3542 /* ASTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-prefix.pch"; sourceTree = "<group>"; };
+		FC6942257894BB7665B46DE5E19FE2F1 /* ASRadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASRadioButton.swift; path = Source/ASRadioButton.swift; sourceTree = "<group>"; };
+		FC8830EA111852ABC9DA0EE453D67380 /* ASButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASButton-umbrella.h"; sourceTree = "<group>"; };
 		FD480972BAC82097582287E0F7DC17D7 /* Pods-ASForm_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASForm_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE4F41CFDC2FF50156CDD4275E89DD5D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FD820890F42C8E0CA5423AA885EBCA43 /* ASDropDownIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASDropDownIcon.swift; path = Source/ASDropDownIcon.swift; sourceTree = "<group>"; };
+		FDA64FB02279C4D2CAA5AC8C78D1841E /* ASValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASValidator.debug.xcconfig; sourceTree = "<group>"; };
 		FF6640DE04F6568E80EF914938F253E7 /* ASDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTextField-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0255F4652B1211A2FD093DDD422B15AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58E429702ACC9C5577867DA83D03307 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2769D0B6741BAFE62775AB5AA7E1CE2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,14 +479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				698894C697C379125DBD726370045934 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75DA0BE050D910E6E515369ED2562FF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58B13C6FEC6E971A10E1627DE5350FF2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,85 +552,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0523149097BE02ADC75D3FE7EE5265FF /* ASLabel */ = {
+		0C43AFD46833C1059D96FE9566D5C707 /* ASDropDown */ = {
 			isa = PBXGroup;
 			children = (
-				E37AD177D30E657405D3B614998AD3FA /* ASLabel.swift */,
-				7D0AC5FFD7DBE76EB5724FB16F625032 /* ASLabel+Extension.swift */,
-				54C5373268537C2DCCE9E616D9D71584 /* ASLabelStyleClassic.swift */,
-				8AF38127FF1E401505E5AADD89EC6A88 /* ASLabelStyleDark.swift */,
-				82085BA61B88928A4F964D6D7536142F /* ASLabelStyleNormal.swift */,
-				98DEE762AEA8E07C12AF26EAE51E19B0 /* Support Files */,
+				5E83267D8E58646C7F54F9B5D5C14BFE /* ASDropDown.swift */,
+				932DD725D21FEF8622B00702676FBA24 /* ASDropDownBox.swift */,
+				C2143086B12B23D8B6DFE89884FED8D6 /* ASDropDownCell.swift */,
+				D75EED15B1D21796C3AD7A18165E9469 /* ASDropDownItem.swift */,
+				ABAF83646D6D3542D289B376EBE90750 /* ASDropDownProp.swift */,
+				0BE18EEA34200461C3A14D9B6E67AE1A /* ASDropDownView.swift */,
+				0BC920B1DB5C52903D2A604FADB99D8B /* ASDropDownView+Extension.swift */,
+				420A0730803321A38CD8ACF86969BB0E /* ASDropDownViewDefault.swift */,
+				EA136CD22A2C78EE4BFC76AD916ACEDA /* Support Files */,
 			);
-			name = ASLabel;
-			path = ASLabel;
+			name = ASDropDown;
+			path = ASDropDown;
 			sourceTree = "<group>";
 		};
-		08547EC42A3F29F7EE28A2195B2A445F /* Support Files */ = {
+		0E8F52CE6EE0911DEDDD7243B148D2D9 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				83EC9504642DE2B804AC8FCCC9F935F1 /* ASValidator.modulemap */,
-				B94D9EA2F0AA1FCE0434FA82A7BC9B3F /* ASValidator-dummy.m */,
-				0BB9889092E96E449A7C592C9E9A16CE /* ASValidator-Info.plist */,
-				5E9F360E88244818D76A90C8D2067793 /* ASValidator-prefix.pch */,
-				4E68442399536EEB9160E784294BF27B /* ASValidator-umbrella.h */,
-				0CAB4E1EEDCC06AA95A0215C5603A884 /* ASValidator.debug.xcconfig */,
-				04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */,
+				D3234DEAA7001E61970C15D434252930 /* SwiftSupport.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ASValidator";
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		0CDB9E37ED28AF895580CF56824A526A /* Support Files */ = {
+		1F7E9AC77AF4D9361E1BAA816CF0C00B /* ASOtpTextField */ = {
 			isa = PBXGroup;
 			children = (
-				029B529F7B8841A9DD99805DB37E5EC9 /* ASOtpTextField.modulemap */,
-				52C1C8AE5A74FDC43DA4EA01AD5F758B /* ASOtpTextField-dummy.m */,
-				A2EA44AB6191F1AACE232DA40284F437 /* ASOtpTextField-Info.plist */,
-				613AFA6AF89C1193234064FCD78F5938 /* ASOtpTextField-prefix.pch */,
-				67053A61F4E46561EF749F7A856A8C49 /* ASOtpTextField-umbrella.h */,
-				732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */,
-				512384060520E57E7F6B8290ECE9D9AB /* ASOtpTextField.release.xcconfig */,
+				D2831DA0537E9B5891BD3210EC160216 /* ASOtpField.swift */,
+				588D0139CE6D20181787B77B8B42BD05 /* ASOtpTextField.swift */,
+				96EE858A153D079687915BE41FEB1ABD /* ASOtpTextField+Extensions.swift */,
+				C635137E660B65922A73F8B9B2F0EEA1 /* ASOtpTextFieldClassic.swift */,
+				DE3153D5126878A14200394BDD2B8D94 /* ASOtpTextFieldView.swift */,
+				1ABAAA6BFB600AA1A0E44808BEEFC2E1 /* ASOtpTextFieldView+Extensions.swift */,
+				7742B335899DA759C94D8DB2666D5B07 /* ASOtpTextFieldViewClassic.swift */,
+				E6894AAFA292B89D3E32FA8483E93350 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ASOtpTextField";
+			name = ASOtpTextField;
+			path = ASOtpTextField;
 			sourceTree = "<group>";
 		};
-		0CE0234577654147FBE0EC33A99F6749 /* ASTextField */ = {
+		20E4CE76392D30D571FA95166B69D840 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37E054B1C0F1DEE44D1B3780A5F60D13 /* ASDropDownIcon.swift */,
-				8AD332BCB13ECD7841CEBB58AAE2364D /* ASTextField.swift */,
-				40944BB6224BDEC143FA388F44646B65 /* ASTextField+Extensions.swift */,
-				7EFC22BB89D92D46429EF20375F61E51 /* ASTextFieldClassicStyle.swift */,
-				AA43983CAD7B99195F9530FA174ECE1C /* ASTextFieldMath.swift */,
-				653E114DC8B1C80F340CA6A7F023F004 /* Support Files */,
-			);
-			name = ASTextField;
-			path = ASTextField;
-			sourceTree = "<group>";
-		};
-		0D92ADDEC0E8064B73AA9A4BB8761382 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD327E33E5A47C90E4025A6C4A6E24C6 /* ASRadioGroup.modulemap */,
-				1243AA854542D5652285B342F9AE77EA /* ASRadioGroup-dummy.m */,
-				CF755AA9E7547544D7460A53BE440FC8 /* ASRadioGroup-Info.plist */,
-				8D7C0B85CAB594CCD290A9F0DEEAE2F6 /* ASRadioGroup-prefix.pch */,
-				46895DE23C95C899EF1739E9E89C19E5 /* ASRadioGroup-umbrella.h */,
-				2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */,
-				BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */,
+				39582D96D68E31179295F4265F8B68C7 /* ASRadioGroup.modulemap */,
+				DB22B55CBA0A4E6638E2CA3EC8AAE945 /* ASRadioGroup-dummy.m */,
+				188F0CE64288ACDDC8FED1F1F4D2FCD9 /* ASRadioGroup-Info.plist */,
+				91468523CFE2FB36D9A6EE8C2A620049 /* ASRadioGroup-prefix.pch */,
+				B0446FF0EDBEED7CDE683E27ECCFAF3B /* ASRadioGroup-umbrella.h */,
+				AF39C6BC901D199E81072DF0DE34C5F3 /* ASRadioGroup.debug.xcconfig */,
+				28BC24127E93EAFEC529A2398AADA739 /* ASRadioGroup.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ASRadioGroup";
-			sourceTree = "<group>";
-		};
-		0E720A4C7EDFC15033C601D4610CB66E /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				E0E30228D07DCAD557D6E928022787B5 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		295DDCDDF4801DA47A28101F7BDEA81B /* Development Pods */ = {
@@ -637,16 +616,27 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2E3B7B6BEE320CD56553156A90505D37 /* Support Files */ = {
+		2C7BAF211C2E57FF6C6F72F91BC0C7F2 /* ASMToast */ = {
 			isa = PBXGroup;
 			children = (
-				F9FC738B433602A9EA55B0C4EA9F6C4B /* ASButton.modulemap */,
-				9B8CFCD651CEB6D8546D9E9F1F85C62A /* ASButton-dummy.m */,
-				37E8479E332BFAB081BC1FDBC49EEEE6 /* ASButton-Info.plist */,
-				77C4FD381FF0261D55F44EC0A1C535AF /* ASButton-prefix.pch */,
-				99F0B0153B63DC33D35624080474423D /* ASButton-umbrella.h */,
-				5FAB4EF88E9EB837B971F0ABAD0FCD69 /* ASButton.debug.xcconfig */,
-				4E8E5DEC425EEFC53E63C404A51DD7C8 /* ASButton.release.xcconfig */,
+				A4C49BC6F5E4D2911B7E42C0D55AEBA5 /* ASMToast.swift */,
+				7B61603741ABE655154B877FAF0101D3 /* ASMToastView.swift */,
+				714EF45A40515E5F1BC6E600332B5C7D /* Support Files */,
+			);
+			name = ASMToast;
+			path = ASMToast;
+			sourceTree = "<group>";
+		};
+		35E6F6CA9443A9033C512EB3C47BACA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA59E90DC9A1A11449E733BF77C8ED /* ASButton.modulemap */,
+				D984EA6EF15D6C1347420097D0AD016D /* ASButton-dummy.m */,
+				7676DCDEC198AA95D54B7CC53C589168 /* ASButton-Info.plist */,
+				AB1A1CDA2BBDE03ACE618CECCFF9F66D /* ASButton-prefix.pch */,
+				FC8830EA111852ABC9DA0EE453D67380 /* ASButton-umbrella.h */,
+				5865921BC1141AB51BECEE531AF3CB00 /* ASButton.debug.xcconfig */,
+				63451656CE3C5459693E63B7342DEBEC /* ASButton.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ASButton";
@@ -667,17 +657,6 @@
 			);
 			name = "Pods-ASForm_Tests";
 			path = "Target Support Files/Pods-ASForm_Tests";
-			sourceTree = "<group>";
-		};
-		3B48DDFFCC85DF8C5B2A4ECC35DE32CB /* ASButton */ = {
-			isa = PBXGroup;
-			children = (
-				84CB3E40810620726CEF12703414E977 /* ASButton.swift */,
-				683AD62CC8E26EC75D7F123E5C2672BA /* ASButtonStyleClassic.swift */,
-				2E3B7B6BEE320CD56553156A90505D37 /* Support Files */,
-			);
-			name = ASButton;
-			path = ASButton;
 			sourceTree = "<group>";
 		};
 		3F8D3A1BADCC9959D004A6BAD13296F7 /* iOS */ = {
@@ -707,6 +686,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55EDAF3367E955393EA592C30A5024AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9FD1178548D7E979A85A87A65EFC8D /* FBSnapshotTestCase.modulemap */,
+				AC42EA985C894A9EFF483616B183D2FC /* FBSnapshotTestCase-dummy.m */,
+				3039B1FA988963D9AC8A105F01FEA453 /* FBSnapshotTestCase-Info.plist */,
+				109ABD06DE8BA083BB85F32D6C5E9B01 /* FBSnapshotTestCase-prefix.pch */,
+				470826A75DF11E9856906151A9900263 /* FBSnapshotTestCase-umbrella.h */,
+				4A59F2356DBD27E70346608516530BDA /* FBSnapshotTestCase.debug.xcconfig */,
+				CF530E92BE4637C17DF93A49C9CB10BF /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
 		567A313756E0CB37A452F0CB3D9B1E4E /* ASForm */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,34 +712,55 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5E9FA3CD5292837A37A45304A6981AAD /* Support Files */ = {
+		56EAC7766DD3EE3CFE39C798D02D3965 /* ASButton */ = {
 			isa = PBXGroup;
 			children = (
-				3BF51B0325071CB016652019972FF123 /* FBSnapshotTestCase.modulemap */,
-				D08D162EAFEE6EC9912B63A1EF74D342 /* FBSnapshotTestCase-dummy.m */,
-				089F8DC630B7A28CF46312596ECABA4C /* FBSnapshotTestCase-Info.plist */,
-				D14286AEB705A5AC409D82E178DA97C2 /* FBSnapshotTestCase-prefix.pch */,
-				EFBB796A430CC029EB6F62560098065E /* FBSnapshotTestCase-umbrella.h */,
-				0C1059EB3D6502AF71968009532ED564 /* FBSnapshotTestCase.debug.xcconfig */,
-				77E9C2216780CB96EC0B221ED5B893F0 /* FBSnapshotTestCase.release.xcconfig */,
+				C01F679F12B4474A9D6641B4096FFF36 /* ASButton.swift */,
+				EC12D5FA16EFFB7DC6B05261DC443B41 /* ASButtonStyleClassic.swift */,
+				35E6F6CA9443A9033C512EB3C47BACA0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = ASButton;
+			path = ASButton;
 			sourceTree = "<group>";
 		};
-		653E114DC8B1C80F340CA6A7F023F004 /* Support Files */ = {
+		6186F1B50B1A7ED691E1CE5C4136FA17 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				B4383A36F8238BD6605FA4DF8BBF6172 /* ASTextField.modulemap */,
-				D4CD4F4A380F36352B45A84C05BD0BFA /* ASTextField-dummy.m */,
-				53FCF3919323BFDC64D00A033E74FB86 /* ASTextField-Info.plist */,
-				51F8A1D22ABC91A3BD80AE4064C82FC4 /* ASTextField-prefix.pch */,
-				FFDF821929AC0951F32F09457565206B /* ASTextField-umbrella.h */,
-				21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */,
-				85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */,
+				79945C8D2661DDA338C36E0B50B16478 /* Core */,
+				55EDAF3367E955393EA592C30A5024AD /* Support Files */,
+				0E8F52CE6EE0911DEDDD7243B148D2D9 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		714EF45A40515E5F1BC6E600332B5C7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6055A821E661225951E779D29ADCC2 /* ASMToast.modulemap */,
+				6DDA9D607E446A772CB9BDB398F9745F /* ASMToast-dummy.m */,
+				89BC612FCC00839711602CE695D0ED31 /* ASMToast-Info.plist */,
+				2E84054F64A27311A179EE482FA87E4A /* ASMToast-prefix.pch */,
+				32FCE29EABFABA407512F02E2A057FCF /* ASMToast-umbrella.h */,
+				C44789160AD6CF11321D62C39C949181 /* ASMToast.debug.xcconfig */,
+				62CD79E969CC0ED97F7C6D2A349082CA /* ASMToast.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ASTextField";
+			path = "../Target Support Files/ASMToast";
+			sourceTree = "<group>";
+		};
+		733EC64B164C3AA7E37D237BD4721B28 /* ASLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6F3529D8644F183C05DDF7EA5D51DA1E /* ASLabel.swift */,
+				289204245D69C4845776A3601F65FD70 /* ASLabel+Extension.swift */,
+				38DFD607748E6428F2B151A3B036DD2E /* ASLabelStyleClassic.swift */,
+				EB69224A3191966D046706EBF08E8BD5 /* ASLabelStyleDark.swift */,
+				2E07612C437904FE11CC4AA1A45AED54 /* ASLabelStyleNormal.swift */,
+				B3ED46BB7FAAC03F982440001CD5FEF3 /* Support Files */,
+			);
+			name = ASLabel;
+			path = ASLabel;
 			sourceTree = "<group>";
 		};
 		74DF07DBED7C7240B631930E2F754711 /* Pod */ = {
@@ -758,19 +773,63 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		98DEE762AEA8E07C12AF26EAE51E19B0 /* Support Files */ = {
+		79945C8D2661DDA338C36E0B50B16478 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				817C3A84D4A113B04B80E24A9ACF9A35 /* ASLabel.modulemap */,
-				D80BC4A8DE4CF2572F3E501F532C2DBB /* ASLabel-dummy.m */,
-				D1B1613ACD8A4F758B137BE9C11D40A6 /* ASLabel-Info.plist */,
-				25E8DC7D6041448D233125F5D6916B5D /* ASLabel-prefix.pch */,
-				F208750C0F468A8631894A1C36BC0CEA /* ASLabel-umbrella.h */,
-				AF3F100E00C1988D0259A1C559CC849F /* ASLabel.debug.xcconfig */,
-				B405D759AD19262797FCAFC5A9FE51A8 /* ASLabel.release.xcconfig */,
+				CB970D97E3BB70511F02B7FA8DB1FC59 /* FBSnapshotTestCase.h */,
+				0C45ED9B9A890C6CD0C666AA322E9985 /* FBSnapshotTestCase.m */,
+				D76A269A3575BB917510B5E1BBD66C7A /* FBSnapshotTestCasePlatform.h */,
+				D4C7CCF3C5BADDE9FDC44CE6975C2927 /* FBSnapshotTestCasePlatform.m */,
+				69C4C8C23D82F95C2020B5E10D71D4DC /* FBSnapshotTestController.h */,
+				C55F8F100CEB20CD359310C1B1E049FE /* FBSnapshotTestController.m */,
+				8CD8348CED0F743F6C65CF4C529E1B93 /* UIApplication+StrictKeyWindow.h */,
+				5B7AB90707FAEB8C6F490E2FF2ABDFC4 /* UIApplication+StrictKeyWindow.m */,
+				C5052DC3379B9F7C74B526C7C7FC9D4F /* UIImage+Compare.h */,
+				4B4B0F796CC9C1A846741BAD325B6500 /* UIImage+Compare.m */,
+				01988196B6BADBF8E3AFDFE040BA3108 /* UIImage+Diff.h */,
+				82A066DB5E8DE067EE09461E85A49313 /* UIImage+Diff.m */,
+				728404D9CD250BC9D316379742B8D3B8 /* UIImage+Snapshot.h */,
+				27C19D29EC0644BBB74229ADC0309177 /* UIImage+Snapshot.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ASLabel";
+			name = Core;
+			sourceTree = "<group>";
+		};
+		97F4E4C0E53372228392B45C47F85FBF /* ASValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A14F624B2951F762785C7E7304239389 /* ASValidation.swift */,
+				903612B09C2E189FBB1759FE194A65A8 /* ASValidator.swift */,
+				DF2D6C63D9F8A63E607A1D185C74AB28 /* ASValidatorEntity.swift */,
+				1FA88C541A1FBB697A0EFDE770863123 /* ASVEqualFieldRule.swift */,
+				8C9A2EDE26AA36CB78FB6905FE36F7FD /* ASVError.swift */,
+				E3DF7BEE1D0DE973CC3C3B86F1BFE55F /* ASVLengthRule.swift */,
+				14082C6D962F8AC9893752E43CD686D4 /* ASVMailRule.swift */,
+				820B660AED3AD10796C1F0D239F9049F /* ASVMath.swift */,
+				3D1EF532597B1B9930716A3AE32D39EB /* ASVMaxLengthRule.swift */,
+				DA50286C76655166663741DC08F580AF /* ASVMinLengthRule.swift */,
+				547461CF8ED35AA18FD4DA0192628D90 /* ASVRequiredRule.swift */,
+				68D22CA697C0F366E3A681BC20C1A1F8 /* ASVResult.swift */,
+				9A6CA4E3E5771435071ED3FC5FFE2CD5 /* ASVRule.swift */,
+				CA80138B718CDC3DBA768343FD8A1ABD /* Support Files */,
+			);
+			name = ASValidator;
+			path = ASValidator;
+			sourceTree = "<group>";
+		};
+		9E5F48833A218DE194CC324D5C0C2907 /* ASRadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				FC6942257894BB7665B46DE5E19FE2F1 /* ASRadioButton.swift */,
+				F2B51FF800E6A30DFD70DE5FB9767D68 /* ASRadioButton+Extension.swift */,
+				79DF0B676C3B1B8314804660AC0981A3 /* ASRadioButtonClassic.swift */,
+				42051AB6201BFE159B392558ED0F855A /* ASRadioGroup.swift */,
+				60579B64DF2250A8E7CFCAC2FCE1715E /* ASRadioGroup+Extension.swift */,
+				DA950B590161FB242D6A5BEA20C0DB25 /* ASRadioGroupClassic.swift */,
+				055BAF5BE4CB763765BDD29651F5E1F6 /* ASRButton.swift */,
+				20E4CE76392D30D571FA95166B69D840 /* Support Files */,
+			);
+			name = ASRadioGroup;
+			path = ASRadioGroup;
 			sourceTree = "<group>";
 		};
 		A19EE848F0DDBEF89B5F402B3B6DA3C0 /* Pods-ASForm_Example */ = {
@@ -790,104 +849,50 @@
 			path = "Target Support Files/Pods-ASForm_Example";
 			sourceTree = "<group>";
 		};
-		AAF7D6C07E528DBC75FC2E564C339292 /* Core */ = {
+		A4F190FC3668EB2E5D3EF18637650E65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE4F41CFDC2FF50156CDD4275E89DD5D /* FBSnapshotTestCase.h */,
-				698FAF8DDFDC7E6FF7E26BA3619484A6 /* FBSnapshotTestCase.m */,
-				C17568E974EBCD61ADE02B13D1E53257 /* FBSnapshotTestCasePlatform.h */,
-				59980D592EEBAA1517343B8D6D8D5420 /* FBSnapshotTestCasePlatform.m */,
-				181F1C5107D7DD265996A5F1B4972897 /* FBSnapshotTestController.h */,
-				F3C741CD863185076BCDD1EE3C5E18E3 /* FBSnapshotTestController.m */,
-				BD9357763BF36E37F5176AC1246448F9 /* UIApplication+StrictKeyWindow.h */,
-				05A6B31A3E6D881024FF483BB0AE2D28 /* UIApplication+StrictKeyWindow.m */,
-				02EB934CE4CC702A89C7F5250C6C7F1C /* UIImage+Compare.h */,
-				AE8265F0AC82EBEA702BD4B7AEBBF863 /* UIImage+Compare.m */,
-				E102723CDDD17086850528FA9A3A62E7 /* UIImage+Diff.h */,
-				1D4AA7673305800E401052492FA0F275 /* UIImage+Diff.m */,
-				74DC9B647324C514E82746A81F6967A6 /* UIImage+Snapshot.h */,
-				728438BA0976C938562A640F5C74D588 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		B299ACC91E4AC1A86D400E7FED281540 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CEAD66CD9CBDAAE1EA9ED6784FF2D50 /* ASDropDown.modulemap */,
-				AFED761FD65B09FEB17AAFEA4927601E /* ASDropDown-dummy.m */,
-				565206557B4549FD82D8C39B7A37A611 /* ASDropDown-Info.plist */,
-				65AEA2D58D6179231C0EF8A4DDE9A319 /* ASDropDown-prefix.pch */,
-				593A10E02ACFCC8C274405B270D3D3CF /* ASDropDown-umbrella.h */,
-				96B341DE24D09CA3F17495F7B07BFA23 /* ASDropDown.debug.xcconfig */,
-				E833F92FD5866253A42830CA0E07BE43 /* ASDropDown.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ASDropDown";
-			sourceTree = "<group>";
-		};
-		B3FC445888F49F8BE823C51EAA9F0EB8 /* ASValidator */ = {
-			isa = PBXGroup;
-			children = (
-				CEE17F8B9287708EFE65793877F5A209 /* ASValidation.swift */,
-				F13EB4323FCC7401B4C89301542A5582 /* ASValidator.swift */,
-				0BD21DDA459FB1EF49E5A9D193063F69 /* ASValidatorEntity.swift */,
-				EB3067BD39FA786E549D3B232451881B /* ASVError.swift */,
-				18536C95A7D0EF54422A93FCAF0FE138 /* ASVLengthRule.swift */,
-				1C878EC377FBD98D737DDA2E0FCA411F /* ASVMailRule.swift */,
-				34F0299DB5A270AC9504F15E084F0F4B /* ASVMath.swift */,
-				37A90C1C44DAF77C4BF5ADF46454271C /* ASVMaxLengthRule.swift */,
-				E1A41EAAD2AC44CCD98650574EB8B4E6 /* ASVMinLengthRule.swift */,
-				F6E937390D0509BF03EF40D4F8D0EB07 /* ASVRequiredRule.swift */,
-				46CC7E764F4EC01FC45CE8F4D849CB77 /* ASVResult.swift */,
-				D602EF1173DB721C19A57D0A10C097C8 /* ASVRule.swift */,
-				08547EC42A3F29F7EE28A2195B2A445F /* Support Files */,
-			);
-			name = ASValidator;
-			path = ASValidator;
-			sourceTree = "<group>";
-		};
-		B63D4F42BE5C930FEECBB8B86125E419 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B48DDFFCC85DF8C5B2A4ECC35DE32CB /* ASButton */,
-				F6493F46DBEB64C76A71C41E6C321916 /* ASDropDown */,
-				0523149097BE02ADC75D3FE7EE5265FF /* ASLabel */,
-				C5C4F4C9AD4C3208E7E5EA1B4DB8A78F /* ASMToast */,
-				F8E214597D6B669D2B5BCA4AF323DC0F /* ASOtpTextField */,
-				CACDF296D3ED9B4E76820B752E6C1817 /* ASRadioGroup */,
-				0CE0234577654147FBE0EC33A99F6749 /* ASTextField */,
-				B3FC445888F49F8BE823C51EAA9F0EB8 /* ASValidator */,
-				D823EDE1860AA20D06C0B00BCD7CC089 /* FBSnapshotTestCase */,
+				56EAC7766DD3EE3CFE39C798D02D3965 /* ASButton */,
+				0C43AFD46833C1059D96FE9566D5C707 /* ASDropDown */,
+				733EC64B164C3AA7E37D237BD4721B28 /* ASLabel */,
+				2C7BAF211C2E57FF6C6F72F91BC0C7F2 /* ASMToast */,
+				1F7E9AC77AF4D9361E1BAA816CF0C00B /* ASOtpTextField */,
+				9E5F48833A218DE194CC324D5C0C2907 /* ASRadioGroup */,
+				F33EB15D08574E2BB05A344B26038CAB /* ASTextField */,
+				97F4E4C0E53372228392B45C47F85FBF /* ASValidator */,
+				6186F1B50B1A7ED691E1CE5C4136FA17 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C5C4F4C9AD4C3208E7E5EA1B4DB8A78F /* ASMToast */ = {
+		B3ED46BB7FAAC03F982440001CD5FEF3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E8EFCE63EE030F2823789EC59BCC6AE /* ASMToast.swift */,
-				5DFDE002018A15381E26C0D37DEEC46E /* ASMToastView.swift */,
-				DC00FB991B51E8710EC111E2399CE618 /* Support Files */,
+				7C178A7036AE85916BAC8F6C69151F83 /* ASLabel.modulemap */,
+				1C6AC94E41940C0C4994D6AD0ED0B5FF /* ASLabel-dummy.m */,
+				1C299BA11B0227BBEA56670B37988EFB /* ASLabel-Info.plist */,
+				CE4BE5A2868E74C02BB17F4E2A6314F1 /* ASLabel-prefix.pch */,
+				74F84DEDE53F9C591793163011B40F54 /* ASLabel-umbrella.h */,
+				3AECF0D6A599B24334D8BEBB688C0CB8 /* ASLabel.debug.xcconfig */,
+				CECB50468390F1403C4F3CF56BCA1351 /* ASLabel.release.xcconfig */,
 			);
-			name = ASMToast;
-			path = ASMToast;
+			name = "Support Files";
+			path = "../Target Support Files/ASLabel";
 			sourceTree = "<group>";
 		};
-		CACDF296D3ED9B4E76820B752E6C1817 /* ASRadioGroup */ = {
+		CA80138B718CDC3DBA768343FD8A1ABD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4790B3F1EFC2BA925AEDED7C02C1A22 /* ASRadioButton.swift */,
-				74624DEA1AAEDDE0CC0965B10B510993 /* ASRadioButton+Extension.swift */,
-				1B8247B66F8DD0D078502DC4063A6BC2 /* ASRadioButtonClassic.swift */,
-				841EB9293C727E1C59F3AC1C51DA3794 /* ASRadioGroup.swift */,
-				1B0F31B3E7FF4A07C18D75C4E942F84B /* ASRadioGroup+Extension.swift */,
-				DEF489AD3A6AFB324C8254E54B1FC94C /* ASRadioGroupClassic.swift */,
-				6432B339BF15B5A353B29739321C1464 /* ASRButton.swift */,
-				0D92ADDEC0E8064B73AA9A4BB8761382 /* Support Files */,
+				E88D223A49DAF1037DE066382E588535 /* ASValidator.modulemap */,
+				B0D1D61D2A24DF803E35A1C70A5B16C0 /* ASValidator-dummy.m */,
+				9275FE9CAE9D1E0B79F3ED133C6E6349 /* ASValidator-Info.plist */,
+				F57CC4C754D3866971730F4114CB18EB /* ASValidator-prefix.pch */,
+				C64A814DF0FC21A10EF5CF9B1712C2EF /* ASValidator-umbrella.h */,
+				FDA64FB02279C4D2CAA5AC8C78D1841E /* ASValidator.debug.xcconfig */,
+				2BE9F687B4D2A935EA9677B81BA1FFAC /* ASValidator.release.xcconfig */,
 			);
-			name = ASRadioGroup;
-			path = ASRadioGroup;
+			name = "Support Files";
+			path = "../Target Support Files/ASValidator";
 			sourceTree = "<group>";
 		};
 		CCF945E6BE3A5B71CCC182FFD5D8F6E3 /* Support Files */ = {
@@ -911,21 +916,10 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				295DDCDDF4801DA47A28101F7BDEA81B /* Development Pods */,
 				553E618687B18AB2D6A1C0D86D24C36A /* Frameworks */,
-				B63D4F42BE5C930FEECBB8B86125E419 /* Pods */,
+				A4F190FC3668EB2E5D3EF18637650E65 /* Pods */,
 				DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */,
 				DFAB499961483EA6A9303C4CBFB199FB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D823EDE1860AA20D06C0B00BCD7CC089 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				AAF7D6C07E528DBC75FC2E564C339292 /* Core */,
-				5E9FA3CD5292837A37A45304A6981AAD /* Support Files */,
-				0E720A4C7EDFC15033C601D4610CB66E /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		DAC9A66192F1D0D0CFE6A0F7837FF448 /* Products */ = {
@@ -947,21 +941,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC00FB991B51E8710EC111E2399CE618 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BBA9CA2BB7F9202038FE1DB08BB57F1 /* ASMToast.modulemap */,
-				DEDC42624921D2DAE9D2D683EAA6FE65 /* ASMToast-dummy.m */,
-				364E5ACD340CD46DD16E3A85E7781884 /* ASMToast-Info.plist */,
-				41F059E76C8BDE1A6AF19A8C088921F9 /* ASMToast-prefix.pch */,
-				0AFC1CBAF5552E24D8457E4F1AE517E7 /* ASMToast-umbrella.h */,
-				3BBAAA3F3538E28D858DE0B16FB0ED17 /* ASMToast.debug.xcconfig */,
-				0BE935232178FDFEB3C3613CD900774C /* ASMToast.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ASMToast";
-			sourceTree = "<group>";
-		};
 		DFAB499961483EA6A9303C4CBFB199FB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -971,36 +950,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F6493F46DBEB64C76A71C41E6C321916 /* ASDropDown */ = {
+		E6894AAFA292B89D3E32FA8483E93350 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83A9622B17303F532A7EB43609246498 /* ASDropDown.swift */,
-				E131617FBB786C8F3C564CC06B9F3440 /* ASDropDownBox.swift */,
-				158C7043E8C8B7BBCBC38D09F68A01E5 /* ASDropDownCell.swift */,
-				30348F4E4757385BBF53B102A900EF39 /* ASDropDownItem.swift */,
-				D0B60C3ACE044CD055F6F4965D9C4B71 /* ASDropDownView.swift */,
-				DF25447D203A02F72E41B96E1C6A2965 /* ASDropDownView+Extension.swift */,
-				5D5EE37BCED93E958E89C5BE23CD2A2D /* ASDropDownViewDefault.swift */,
-				B299ACC91E4AC1A86D400E7FED281540 /* Support Files */,
+				D7147323D487F773D111C98F4430FB46 /* ASOtpTextField.modulemap */,
+				5B96A835372AE8B426289B44483BB09B /* ASOtpTextField-dummy.m */,
+				BC06C7797D65F7DAA94BF4A6B72D93B7 /* ASOtpTextField-Info.plist */,
+				FA1A4B26115E5A62119E95E9F466836B /* ASOtpTextField-prefix.pch */,
+				2D8C0C48D936E12FA2A21522A7D96E1A /* ASOtpTextField-umbrella.h */,
+				87010DB015B0AF3031518E30049C7BA6 /* ASOtpTextField.debug.xcconfig */,
+				D0C7E5202EE96233A97CB6A104D2C399 /* ASOtpTextField.release.xcconfig */,
 			);
-			name = ASDropDown;
-			path = ASDropDown;
+			name = "Support Files";
+			path = "../Target Support Files/ASOtpTextField";
 			sourceTree = "<group>";
 		};
-		F8E214597D6B669D2B5BCA4AF323DC0F /* ASOtpTextField */ = {
+		EA136CD22A2C78EE4BFC76AD916ACEDA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C532830F41ADC6F88A628C0CF03EC54 /* ASOtpField.swift */,
-				378519B4D6C31DD237ADD520CFE2BE33 /* ASOtpTextField.swift */,
-				5456A2DD151ED189C275DEF1447B7351 /* ASOtpTextField+Extensions.swift */,
-				85C0A0F2A186255F0BA318852146C616 /* ASOtpTextFieldClassic.swift */,
-				2D8144DA8FB050859D507F53444983F2 /* ASOtpTextFieldView.swift */,
-				EF57F970F440A91542090EC253171133 /* ASOtpTextFieldView+Extensions.swift */,
-				6CAF339766E6D5D87A3A413EC8530EEB /* ASOtpTextFieldViewClassic.swift */,
-				0CDB9E37ED28AF895580CF56824A526A /* Support Files */,
+				D72A0AB95009323AEA834BD3AE49ED1E /* ASDropDown.modulemap */,
+				46FC3560A95A2C61B8EE241CDCDCC080 /* ASDropDown-dummy.m */,
+				D1ABA8DF85917413F0CC4B536A9EF663 /* ASDropDown-Info.plist */,
+				F59BAD55F9D3F3AB615165F6038FD343 /* ASDropDown-prefix.pch */,
+				5E98EF34B64C2B2B0EFDB42CBA77CA39 /* ASDropDown-umbrella.h */,
+				C825CAFD567496A96B5EA8D96C596CAE /* ASDropDown.debug.xcconfig */,
+				3D900865D4DC32865B0A5D57E274F56C /* ASDropDown.release.xcconfig */,
 			);
-			name = ASOtpTextField;
-			path = ASOtpTextField;
+			name = "Support Files";
+			path = "../Target Support Files/ASDropDown";
+			sourceTree = "<group>";
+		};
+		F33EB15D08574E2BB05A344B26038CAB /* ASTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FD820890F42C8E0CA5423AA885EBCA43 /* ASDropDownIcon.swift */,
+				A4424785970ECBDCD15127A443B0D67E /* ASTextField.swift */,
+				B7E845B4D083A01FDF2B932713DA6D79 /* ASTextField+Extensions.swift */,
+				87EEB0974C670695D1FF01DE10C11B3C /* ASTextFieldClassicStyle.swift */,
+				7B81F8E6D5A10290F76357E594117C28 /* ASTextFieldMath.swift */,
+				F4876410DF870752CDD41067B1F2E54F /* Support Files */,
+			);
+			name = ASTextField;
+			path = ASTextField;
+			sourceTree = "<group>";
+		};
+		F4876410DF870752CDD41067B1F2E54F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D18BA98ACE96A56D7F9C1E8AD08283 /* ASTextField.modulemap */,
+				3D2687242A8131DC80A7FE326838A239 /* ASTextField-dummy.m */,
+				63B1C7B9D8D3E5FD12DB0AA1EC05ECA3 /* ASTextField-Info.plist */,
+				FA3A7C1A70259EBD0DEAE6D623DF3542 /* ASTextField-prefix.pch */,
+				ACF4293B6FE3EC972BA0A8378A8A6ACF /* ASTextField-umbrella.h */,
+				95FEBB1AA03A2C19E5738079E509CB20 /* ASTextField.debug.xcconfig */,
+				E460D0398C546474A19148FC64FD14F7 /* ASTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASTextField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1085,11 +1091,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8EC92DE33378C64206509F815893C67 /* Headers */ = {
+		D039BDE1A76ED6CA18A73A72F672CA52 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD3D3228D86587DC8BAA62C15139536C /* ASDropDown-umbrella.h in Headers */,
+				7223F40BB3D84C50F931D488FE19A7D2 /* ASDropDown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,12 +1120,12 @@
 /* Begin PBXNativeTarget section */
 		08DA35DF5FFE83080450A06B7F8AA92C /* ASDropDown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42B11CAA1E9FB508750470FDC9364565 /* Build configuration list for PBXNativeTarget "ASDropDown" */;
+			buildConfigurationList = A26EE4726F231E282CB30653A17900FB /* Build configuration list for PBXNativeTarget "ASDropDown" */;
 			buildPhases = (
-				C8EC92DE33378C64206509F815893C67 /* Headers */,
-				76792A20F052BFEDB7E4526E44184272 /* Sources */,
-				75DA0BE050D910E6E515369ED2562FF6 /* Frameworks */,
-				4B832F0498190B83E8CF9B941B4B5B00 /* Resources */,
+				D039BDE1A76ED6CA18A73A72F672CA52 /* Headers */,
+				8F166AD8F9897972A4153AFD53F779B9 /* Sources */,
+				0255F4652B1211A2FD093DDD422B15AC /* Frameworks */,
+				1A5478DECD9C7B39396F3BCCEEF23B7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1316,7 +1322,7 @@
 			buildConfigurationList = 14389EC5029A9E055E4108893BF8E646 /* Build configuration list for PBXNativeTarget "ASValidator" */;
 			buildPhases = (
 				D91C193EE9A92DD8F977AC9C21FEEBD1 /* Headers */,
-				04D806A846290382AD86FFD48E0B2030 /* Sources */,
+				673BA465ECDDDFF5A3F4C73652A9757D /* Sources */,
 				3E7DBC23D723C82109348269EF31394B /* Frameworks */,
 				E2439FB344B21AFC683CC187EBDD9433 /* Resources */,
 			);
@@ -1386,14 +1392,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C978EFE9DE963CAF770E5E9AA87AE57 /* Resources */ = {
+		1A5478DECD9C7B39396F3BCCEEF23B7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B832F0498190B83E8CF9B941B4B5B00 /* Resources */ = {
+		1C978EFE9DE963CAF770E5E9AA87AE57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1473,26 +1479,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04D806A846290382AD86FFD48E0B2030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0E7FCB95F084612ACD09A0635D5436C /* ASValidation.swift in Sources */,
-				F7D60C423BA691C74A583A3E1753FBBE /* ASValidator-dummy.m in Sources */,
-				AA87F6EC26BE0DADBC98166942B85334 /* ASValidator.swift in Sources */,
-				7C50CA9A9D8508F424B504F703B64E5D /* ASValidatorEntity.swift in Sources */,
-				B992D7DD69F764ACABF1A50A24B156F8 /* ASVError.swift in Sources */,
-				D9498BFB9F5BA5A780EEAA5B86DCDA7F /* ASVLengthRule.swift in Sources */,
-				5191D250DD7D1B15C40FCA2607F23E47 /* ASVMailRule.swift in Sources */,
-				8E2D243E7964D13ADCC503A3F66A08AB /* ASVMath.swift in Sources */,
-				5BBB2E9A952ACAA67449D871965EC4F4 /* ASVMaxLengthRule.swift in Sources */,
-				D5E35BD8F55FDB985CAB011A21C2A49F /* ASVMinLengthRule.swift in Sources */,
-				068E716721CFC16DF977E712D32E0A78 /* ASVRequiredRule.swift in Sources */,
-				6C508172C84A43B1141437CECCD20AC9 /* ASVResult.swift in Sources */,
-				16C937159124BC783463BC788B9F8955 /* ASVRule.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		04DC1045CD5DFF551750EBDD5353A961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1511,18 +1497,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76792A20F052BFEDB7E4526E44184272 /* Sources */ = {
+		673BA465ECDDDFF5A3F4C73652A9757D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE99E55EF36D428E8589D24CC420B40 /* ASDropDown-dummy.m in Sources */,
-				99010B00861A520F4A861E6D814D129F /* ASDropDown.swift in Sources */,
-				1C675900596F7250BC5885BAC8D9E078 /* ASDropDownBox.swift in Sources */,
-				7A3E9F2D93F4EDC4DE98D0F5237C7B25 /* ASDropDownCell.swift in Sources */,
-				52123B5E4E8A6A489ED0EBBCFD077E85 /* ASDropDownItem.swift in Sources */,
-				069755F3EAE1B4732613B5B3BCE08667 /* ASDropDownView+Extension.swift in Sources */,
-				765BBA39893230033CE61ED4DA1B282A /* ASDropDownView.swift in Sources */,
-				EA66328389871FC838E0CAC040AB5D8D /* ASDropDownViewDefault.swift in Sources */,
+				FE24E8AC43500BB5947FC19F304AB276 /* ASValidation.swift in Sources */,
+				C74BC8306FF227A7BDAF37C09DFB2ABC /* ASValidator-dummy.m in Sources */,
+				35B395D4941B3CA4DC8E6E00E1527344 /* ASValidator.swift in Sources */,
+				4034CF4E2A8CB34C8CA8501AAF703E3D /* ASValidatorEntity.swift in Sources */,
+				6E9ECBA11A30878D0A030649EC0811F7 /* ASVEqualFieldRule.swift in Sources */,
+				2D3DFFAF75D39FA0BBEC513F9B3283C5 /* ASVError.swift in Sources */,
+				5A164B67D095DDF1517FDABDEA32EA2E /* ASVLengthRule.swift in Sources */,
+				B628AF3B4BC032EA7D4B25B7F27BCD10 /* ASVMailRule.swift in Sources */,
+				B2018D42A252492C769E18B088AA0F89 /* ASVMath.swift in Sources */,
+				1F0BE87D7EF6ABF401D2750212DE9FB9 /* ASVMaxLengthRule.swift in Sources */,
+				ACFCDEC811576A5D643038C6193ECED1 /* ASVMinLengthRule.swift in Sources */,
+				97B9932A1B1F8BC0F5F3EA70E264F852 /* ASVRequiredRule.swift in Sources */,
+				273931928D22812BAEE3CFEEF301544F /* ASVResult.swift in Sources */,
+				727C473F9F8349D33C0749E5AFF0DAE6 /* ASVRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F166AD8F9897972A4153AFD53F779B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AF328E93486223C432B0497C1BCA3A /* ASDropDown-dummy.m in Sources */,
+				640D8E06E6C7B6987E2F738C6B44F614 /* ASDropDown.swift in Sources */,
+				32009F7427E06323923571F09965B7E4 /* ASDropDownBox.swift in Sources */,
+				4118634DD004D40B046899E89B26CD6E /* ASDropDownCell.swift in Sources */,
+				8ECA0133E9B0BC197AB7E41B9B505FC2 /* ASDropDownItem.swift in Sources */,
+				66EFD6D76BEEDF81316F026AD8CE2BD7 /* ASDropDownProp.swift in Sources */,
+				EA91CBABE23D7691B004927A1FA71A5A /* ASDropDownView+Extension.swift in Sources */,
+				CACBFEA47AEC250C5FF559712447F941 /* ASDropDownView.swift in Sources */,
+				FB468898BA019F4D5E565F7BAE896D8C /* ASDropDownViewDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1779,9 +1787,9 @@
 			};
 			name = Release;
 		};
-		1BBBC8831E5AFE11AB079622CBC64850 /* Release */ = {
+		0EEC63C37F2AC33EF58053CF370585F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E833F92FD5866253A42830CA0E07BE43 /* ASDropDown.release.xcconfig */;
+			baseConfigurationReference = C825CAFD567496A96B5EA8D96C596CAE /* ASDropDown.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1805,11 +1813,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		3AC047AD54C72969D00AF6F1243561F3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1847,7 +1854,7 @@
 		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C1059EB3D6502AF71968009532ED564 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 4A59F2356DBD27E70346608516530BDA /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1878,7 +1885,7 @@
 		};
 		4429E9C9AA028F4E1AFA7F3C48FD890F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BE935232178FDFEB3C3613CD900774C /* ASMToast.release.xcconfig */;
+			baseConfigurationReference = 62CD79E969CC0ED97F7C6D2A349082CA /* ASMToast.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1942,7 +1949,7 @@
 		};
 		740792AFA02ABCD11A34EDB3BC1150F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C8D66E8A5CE0BB4B8546BCC2894D66 /* ASTextField.debug.xcconfig */;
+			baseConfigurationReference = 95FEBB1AA03A2C19E5738079E509CB20 /* ASTextField.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1973,7 +1980,7 @@
 		};
 		776E266BD4DD18DDBBAA2C4DFF2F2AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B405D759AD19262797FCAFC5A9FE51A8 /* ASLabel.release.xcconfig */;
+			baseConfigurationReference = CECB50468390F1403C4F3CF56BCA1351 /* ASLabel.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2038,7 +2045,7 @@
 		};
 		87637F78C70E43348DCDA145A787A453 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FAB4EF88E9EB837B971F0ABAD0FCD69 /* ASButton.debug.xcconfig */;
+			baseConfigurationReference = 5865921BC1141AB51BECEE531AF3CB00 /* ASButton.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2069,7 +2076,7 @@
 		};
 		87E5E82AA3DF18DE4F8307FAD3CC7BCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 512384060520E57E7F6B8290ECE9D9AB /* ASOtpTextField.release.xcconfig */;
+			baseConfigurationReference = D0C7E5202EE96233A97CB6A104D2C399 /* ASOtpTextField.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2101,7 +2108,7 @@
 		};
 		93DE1D4AEB7AEDD27C16DE3DDC57836F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85E37442497BCE3C9A37D1F6EFB83AFE /* ASTextField.release.xcconfig */;
+			baseConfigurationReference = E460D0398C546474A19148FC64FD14F7 /* ASTextField.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2130,37 +2137,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		94CE18A30A3CA2FC6C74AE1008718EB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B341DE24D09CA3F17495F7B07BFA23 /* ASDropDown.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASDropDown/ASDropDown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASDropDown/ASDropDown-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASDropDown/ASDropDown.modulemap";
-				PRODUCT_MODULE_NAME = ASDropDown;
-				PRODUCT_NAME = ASDropDown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9B624BFA44CF44953708D3C5685B1C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2195,7 +2171,7 @@
 		};
 		9EB8C0A89547B524F3FEC9253C2561F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 732ABC449FC87DD155BA0E49E220E2D9 /* ASOtpTextField.debug.xcconfig */;
+			baseConfigurationReference = 87010DB015B0AF3031518E30049C7BA6 /* ASOtpTextField.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2224,9 +2200,41 @@
 			};
 			name = Debug;
 		};
+		A9D9B3FA4A93A76594526B0AABD80B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D900865D4DC32865B0A5D57E274F56C /* ASDropDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ASDropDown/ASDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASDropDown/ASDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASDropDown/ASDropDown.modulemap";
+				PRODUCT_MODULE_NAME = ASDropDown;
+				PRODUCT_NAME = ASDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A9DE49EE17AE61E74D527E55FF4D438C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8E5DEC425EEFC53E63C404A51DD7C8 /* ASButton.release.xcconfig */;
+			baseConfigurationReference = 63451656CE3C5459693E63B7342DEBEC /* ASButton.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2382,7 +2390,7 @@
 		};
 		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77E9C2216780CB96EC0B221ED5B893F0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = CF530E92BE4637C17DF93A49C9CB10BF /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2414,7 +2422,7 @@
 		};
 		C27950144A9280C81BF4813F18376DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04F8D47000665AC24685EC589C473366 /* ASValidator.release.xcconfig */;
+			baseConfigurationReference = 2BE9F687B4D2A935EA9677B81BA1FFAC /* ASValidator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2446,7 +2454,7 @@
 		};
 		C694421166B8605AA732D58D75B2A9AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AD9FDFE1B289E03C8335D41333DE50E /* ASRadioGroup.debug.xcconfig */;
+			baseConfigurationReference = AF39C6BC901D199E81072DF0DE34C5F3 /* ASRadioGroup.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2477,7 +2485,7 @@
 		};
 		CED141848A9EA66FDC7B1B3AAF12B41A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC07FE4FC3CF6AE2E9FA32948B6889FA /* ASRadioGroup.release.xcconfig */;
+			baseConfigurationReference = 28BC24127E93EAFEC529A2398AADA739 /* ASRadioGroup.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2509,7 +2517,7 @@
 		};
 		E7637A0296EAA807B586A9CE3EE02BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BBAAA3F3538E28D858DE0B16FB0ED17 /* ASMToast.debug.xcconfig */;
+			baseConfigurationReference = C44789160AD6CF11321D62C39C949181 /* ASMToast.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2540,7 +2548,7 @@
 		};
 		EA81AD2EF677243755B9480CB58CF710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF3F100E00C1988D0259A1C559CC849F /* ASLabel.debug.xcconfig */;
+			baseConfigurationReference = 3AECF0D6A599B24334D8BEBB688C0CB8 /* ASLabel.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2604,7 +2612,7 @@
 		};
 		F7BBD0F54A6BD32F00B91842A3AD5AD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CAB4E1EEDCC06AA95A0215C5603A884 /* ASValidator.debug.xcconfig */;
+			baseConfigurationReference = FDA64FB02279C4D2CAA5AC8C78D1841E /* ASValidator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2654,15 +2662,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42B11CAA1E9FB508750470FDC9364565 /* Build configuration list for PBXNativeTarget "ASDropDown" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94CE18A30A3CA2FC6C74AE1008718EB1 /* Debug */,
-				1BBBC8831E5AFE11AB079622CBC64850 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2704,6 +2703,15 @@
 			buildConfigurations = (
 				EECCAFF8D0AB658ADCE9F7DF8CB3F654 /* Debug */,
 				0D8CB55CC6E703E56ECD94742D1A8E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26EE4726F231E282CB30653A17900FB /* Build configuration list for PBXNativeTarget "ASDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEC63C37F2AC33EF58053CF370585F5 /* Debug */,
+				A9D9B3FA4A93A76594526B0AABD80B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

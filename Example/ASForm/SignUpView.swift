@@ -11,6 +11,7 @@ import ASDropDown
 import ASButton
 import ASTextField
 import ASValidator
+import ASMToast
 
 class SignUpView: UIView {
     var storeBack: UIView?
@@ -55,6 +56,7 @@ class SignUpView: UIView {
     func commonInit() {
         self.backgroundColor=UIColor.clear
         validator = ASValidator()
+        validator?.hideKeyboardWhenTappedAround(self)
         
         storeBack = UIView()
         addSubview(self.storeBack.unsafelyUnwrapped)
@@ -204,7 +206,7 @@ class SignUpView: UIView {
                 ASDropDown.openDropDown(items, { [unowned self] (index: Int, item: String) in
                     self.countryTextField?.setText(item)
                     }, self.countryTextField?.getDropDownIcon(), nil)
-            })
+            }, nil, nil)
             .setAutoEventAll(validator)
             .setText(setDefaultText ? "Bangladesh" : "")
         countryTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
@@ -230,7 +232,7 @@ class SignUpView: UIView {
                 ASDropDown.openDropDown(items, { [unowned self] (index: Int, item: String) in
                     self.stateTextField?.setText(item)
                     }, self.stateTextField?.getDropDownIcon(), nil)
-            })
+            }, nil, nil)
             .setAutoEventAll(validator)
             .setText(setDefaultText ? "Dhaka" : "")
         stateTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
@@ -252,7 +254,7 @@ class SignUpView: UIView {
                 ASDropDown.openDropDown(items, { [unowned self] (index: Int, item: String) in
                     self.cityTextField?.setText(item)
                     }, self.cityTextField?.getDropDownIcon(), nil)
-            })
+            }, nil, nil)
             .setAutoEventAll(validator)
             .setText(setDefaultText ? "Dhaka" : "")
         cityTextField?.register(validator, [ASVRequiredRule(), ASVLengthRule(2)])
@@ -314,11 +316,11 @@ class SignUpView: UIView {
     }
     
     @objc func submitEvent() {
-        let validate = validator?.validate()
+        let validate = validator?.apply()
         if let validate = validate, validate.isValid() {
-            print("Validation Success")
+            ASMToast.show("Validation Success!")
         }else{
-            print("Validation error")
+            ASMToast.show("Validation fail!")
         }
     }
 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class ASValidatorEntity {
     private var field: UITextField?
@@ -77,6 +78,10 @@ public class ASValidatorEntity {
     
     func errorReset() {
         setNormalStyle("")
+    }
+    
+    func resetValue() {
+        field?.text = ""
     }
 }
 
