@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASForm'
-  s.version          = '0.1.3'
+  s.version          = '0.1.2'
   s.summary          = 'ASForm for Form Decoration'
 
 # This description is used to generate tags and improve search results.
@@ -42,12 +42,13 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'ASValidator'
-  s.dependency 'ASLabel'
-  s.dependency 'ASDropDown'
-  s.dependency 'ASMToast'
-  s.dependency 'ASOtpTextField'
-  s.dependency 'ASRadioGroup'
-  s.dependency 'ASButton'
-  s.dependency 'ASTextField'
+  s.dependency 'ASProgress', '~> 0.1.0'
+  s.dependency 'ASValidator', '~> 0.1.9'
+  s.dependency 'ASTextField', '~> 0.1.8'
+  s.dependency 'ASLabel', '~> 0.1.4'
+  s.dependency 'ASDropDown', '~> 0.1.5'
+  s.dependency 'ASMToast', '~> 0.1.1'
+  s.dependency 'ASOtpTextField', '~> 0.1.4'
+  s.dependency 'ASRadioGroup', '~> 0.1.2'
+  s.dependency 'ASButton', '~> 0.1.0'
 end

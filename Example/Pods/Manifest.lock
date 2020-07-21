@@ -1,21 +1,23 @@
 PODS:
   - ASButton (0.1.0)
   - ASDropDown (0.1.5)
-  - ASForm (0.1.2):
-    - ASButton
-    - ASDropDown
-    - ASLabel
-    - ASMToast
-    - ASOtpTextField
-    - ASRadioGroup
-    - ASTextField
-    - ASValidator
+  - ASForm (0.1.3):
+    - ASButton (~> 0.1.0)
+    - ASDropDown (~> 0.1.5)
+    - ASLabel (~> 0.1.4)
+    - ASMToast (~> 0.1.1)
+    - ASOtpTextField (~> 0.1.4)
+    - ASProgress (~> 0.1.0)
+    - ASRadioGroup (~> 0.1.2)
+    - ASTextField (~> 0.1.8)
+    - ASValidator (~> 0.1.9)
   - ASLabel (0.1.4)
   - ASMToast (0.1.1)
   - ASOtpTextField (0.1.4)
+  - ASProgress (0.1.0)
   - ASRadioGroup (0.1.2)
-  - ASTextField (0.1.8)
-  - ASValidator (0.1.7)
+  - ASTextField (0.1.9)
+  - ASValidator (0.1.9)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -23,15 +25,16 @@ PODS:
     - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
-  - ASButton
-  - ASDropDown
+  - ASButton (~> 0.1.0)
+  - ASDropDown (~> 0.1.5)
   - ASForm (from `../`)
-  - ASLabel
-  - ASMToast
-  - ASOtpTextField
-  - ASRadioGroup
-  - ASTextField
-  - ASValidator
+  - ASLabel (~> 0.1.4)
+  - ASMToast (~> 0.1.1)
+  - ASOtpTextField (~> 0.1.4)
+  - ASProgress (~> 0.1.0)
+  - ASRadioGroup (~> 0.1.2)
+  - ASTextField (~> 0.1.8)
+  - ASValidator (~> 0.1.9)
   - FBSnapshotTestCase (~> 2.1.4)
 
 SPEC REPOS:
@@ -41,6 +44,7 @@ SPEC REPOS:
     - ASLabel
     - ASMToast
     - ASOtpTextField
+    - ASProgress
     - ASRadioGroup
     - ASTextField
     - ASValidator
@@ -53,15 +57,16 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ASButton: 1f6eab74de3ed560ca12220532001cd25a5d9470
   ASDropDown: 1f13a90d3b86ea1f3b4716dc9178959e92e4bfe7
-  ASForm: 8d3e315dac61de4384d06f083ea96c293d902468
+  ASForm: 2acc7a17cf1605082119ae633a848feb542de542
   ASLabel: 5d3cfe8a5f90e7f173a85e801892a0de89445ffd
   ASMToast: 67f30314b1d08c39b4a8f95dd1f7ef5d77394912
   ASOtpTextField: 6535a917bafd76b6192e3a640f46ba4f69a4fae8
+  ASProgress: c1fc65929335b72ed1095994823c012ba69a283b
   ASRadioGroup: 6182f0e74a0c25543ece065c04cd5f3e1917c5f7
-  ASTextField: 8b2606cc8518ebf0504608798ea06d54ac1eab01
-  ASValidator: fa3d7c9664df3db54811e8a95aa65f25c6b0962c
+  ASTextField: b53849fee6d729188d731837dd83752efa6f66ba
+  ASValidator: bdb190b565c51193d264f9c66aa9cf109f775810
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
-PODFILE CHECKSUM: 2aa22586de60deb1044d97f1cd51b9be00e1d1e4
+PODFILE CHECKSUM: ba368996e947deac13270c0c56e08c15b567226c
 
 COCOAPODS: 1.9.1

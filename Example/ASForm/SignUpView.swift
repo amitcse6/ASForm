@@ -35,7 +35,7 @@ class SignUpView: UIView {
     var FONT = UIFont.systemFont(ofSize: 15)
     var INPUT_FIELD_HRIGHT: CGFloat = 60
     var PASSWORD_MIN_LENGTH = 6
-    var setDefaultText = true
+    var setDefaultText = false
     
     var validator: ASValidator?
     
