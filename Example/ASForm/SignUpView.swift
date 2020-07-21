@@ -12,6 +12,7 @@ import ASButton
 import ASTextField
 import ASValidator
 import ASMToast
+import ASProgress
 
 class SignUpView: UIView {
     var storeBack: UIView?
@@ -35,7 +36,7 @@ class SignUpView: UIView {
     var FONT = UIFont.systemFont(ofSize: 15)
     var INPUT_FIELD_HRIGHT: CGFloat = 60
     var PASSWORD_MIN_LENGTH = 6
-    var setDefaultText = false
+    var setDefaultText = true
     
     var validator: ASValidator?
     
@@ -318,10 +319,16 @@ class SignUpView: UIView {
     @objc func submitEvent() {
         let validate = validator?.apply()
         if let validate = validate, validate.isValid() {
-            ASMToast.show("Validation Success!")
+            ASProgress.show()
+            self.perform(#selector(signupRequest), with: nil, afterDelay: 3.0)
         }else{
             ASMToast.show("Validation fail!")
         }
+    }
+    
+    @objc func signupRequest() {
+        ASMToast.show("User create successfully!")
+        ASProgress.dismiss()
     }
 }
 
